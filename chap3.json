@@ -1,0 +1,506 @@
+[
+  {
+    "id": "q_158",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Thiết kế kiến trúc phần mềm là quá trình nào?",
+    "options": [
+      "A. Viết mã nguồn cho các thành phần của phần mềm theo phương pháp hướng đối tượng.",
+      "B. Xác định cấu trúc cơ bản và các thành phần của hệ thống phần mềm.",
+      "C. Thiết kế giao diện người dùng.",
+      "D. Quản lý cơ sở dữ liệu."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Xác định cấu trúc cơ bản và các thành phần của hệ thống phần mềm."
+  },
+  {
+    "id": "q_159",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Yếu tố nào sau đây là quan trọng nhất trong giai đoạn thiết kế kiến trúc phần mềm?",
+    "options": [
+      "A. Chọn ngôn ngữ lập trình.",
+      "B. Xác định các mẫu thiết kế (design patterns) phù hợp.",
+      "C. Thiết kế giao diện người dùng chi tiết.",
+      "D. Viết tài liệu hướng dẫn cài đặt."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Xác định các mẫu thiết kế (design patterns"
+  },
+  {
+    "id": "q_160",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Mục tiêu chính của thiết kế kiến trúc phần mềm là gì?",
+    "options": [
+      "A. Tối ưu hóa hiệu suất của phần mềm sau khi hoàn thành.",
+      "B. Đảm bảo phần mềm đáp ứng các yêu cầu chức năng và phi chức năng.",
+      "C. Tạo ra tài liệu hướng dẫn sử dụng phần mềm chuẩn hóa và chuyên nghiệp.",
+      "D. Kiểm tra lỗi của phần mềm."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Đảm bảo phần mềm đáp ứng các yêu cầu chức năng và phi chức năng."
+  },
+  {
+    "id": "q_161",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Thiết kế kiến trúc phần mềm bao gồm việc xác định:",
+    "options": [
+      "A. Các thành phần phần mềm và mối quan hệ giữa chúng.",
+      "B. Các thuật toán chi tiết và các ngôn ngữ lập trình cấp cao.",
+      "C. Các dòng mã cụ thể.",
+      "D. Các tài liệu hướng dẫn sử dụng."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Các thành phần phần mềm và mối quan hệ giữa chúng."
+  },
+  {
+    "id": "q_162",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Bước đầu tiên và quan trọng nhất trong tiến trình thiết kế kiến trúc phần mềm là gì?",
+    "options": [
+      "A. Xác định các phần tử thiết kế phần mềm.",
+      "B. Đánh giá thiết kế kiến trúc.",
+      "C. Hiểu được vấn đề cần giải quyết.",
+      "D. Biến đổi thiết kế kiến trúc."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hiểu được vấn đề cần giải quyết."
+  },
+  {
+    "id": "q_163",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Mục đích của việc xác định các phần tử thiết kế và quan hệ của chúng là gì?",
+    "options": [
+      "A. Để kiểm chứng chức năng của ứng dụng.",
+      "B. Để chỉ ra các phần tử thiết kế và sự phụ thuộc của chúng.",
+      "C. Để đánh giá kiến trúc theo yêu cầu thuộc tính của chất lượng kiến trúc.",
+      "D. Để biến đổi thiết kế kiến trúc thành một thiết kế mới."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Để chỉ ra các phần tử thiết kế và sự phụ thuộc của chúng."
+  },
+  {
+    "id": "q_164",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Bước nào trong tiến trình thiết kế kiến trúc liên quan đến việc áp dụng các thao tác thiết kế để tạo ra một thiết kế mới tốt hơn?",
+    "options": [
+      "A. Hiểu được vấn đề cần giải quyết.",
+      "B. Xác định các phần tử thiết kế và quan hệ của chúng.",
+      "C. Đánh giá thiết kế kiến trúc.",
+      "D. Biến đổi thiết kế kiến trúc."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Biến đổi thiết kế kiến trúc."
+  },
+  {
+    "id": "q_165",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "\"Bẫy cài đặt\" được đề cập trong thiết kế kiến trúc phần mềm có nghĩa là gì?",
+    "options": [
+      "A. Tập trung quá nhiều vào các giải pháp kỹ thuật mà bỏ qua vấn đề cơ bản của khách hàng.",
+      "B. Cài đặt phần mềm bị lỗi do lập trình viên thiếu kinh nghiệm trong giải quyết vấn đề tương tự.",
+      "C. Thiết kế kiến trúc không hiệu quả.",
+      "D. Kiểm thử phần mềm không đầy đủ."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tập trung quá nhiều vào các giải pháp kỹ thuật mà bỏ qua vấn đề cơ bản của khách hàng."
+  },
+  {
+    "id": "q_166",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Đánh giá kiến trúc phần mềm tập trung vào việc đánh giá yếu tố nào?",
+    "options": [
+      "A. Chức năng của các ứng dụng phần mềm.",
+      "B. Mô tả về mặt thiết kế kiến trúc của hệ thống.",
+      "C. Hiệu suất của sản phẩm phần mềm cuối cùng.",
+      "D. Giao diện người dùng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mô tả về mặt thiết kế kiến trúc của hệ thống."
+  },
+  {
+    "id": "q_167",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Toán tử thiết kế cơ bản nào được sử dụng trong bước \"Biến đổi thiết kế kiến trúc\"?",
+    "options": [
+      "A. Phân rã hệ thống thành các thành phần.",
+      "B. Nén các thành phần.",
+      "C. Trừu tượng hóa thành phần, phân rã hệ thống thành các thành phần.",
+      "D. Phân rã hệ thống t hành các thành phần, nén các thành phần, trừu tượng hóa thành phần."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Phân rã hệ thống thành các thành phần, nén các thành phần, trừu tượng hóa thành phần."
+  },
+  {
+    "id": "q_168",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Một ứng dụng quản lý kho hàng được thiết kế với một module duy nhất xử lý cả việc nhập kho, xuất kho và thống kê. Khi số lượng giao dịch tăng lên, việc bảo trì và mở rộng trở nên khó khăn. Nguyên lý nào đã bị vi phạm?",
+    "options": [
+      "A. Nguyên lý đơn nhiệm",
+      "B. Nguyên lý hiểu biết tối thiểu",
+      "C. Nguyên lý phân rã các chức năng",
+      "D. Nguyên lý không tự lặp lại các chức năng."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Nguyên lý đơn nhiệm - Single Responsibility Principle"
+  },
+  {
+    "id": "q_169",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Một hệ thống thương mại điện tử được thiết kế với nhiều chức năng không được sử dụng ngay từ đầu. Sau một thời gian, các chức năng này gây khó khăn cho việc bảo trì và mở rộng. Nguyên lý nào cần được áp dụng?",
+    "options": [
+      "A. Nguyên lý đơn nhiệm",
+      "B. Nguyên lý hiểu biết tối thiểu",
+      "C. Nguyên lý phân rã các chức năng",
+      "D. Nguyên lý cực tiểu hóa thiết kế"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Nguyên lý cực tiểu hóa thiết kế - YAGNI / KISS"
+  },
+  {
+    "id": "q_170",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Một ứng dụng quản lý nhân sự được thiết kế với các module giao diện người dùng, xử lý nghiệp vụ và truy xuất dữ liệu tách biệt. Điều này thể hiện việc áp dụng nguyên lý nào?",
+    "options": [
+      "A. Nguyên lý đơn nhiệm",
+      "B. Nguyên lý hiểu biết tối thiểu",
+      "C. Nguyên lý phân rã các chức năng",
+      "D. Tách biệt các quan tâm"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Tách biệt các quan tâm - Separation of Concerns"
+  },
+  {
+    "id": "q_171",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Một hệ thống quản lý bệnh viện được thiết kế với cấu trúc linh hoạt, cho phép thêm các module mới khi có yêu cầu từ các phòng ban khác nhau. Điều này thể hiện việc áp dụng nguyên lý nào?",
+    "options": [
+      "A. Nguyên lý đơn nhiệm",
+      "B. Tính tiến hóa của kiến trúc",
+      "C. Nguyên lý phân rã các chức năng",
+      "D. Nguyên lý cực tiểu hóa thiết kế"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tính tiến hóa của kiến trúc"
+  },
+  {
+    "id": "q_172",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Khi xây dựng một hệ thống phần mềm quản lý thư viện, ở bước 1 \"Hiểu được vấn đề cần giải quyết\" của tiến trình thiết kế kiến trúc, công việc cụ thể nào sau đây cần được thực hiện?",
+    "options": [
+      "A. Xác định các lớp (classes) và đối tượng (objects) chính của hệ thống, chẳng hạn như \"Sách\", \"Độc giả\", \"Phiếu mượn\".",
+      "B. Lựa chọn mô hình cơ sở dữ liệu (ví dụ: quan hệ, NoSQL) để lưu trữ thông tin về sách, độc giả và phiếu mượn.",
+      "C. Thu thập và phân tích các yêu cầu của người dùng và các bên liên quan, bao gồm các chức năng như \"Tìm kiếm sách\", \"Mượn sách\", \"Trả sách\" và các yêu cầu về hiệu suất, bảo mật.",
+      "D. Phác thảo giao diện người dùng (UI) ban đầu của hệ thống, bao gồm các màn hình cho phép người dùng tìm kiếm, mượn và trả sách."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Thu thập và phân tích các yêu cầu của người dùng và các bên liên quan..."
+  },
+  {
+    "id": "q_173",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Khi thiết kế kiến trúc phần mềm quản lý bệnh viện, sau bước 1 \"Hiểu được vấn đề cần giải quyết\" đạt được những kết quả nào?",
+    "options": [
+      "A. Lựa chọn mô hình triển khai (ví dụ: on-premise, cloud-based).",
+      "B. Một danh sách các use case ưu tiên và các yêu cầu phi chức năng quan trọng (ví dụ: bảo mật thông tin bệnh nhân, thời gian phản hồi khi truy cập hồ sơ).",
+      "C. Một tập hợp các yêu cầu nghiệp vụ đã được phê duyệt, mô tả rõ các quy trình nghiệp vụ của bệnh viện (ví dụ: quy trình khám bệnh, nhập viện, xuất viện), các bên liên quan (bác sĩ, y tá, bệnh nhân) và mục tiêu của hệ thống mới.",
+      "D. Một sơ đồ kiến trúc phần mềm cấp cao ban đầu."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một danh sách các use case ưu tiên và các yêu cầu phi chức năng quan trọng."
+  },
+  {
+    "id": "q_174",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Vai trò nào của thiết kế kiến trúc phần mềm giúp các thành viên trong nhóm phát triển hiểu rõ vai trò và trách nhiệm của mình?",
+    "options": [
+      "A. Tăng cường khả năng tái sử dụng.",
+      "B. Đảm bảo chất lượng và hiệu suất.",
+      "C. Cải thiện khả năng hợp tác.",
+      "D. Giảm thiểu rủi ro."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cải thiện khả năng hợp tác."
+  },
+  {
+    "id": "q_175",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Thiết kế kiến trúc phần mềm giúp giảm thiểu rủi ro như thế nào trong quá trình phát triển phần mềm?",
+    "options": [
+      "A. Bằng cách cung cấp một ngôn ngữ chung cho các thành viên trong nhóm.",
+      "B. Bằng cách xác định rõ các thành phần và mối quan hệ giữa chúng từ sớm.",
+      "C. Bằng cách cho phép tái sử dụng các thành phần phần mềm.",
+      "D. Bằng cách tối ưu hóa hiệu suất của phần mềm."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bằng cách xác định rõ các thành phần và mối quan hệ giữa chúng từ sớm."
+  },
+  {
+    "id": "q_176",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Vai trò nào của thiết kế kiến trúc phần mềm giúp đảm bảo rằng phần mềm đáp ứng các yêu cầu được đặt ra sau khi hoàn thành?",
+    "options": [
+      "A. Là cơ sở để kiểm tra, phân tích.",
+      "B. Cung cấp cái nhìn tổng quan về hệ thống.",
+      "C. Đảm bảo chất lượng và hiệu suất.",
+      "D. Hỗ trợ quá trình ra quyết định."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Là cơ sở để kiểm tra, phân tích."
+  },
+  {
+    "id": "q_177",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Khi xây dựng một ứng dụng, nhóm phát triển muốn đảm bảo rằng các bộ p hận có thể tiến hành lập trình theo đúng yêu cầu. Vai trò nào của thiết kế kiến trúc phần mềm hỗ trợ điều này?",
+    "options": [
+      "A. Cung cấp thông tin cần thiết, định hướng.",
+      "B. Là cơ sở để kiểm tra, phân tích.",
+      "C. Tăng cường khả năng tái sử dụng.",
+      "D. Hỗ trợ quá trình ra quyết định."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cung cấp thông tin cần thiết, định hướng."
+  },
+  {
+    "id": "q_178",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Thiết kế kiến trúc phần mềm giúp tối thiểu hóa độ phức tạp của hệ thống bằng cách nào?",
+    "options": [
+      "A. Bằng cách cung cấp thông tin cần thiết cho các giai đoạn khác.",
+      "B. Bằng cách tách thiết kế thành những quan tâm khác nhau.",
+      "C. Bằng cách giảm thiểu rủi ro phát sinh trong quá trình phát triển.",
+      "D. Bằng cách tăng cường khả năng tái sử dụng các thành phần."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bằng cách tách thiết kế thành những quan tâm khác nhau."
+  },
+  {
+    "id": "q_179",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Một công ty phần mềm đang xây dựng một hệ thống thương mại điện tử. Họ muốn đảm bảo rằng hệ thống có thể xử lý một lượng lớn người dùng đồng thời. Giai đoạn nào trong quá trình phát triển phần mềm sẽ giúp họ đạt được mục tiêu này?",
+    "options": [
+      "A. Giai đoạn kiểm thử.",
+      "B. Giai đoạn thiết kế kiến trúc.",
+      "C. Giai đoạn bảo trì.",
+      "D. Giai đoạn phân tích yêu cầu."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Giai đoạn thiết kế kiến trúc."
+  },
+  {
+    "id": "q_180",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Một nhóm phát triển phần mềm đang xây dựng một ứng dụng di động. Họ muốn đảm bảo rằng ứng dụng có thể hoạt động tốt trên nhiều loại thiết bị khác nhau. Yếu tố nào trong thiết kế kiến trúc phần mềm sẽ giúp họ đạt được mục tiêu này?",
+    "options": [
+      "A. Ngôn ngữ lập trình.",
+      "B. Cơ sở dữ liệu thiết kế.",
+      "C. Nguyên tắc thiết kế.",
+      "D. Giá thành sản phẩm."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Nguyên tắc thiết kế."
+  },
+  {
+    "id": "q_181",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P1",
+    "question": "Một công ty phần mềm đang xây dựng một hệ thống phần mềm cho bệnh viện. Họ cần đảm bảo rằng hệ thống phải hoạt động ổn định và chính xác vì nó liên quan đến tính mạng con người. Điều này nhấn mạnh tầm quan trọng của yếu tố nào trong thiết kế kiến trúc phần mềm?",
+    "options": [
+      "A. Tính bảo mật",
+      "B. Độ tin cậy",
+      "C. Giao diện người dùng",
+      "D. Khả năng mở rộng"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Độ tin cậy."
+  },
+  {
+    "id": "q_182",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Bước đầu tiên trong phương pháp ADD là:",
+    "options": [
+      "A. Establish iteration goal by selecting drivers",
+      "B. Review Inputs",
+      "C. Choose one or more elements of the system to refine",
+      "D. Choose one or more design concepts that satisfy the selected drivers"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Review Inputs"
+  },
+  {
+    "id": "q_183",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Bước nào trong ADD liên quan đến việc xác định các thành phần chính và mối quan hệ của chúng?",
+    "options": [
+      "A. Bước 2: Establish iteration goal by selecting drivers",
+      "B. Bước 3: Choose one or more elements of the system to refine",
+      "C. Bước 4: Choose one or more design concepts that satisfy the selected drivers",
+      "D. Bước 5: Insta ntiate architectural elements, allocate responsibilities, and define interfaces."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Bước 5: Instantiate architectural elements, allocate responsibilities, and define interfaces."
+  },
+  {
+    "id": "q_184",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "ADD không nên được sử dụng trong các dự án phần mềm nào?",
+    "options": [
+      "A. Hệ thống quan trọng",
+      "B. Hệ thống nhúng",
+      "C. Hệ thống quản lý dữ liệu",
+      "D. Các dự án nhỏ, đơn giản"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Các dự án nhỏ, đơn giản - ADD tập trung giải quyết các yêu cầu phức tạp và thuộc tính chất lượng nên không thực sự cần thiết cho dự án nhỏ"
+  },
+  {
+    "id": "q_185",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "ADD có thể kết hợp với phương pháp thiết kế nào?",
+    "options": [
+      "A. Thiết kế hướng đối tượng",
+      "B. RUP",
+      "C. Thiết kế hướng đối tượng, RUP.",
+      "D. Không kết hợp được với phương pháp nào"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Thiết kế hướng đối tượng, RUP."
+  },
+  {
+    "id": "q_186",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Trong phương pháp ADD, \"trình điều khiển kiến trúc\" là gì?",
+    "options": [
+      "A. Một công cụ để quản lý dự án",
+      "B. Một tập hợp các kịch bản kiểm thử",
+      "C. Sự kết hợp giữa các yêu cầu về chức năng và chất lượng \"định hình\" kiến trúc",
+      "D. Một loại cơ sở dữ liệu kết hợp với các công cụ quản lý dự án, kịch bản kiểm thử."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sự kết hợp giữa các yêu cầu về chức năng và chất lượng \"định hình\" kiến trúc - Architectural drivers"
+  },
+  {
+    "id": "q_187",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Mô hình kiến trúc trong ADD được xây dựng bằng cách kết hợp:",
+    "options": [
+      "A. Các ngôn ngữ lập trình.",
+      "B. Các chiến thuật và mẫu kiến trúc.",
+      "C. Các công cụ quản lý dự án.",
+      "D. Các cơ sở dữ liệu và ngôn ngữ lập trình."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Các chiến thuật và mẫu kiến trúc - Tactics and architectural patterns"
+  },
+  {
+    "id": "q_188",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Trong phương pháp ADD, bước nào sau đây liên quan đến việc xác định các yêu cầu chức năng và thuộc tính chất lượng của hệ thống?",
+    "options": [
+      "A. Bước 2: Establish iteration goal by selecting drivers",
+      "B. Bước 1: Review Inputs",
+      "C. Bước 4: Choose one or more design concepts that satisfy the selected drivers",
+      "D. Bước 6: Sketch views and record design decisions"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bước 1: Review Inputs - Xác định yêu cầu đầu vào bao gồm chức năng và thuộc tính chất lượng"
+  },
+  {
+    "id": "q_189",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Đầu vào chính của phương pháp ADD là:",
+    "options": [
+      "A. Yêu cầu chức năng của hệ thống.",
+      "B. Kịch bản thuộc tính chất lượng",
+      "C. Giao diện người dùng",
+      "D. Cơ sở dữ liệu"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kịch bản thuộc tính chất lượng - Vì phương pháp này là Attribute-Driven Design nên các Quality Attribute Scenarios là trọng tâm dẫn dắt thiết kế"
+  },
+  {
+    "id": "q_190",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Bạn đang thiết kế một hệ thống điều khiển giao thông thông minh. Bước nào trong ADD sẽ giúp bạn chọn các chiến thuật kiến trúc phù hợp để đảm bảo hệ thống có thể xử lý dữ liệu thời gian thực và đáp ứng nhanh chóng?",
+    "options": [
+      "A. Bước 2: Establish iteration goal by selecting drivers",
+      "B. Bước 4: Choose one or more design concepts that satisfy the selected drivers",
+      "C. Bước 6: Sketch views and record design decisions",
+      "D. Bước 7: Perform analysis of current design and review iteration goal and achievement of design purpose"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bước 4: Choose one or more design concepts that satisfy the selected drivers - Bước này tập trung vào việc chọn mẫu thiết kế và chiến thuật kiến trúc"
+  },
+  {
+    "id": "q_191",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Bạn đang thiết kế một hệ thống quản lý dự án. Bước nào trong ADD sẽ giúp bạn xác định các yêu cầu về khả năng tương tác (interoperability) của hệ thống với các hệ thống khác?",
+    "options": [
+      "A. Bước 2: Establish iteration goal by selecting drivers",
+      "B. Bước 4: Choose one or more design concepts that satisfy the selected drivers",
+      "C. Bước 1: Review Inputs",
+      "D. Bước 6: Sketch views and record design decisions"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bước 1: Review Inputs - Khả năng tương tác là một yêu cầu thuộc tính chất lượng, được xem xét và ghi nhận ở bước đầu vào"
+  },
+  {
+    "id": "q_192",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Tình huống: Một nhóm phát triển đang thiết kế một hệ thống điều khiển cho nhà máy sản xuất, nơi tính an toàn và thời gian phản ứng là cực kỳ quan trọng. Câu hỏi: Kết quả chính của việc áp dụng ADD trong tình huống này là gì?",
+    "options": [
+      "A. Hệ thống có giao diện người dùng trực quan và dễ sử dụng , có khả năng mở rộng để hỗ trợ thêm các dây chuyền sản xuất trong tương lai.",
+      "B. Hệ thống có khả năng mở rộng để hỗ trợ thêm các dây chuyền sản xuất trong tương lai.",
+      "C. Hệ thống đáp ứng các yêu cầu nghiêm ngặt về thời gian thực và độ tin cậy, giảm thiểu nguy cơ xảy ra tai nạn.",
+      "D. Hệ thống có chi phí phát triển thấp và thời gian đưa ra thị trường nhanh chóng."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hệ thống đáp ứng các yêu cầu nghiêm ngặt về thời gian thực và độ tin cậy, giảm thiểu nguy cơ xảy ra tai nạn."
+  },
+  {
+    "id": "q_193",
+    "chapter": 3,
+    "topic": "Thiết kế kiến trúc phần mềm P2",
+    "question": "Tình huống: Một công ty phần mềm muốn phát triển một dòng sản phẩm phần mềm quản lý quan hệ khách hàng (CRM) có thể tùy chỉnh cho nhiều ngành khác nhau. Câu hỏi: Kết quả chính của việc áp dụng ADD trong tình huống này là gì?",
+    "options": [
+      "A. Phần mềm CRM có giao diện người dùng thống nhất trên mọi phiên bản , có khả năng tích hợp với nhiều hệ thống khác nhau.",
+      "B. Phần mềm CRM có kiến trúc linh hoạt, cho phép dễ dàng tùy chỉnh và mở rộng để đáp ứng nhu cầu của từng ngành cụ thể.",
+      "C. Phần mềm CRM có hiệu suất cao, xử lý nhanh chóng các yêu cầu của người dùng.",
+      "D. Phần mềm CRM có khả năng tích hợp với nhiều hệ thống khác nhau."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Phần mềm CRM có kiến trúc linh hoạt, cho phép dễ dàng tùy chỉnh và mở rộng để đáp ứng nhu cầu của từng ngành cụ thể."
+  }
+]

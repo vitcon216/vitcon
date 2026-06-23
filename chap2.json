@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "q_68",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Kiến trúc ống và lọc là gì?",
+    "options": [
+      "A. Một mẫu thiết kế phần mềm gồm ống và bộ lọc.",
+      "B. Một mẫu thiết kế chia một quy trình thành các bước riêng biệt được gọi là bộ lọc, được liên kết bằng các kênh được gọi là ống.",
+      "C. Một kiến trúc trong đó tất cả các thành phần chia sẻ cùng một không gian bộ nhớ.",
+      "D. Một mẫu thiết kế để phát triển giao diện người dùng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một mẫu thiết kế chia một quy trình thành các bước riêng biệt được gọi là bộ lọc, được liên kết bằng các kênh được gọi là ống."
+  },
+  {
+    "id": "q_69",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Điều nào sau đây là một đặc điểm của kiến trúc ống và lọc?",
+    "options": [
+      "A. Các thành phần phụ thuộc chặt chẽ vào nhau.",
+      "B. Khó tái sử dụng các bộ lọc.",
+      "C. Tính mô-đun cao.",
+      "D. Khả năng mở rộng kém."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tính mô-đun cao."
+  },
+  {
+    "id": "q_70",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Trong kiến trúc ống và lọc, dữ liệu được xử lý như thế nào?",
+    "options": [
+      "A. Xử lý ngẫu nhiên qua các ống.",
+      "B. Xử lý song song hoàn toàn các ống.",
+      "C. Xử lý tuần tự qua các ống.",
+      "D. Xử lý theo thời gian thực."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Xử lý tuần tự qua các ống."
+  },
+  {
+    "id": "q_71",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Một trong những thách thức chính của kiến trúc ống và lọc là gì?",
+    "options": [
+      "A. Không thể quản lý trạng thái.",
+      "B. Chi phí hiệu suất do truyền dữ liệu giữa các bộ lọc.",
+      "C. Xử lý lỗi phức tạp.",
+      "D. Sử dụng tài nguyên không hiệu quả, khó quản lý trạng thái."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Chi phí hiệu suất do truyền dữ liệu giữa các bộ lọc."
+  },
+  {
+    "id": "q_72",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Chức năng chính của \"bộ lọc\" trong kiến trúc ống và lọc là gì?",
+    "options": [
+      "A. Truyền dữ liệu giữa các thành phần.",
+      "B. Thực hiện một nhiệm vụ xử lý cụ thể.",
+      "C. Lưu trữ dữ liệu tạm thời.",
+      "D. Hiển thị kết quả cuối cùng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Thực hiện một nhiệm vụ xử lý cụ thể."
+  },
+  {
+    "id": "q_73",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Một trong những nguyên tắc thiết kế của kiến trúc ống và lọc là gì?",
+    "options": [
+      "A. Phụ thuộc lẫn nhau giữa các bộ lọc.",
+      "B. Bộ lọc không trạng thái.",
+      "C. Bộ lọc xử lý dữ liệu ngẫu nhiên.",
+      "D. Các ống thực hiện xử lý dữ liệu."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bộ lọc không trạng thái."
+  },
+  {
+    "id": "q_74",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Tình huống nào sau đây phù hợp nhất để áp dụng kiến trúc Ống và Lọc?",
+    "options": [
+      "A. Một ứng dụng trò chơi điện tử 3D yêu cầu kết xuất đồ họa phức tạp và tương tác người dùng liên tục.",
+      "B. Một hệ thống xử lý nhật ký (log) trong đó mỗi bước bao gồm phân tích, chọn và lưu trữ các mục nhật ký.",
+      "C. Một ứng dụng chỉnh sửa ảnh cho phép người dùng áp dụng nhiều hiệu ứng phức tạp theo thứ tự bất kỳ.",
+      "D. Một ứng dụng web thương mại điện tử nơi người dùng tương tác liên tục với giao diện và dữ liệu được cập nhật theo thời gian thực."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một hệ thống xử lý nhật ký (log"
+  },
+  {
+    "id": "q_75",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Loại ứng dụng nào sau đây HƯỞNG LỢI NHIỀU NHẤT từ khả năng tái sử dụng của các bộ lọc trong kiến trúc Ống và Lọc?",
+    "options": [
+      "A. Một ứng dụng yêu cầu giao diện người dùng tùy biến cao.",
+      "B. Một ứng dụng mà có các thành phần xử lý tương tự nhau trong các quy trình khác nhau.",
+      "C. Một ứng dụng yêu cầu xử lý song song phức tạp với nhiều luồng dữ liệu.",
+      "D. Một ứng dụng mà các bước xử lý dữ liệu thay đổi thường xuyên."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một ứng dụng mà có các thành phần xử lý tương tự nhau trong các quy trình khác nhau."
+  },
+  {
+    "id": "q_76",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Trong tình huống nào sau đây, tính linh hoạt của kiến trúc Ống và Lọc là quan trọng nhất?",
+    "options": [
+      "A. Khi phát triển một ứng dụng mà các bước xử lý dữ liệu là cố định và không thay đổi.",
+      "B. Khi xây dựng một hệ thống mà các yêu cầu nghiệp vụ có thể thay đổi, đòi hỏi các bước xử lý dữ liệu phải được sắp xếp lại hoặc thêm bớt.",
+      "C. Khi phát triển một ứng dụng yêu cầu tương tác người dùng phức tạp, không đòi hỏi các bước xử lý dữ liệu phải được sắp xếp lại hoặc thêm bớt.",
+      "D. Khi xây dựng một hệ thống yêu cầu độ trễ thấp nhất có thể."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Khi xây dựng một hệ thống mà các yêu cầu nghiệp vụ có thể thay đổi, đòi hỏi các bước xử lý dữ liệu phải được sắp xếp lại hoặc thêm bớt."
+  },
+  {
+    "id": "q_77",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Ứng dụng nào sau đây có thể tận dụng lợi thế của kiến trúc Ống và Lọc để xử lý khối lượng dữ liệu lớn?",
+    "options": [
+      "A. Một ứng dụng chỉnh sửa video trong đó người dùng áp dụng các hiệu ứng theo thứ tự ngẫu nhiên.",
+      "B. Một hệ thống phân tích luồng dữ liệu thời gian thực từ các cảm biến IoT.",
+      "C. Một ứng dụng trò chơi trực tuyến nhiều người chơi.",
+      "D. Một ứng dụng soạn thảo văn bản."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một hệ thống phân tích luồng dữ liệu thời gian thực từ các cảm biến IoT."
+  },
+  {
+    "id": "q_78",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Trong tình huống nào sau đây, chi phí hiệu suất của việc truyền dữ liệu giữa các bộ lọc (một thách thức của kiến trúc Ống và Lọc) có thể là một vấn đề lớn?",
+    "options": [
+      "A. Khi xây dựng một hệ thống xử lý lô (batch processing) với khối lượng dữ liệu lớn nhưng không yêu cầu thời gian thực.",
+      "B. Khi phát triển một ứng dụng yêu cầu phản hồi thời gian thực với độ trễ cực thấp.",
+      "C. Khi xây dựng một hệ thống mà các bộ lọc thực hiện các phép biến đổi dữ liệu đơn giản.",
+      "D. Khi phát triển một ứng dụng mà các bộ lọc được triển khai trên cùng một máy chủ."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Khi phát triển một ứng dụng yêu cầu phản hồi thời gian thực với độ trễ cực thấp."
+  },
+  {
+    "id": "q_79",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Khi nào thì việc quản lý tài nguyên (CPU, bộ nhớ) trở thành một cân nhắc quan trọng khi sử dụng kiến trúc Ống và Lọc?",
+    "options": [
+      "A. Khi phát triển các ứng dụng nhỏ với số lượng bộ lọc ít.",
+      "B. Khi xây dựng các hệ thống mà các bộ lọc có yêu cầu tài nguyên rất khác nhau.",
+      "C. Khi xây dựng các hệ thống mà các bộ lọc có yêu cầu tài nguyên rất giống nhau.",
+      "D. Khi phát triển các ứng dụng không yêu cầu khả năng mở rộng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Khi xây dựng các hệ thống mà các bộ lọc có yêu cầu tài nguyên rất khác nhau."
+  },
+  {
+    "id": "q_80",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Ứng dụng nào sau đây thường sử dụng kiến trúc ống và lọc?",
+    "options": [
+      "A. Hệ điều hành.",
+      "B. Trình biên dịch.",
+      "C. Phần mềm văn phòng.",
+      "D. Trò chơi điện tử."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Trình biên dịch."
+  },
+  {
+    "id": "q_81",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Trong một hệ thống xử lý dữ liệu lớn, kiến trúc Ống và Lọc được sử dụng để thực hiện các bước: trích xuất, chuyển đổi và tải dữ liệu. Kết quả nổi bật của việc áp dụng kiến trúc này là gì?",
+    "options": [
+      "A. Giảm độ phức tạp của hệ thống và tăng khả năng bảo trì.",
+      "B. Giảm sự phụ thuộc giữa các thành phần.",
+      "C. Giảm độ phức tạp của hệ thống.",
+      "D. Giảm hiệu suất xử lý dữ liệu."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Giảm độ phức tạp của hệ thống và tăng khả năng bảo trì."
+  },
+  {
+    "id": "q_82",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Trong một hệ thống xử lý luồng dữ liệu thời gian thực (ví dụ: Apache Flink, Apache Storm), kiến trúc Ống và Lọc được áp dụng để thực hiện các phép biến đổi dữ liệu liên tục. Kết quả chính là gì?",
+    "options": [
+      "A. Dữ liệu được xử lý theo lô (batch).",
+      "B. Khó khăn trong việc xử lý dữ liệu đến không theo thứ tự nào.",
+      "C. Khả năng xử lý dữ liệu với thông lượng cao và độ trễ thấp.",
+      "D. Tăng khả năng mở rộng của hệ thống."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Khả năng xử lý dữ liệu với thông lượng cao và độ trễ thấp."
+  },
+  {
+    "id": "q_83",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Trong một hệ thống tích hợp dữ liệu (ví dụ: Apache NiFi), kiến trúc Ống và Lọc được sử dụng để tự động hóa luồng dữ liệu giữa các hệ thống. Kết quả chính là gì?",
+    "options": [
+      "A. Khả năng định tuyến, xử lý, khó khăn trong việc kết nối các hệ thống khác nhau.",
+      "B. Khả năng định tuyến, chuyển đổi và quản lý luồng dữ liệu một cách linh hoạt.",
+      "C. Tăng khả năng xử lý các định dạng dữ liệu khác nhau.",
+      "D. Giảm sự phụ thuộc vào một nhà cung cấp cụ thể."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Khả năng định tuyến, chuyển đổi và quản lý luồng dữ liệu một cách linh hoạt."
+  },
+  {
+    "id": "q_84",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Trong một hệ thống xử lý dữ liệu giáo dục, bộ lọc nào sau đây KHÔNG cần khả năng xử lý dữ liệu học sinh?",
+    "options": [
+      "A. Bộ lọc lưu trữ thông tin học sinh.",
+      "B. Bộ lọc phân tích kết quả học tập của học sinh.",
+      "C. Bộ lọc tạo báo cáo học tập cho học sinh.",
+      "D. Bộ lọc xử lý dữ liệu tài chính của học sinh."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Bộ lọc xử lý dữ liệu tài chính của học sinh."
+  },
+  {
+    "id": "q_85",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Trong một hệ thống xử lý dữ liệu lớn, bộ lọc nào sau đây nên được thiết kế để chạy song song?",
+    "options": [
+      "A. Bộ lọc đọc dữ liệu từ tệp.",
+      "B. Bộ lọc ghi dữ liệu vào tệp.",
+      "C. Bộ lọc tính toán thống kê trên dữ liệu.",
+      "D. Bộ lọc kiểm tra tính hợp lệ của dữ liệu."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bộ lọc tính toán thống kê trên dữ liệu."
+  },
+  {
+    "id": "q_86",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Khi nào thì việc cô lập lỗi của kiến trúc Ống và Lọc trở nên đặc biệt quan trọng?",
+    "options": [
+      "A. Khi phát triển các ứng dụng nhỏ, ít phức tạp.",
+      "B. Khi xây dựng các hệ thống tài chính, nơi sai sót có thể gây ra hậu quả nghiêm trọng.",
+      "C. Khi phát triển các ứng dụng web với giao diện người dùng thân thiện.",
+      "D. Khi xây dựng các hệ thống mà hiệu suất là ưu tiên hàng đầu, cần thời gian xử lý nhanh.."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Khi xây dựng các hệ thống tài chính, nơi sai sót có thể gây ra hậu quả nghiêm trọng."
+  },
+  {
+    "id": "q_87",
+    "chapter": 2,
+    "topic": "Kiến trúc ống và lọc",
+    "question": "Ứng dụng nào sau đây có thể gặp khó khăn trong việc áp dụng kiến trúc Ống và Lọc do yêu cầu quản lý trạng thái phức tạp?",
+    "options": [
+      "A. Một hệ thống biên dịch mã nguồn.",
+      "B. Một hệ thống biên dịch mã nguồn, một ứng dụng xử lý luồng dữ liệu đơn giản và phức tạp.",
+      "C. Một ứng dụng web yêu cầu duy trì thông tin người dùng trong suốt phiên làm việc.",
+      "D. Một hệ thống ETL (Trích xuất, Chuyển đổi, Tải)."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Một ứng dụng web yêu cầu duy trì thông tin người dùng trong suốt phiên làm việc."
+  },
+  {
+    "id": "q_88",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Kiến trúc hướng sự kiện (EDA) là gì?",
+    "options": [
+      "A. Một kiểu kiến trúc trong đó các sự kiện giao tiếp trực tiếp với nhau.",
+      "B. Một kiểu kiến trúc trong đó các thành phần giao tiếp thông qua sự kiện.",
+      "C. Một kiểu kiến trúc trong đó các sự kiện giao tiếp thông qua cơ sở dữ liệu dùng chung.",
+      "D. Một kiểu kiến trúc trong đó các thành phần giao tiếp thông qua lệnh gọi thủ tục từ xa (RPC)."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một kiểu kiến trúc trong đó các thành phần giao tiếp thông qua sự kiện."
+  },
+  {
+    "id": "q_89",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Lợi ích chính của việc sử dụng kiến trúc hướng sự kiện (EDA) là gì?",
+    "options": [
+      "A. Khả năng mở rộng cao hơn, khả năng chịu lỗi tốt hơn và sự ghép nối lỏng lẻo.",
+      "B. Hiệu suất tốt hơn, bảo mật tốt hơn và khả năng bảo trì dễ dàng hơn.",
+      "C. Chi phí thấp hơn, tốc độ phát triển nhanh hơn và khả năng kiểm thử dễ dàng hơn.",
+      "D. Tính di động tốt hơn, khả năng tương tác tốt hơn và khả năng tái sử dụng mã tốt hơn."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Khả năng mở rộng cao hơn, khả năng chịu lỗi tốt hơn và sự ghép nối lỏng lẻo."
+  },
+  {
+    "id": "q_90",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Nhược điểm chính của việc sử dụng kiến trúc hướng sự kiện (EDA) là gì?",
+    "options": [
+      "A. Độ phức tạp cao hơn, khó gỡ lỗi và khó kiểm thử.",
+      "B. Hiệu suất thấp hơn, khả năng bảo mật kém hơn và khả năng mở rộng hạn chế.",
+      "C. Chi phí cao hơn, tốc độ phát triển chậm hơn và khả năng bảo trì khó khăn hơn.",
+      "D. Tính di động kém hơn, khả năng tương tác kém hơn và khả năng tái sử dụng mã hạn chế."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Độ phức tạp cao hơn, khó gỡ lỗi và khó kiểm thử."
+  },
+  {
+    "id": "q_91",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Mô hình giao tiếp nào được sử dụng phổ biến trong kiến trúc hướng sự kiện (EDA)?",
+    "options": [
+      "A. Mô hình yêu cầu-phản hồi.",
+      "B. Mô hình xuất bản-đăng ký.",
+      "C. Mô hình máy khách-máy chủ.",
+      "D. Mô hình ngang hàng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mô hình xuất bản-đăng ký."
+  },
+  {
+    "id": "q_92",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Loại sự kiện nào thường được sử dụng trong kiến trúc hướng sự kiện (EDA)?",
+    "options": [
+      "A. Sự kiện miền.",
+      "B. Sự kiện tích hợp.",
+      "C. Sự kiện miền và sự kiện tích hợp.",
+      "D. Không loại nào ở trên."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sự kiện miền và sự kiện tích hợp."
+  },
+  {
+    "id": "q_93",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Bộ định tuyến sự kiện có vai trò gì trong kiến trúc hướng sự kiện (EDA)?",
+    "options": [
+      "A. Tạo ra các định tuyến sự kiện.",
+      "B. Tiêu thụ các sự kiện.",
+      "C. Định tuyến các sự kiện đến người tiêu dùng phù hợp.",
+      "D. Lưu trữ các sự kiện định tuyến đến người tiêu dùng phù hợp."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Định tuyến các sự kiện đến người tiêu dùng phù hợp."
+  },
+  {
+    "id": "q_94",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Người tiêu dùng sự kiện có vai trò gì trong kiến trúc hướng sự kiện (EDA)?",
+    "options": [
+      "A. Tạo ra các sự kiện.",
+      "B. Tiêu thụ các sự kiện và thực hiện hành động.",
+      "C. Định tuyến các sự kiện đến người tiêu dùng phù hợp.",
+      "D. Lưu trữ các sự kiện."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tiêu thụ các sự kiện và thực hiện hành động."
+  },
+  {
+    "id": "q_95",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Hai mô hình phổ biến của kiến trúc hướng sự kiện là gì?",
+    "options": [
+      "A. Client-Server và Microservices.",
+      "B. Monolithic và Distributed.",
+      "C. Broker topology và Mediator topology.",
+      "D. Layered và Hexagonal."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Broker topology và Mediator topology."
+  },
+  {
+    "id": "q_96",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Trong Broker topology, các event đư ợc phân ph ối đến event processor thông qua thành phần nào?",
+    "options": [
+      "A. Mediator.",
+      "B. Event Queue.",
+      "C. Message Broker.",
+      "D. Event Channel."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Event Channel."
+  },
+  {
+    "id": "q_97",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Thành phần nào trong Mediator topology đóng vai trò đi ều phối và quản lý luồng sự kiện?",
+    "options": [
+      "A. Queue Mediator.",
+      "B. Channel Mediator.",
+      "C. Event Meditator.",
+      "D. Event Processor."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Event Meditator."
+  },
+  {
+    "id": "q_98",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Trường hợp nào sau đây KHÔNG nên sử dụng Broker topology?",
+    "options": [
+      "A. Cần giảm sự phụ thuộc lẫn nhau giữa các thành phần.",
+      "B. Định tuyến đơn giản.",
+      "C. Xử lý logic phức tạp giữa các thành phần.",
+      "D. Cần mở rộng hệ thống."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Xử lý logic phức tạp giữa các thành phần."
+  },
+  {
+    "id": "q_99",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Một hệ thống thương mại điện tử cần xử lý các đơn hàng, cập nhật kho hàng và gửi thông báo cho khách hàng. Yêu cầu là hệ thống cần linh hoạt để có thể thêm các chức năng mới (ví dụ: tích điểm khách hàng) mà không ảnh hưởng đế n các chức năng hiện có. Kiến trúc EDA nào phù hợp nhất?",
+    "options": [
+      "A. Broker Topology",
+      "B. Mediator Topology",
+      "C. Cả hai đều không phù hợp",
+      "D. Không có kiến trúc nào ở trên"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Broker Topology"
+  },
+  {
+    "id": "q_100",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Một hệ thống quản lý chuỗi cung ứng cần theo dõi vị trí của hàng hóa, cập nhật trạng thái giao hàng v à thông báo cho các bên liên quan (nhà cung cấp, nhà vận chuyển, khách hàng). Hệ thống này yêu cầu sự điều phối chặt chẽ giữa các quy trình và đảm bảo thứ tự thực hiện các bước. Kiến trúc EDA nào phù hợp nhất?",
+    "options": [
+      "A. Broker Topology",
+      "B. Mediator Topology",
+      "C. Cả hai đều phù hợp như nhau",
+      "D. Không có kiến trúc nào ở trên"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mediator Topology"
+  },
+  {
+    "id": "q_101",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Một hệ thống IoT thu thập dữ liệu từ hàng ngàn cảm biến và cần xử lý dữ liệu này theo thời gian thực để đưa ra cảnh báo hoặc điều khiển thiết bị. Hệ thống này ưu tiên tốc độ xử lý và độ trễ thấp. Kiến trúc EDA nào phù hợp nhất?",
+    "options": [
+      "A. Mediator Topology",
+      "B. Broker Topology",
+      "C. Cả hai đều phù hợp",
+      "D. Không có kiến trúc nào ở trên"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Broker Topology"
+  },
+  {
+    "id": "q_102",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Trong một hệ thống quản lý nội dung (CMS), khi một bài viết được xuất bản, cần thông báo cho các dịch vụ khác như dịch vụ gửi email, dịch vụ mạng xã hội và dịch vụ thống kê. Bài viết có thể được xuất bản ở nhiều định dạng (ví dụ: HTML, PDF). Làm thế nào để thiết kế Event Channel hiệu quả nhất?",
+    "options": [
+      "A. Sử dụng một Event Queue duy nhất cho tất cả các dịch vụ.",
+      "B. Sử dụng Event Channel dạng Topic để cho phép nhiều dịch vụ nhận thông báo.",
+      "C. Sử dụng Event Channel dạng Queue riêng biệt cho từng dịch vụ.",
+      "D. Không cần sử dụng Event Channel."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sử dụng Event Channel dạng Topic để cho phép nhiều dịch vụ nhận thông báo."
+  },
+  {
+    "id": "q_103",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Một hệ thống đặt xe trực tuyến cần xử lý các sự kiện như yêu cầu đặt xe, xác nhận tài xế, cập nhật vị trí và hoàn thành chuyến đi. Để đảm bảo tính tin cậy, hệ thống cần ghi lại tất cả các sự kiện này để phục vụ việc kiểm tra và phân tích sau này. Phương pháp nào phù hợp nhất?",
+    "options": [
+      "A. Chỉ lưu trữ các initiating event trong Event Channel.",
+      "B. Chỉ lưu trữ các processing event.",
+      "C. Lưu trữ tất cả các event trong Event Channel.",
+      "D. Không cần lưu trữ event."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lưu trữ tất cả các event trong Event Channel."
+  },
+  {
+    "id": "q_104",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Trong một hệ thống thương mại điện tử, khi một đơn hàng được tạo, cần gửi thông báo đến nhiều hệ thống khác nhau (hệ thống kho, hệ thống thanh toán, hệ thống giao hàng). Kiến trúc Broker Topology sẽ giải quyết vấn đề này như thế nào?",
+    "options": [
+      "A. Gửi thông báo trực tiếp từ hệ thống tạo đơn hàng đến tất cả các hệ thống liên quan, sử dụng một Mediator dạng Broker để điều phối luồng sự kiện.",
+      "B. Sử dụng một message broker để nhận sự kiện \"đơn hàng được tạo\" và phân phối đến các hệ thống liên quan.",
+      "C. Sử dụng một Mediator để điều phối luồng sự kiện.",
+      "D. Lưu trữ sự kiện \"đơn hàng được tạo\" trong cơ sở dữ liệu và cho phép các hệ thống khác truy vấn."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sử dụng một message broker để nhận sự kiện \"đơn hàng được tạo\" và phân phối đến các hệ thống liên quan."
+  },
+  {
+    "id": "q_105",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Một hệ thống tài chính cần xử lý các giao dịch theo thời gian thực. Broker Topology giúp đảm bảo tính linh hoạt và khả năng mở rộng như thế nào?",
+    "options": [
+      "A. Bằng cách tập trung tất cả giao dịch tại một Mediator trung tâm.",
+      "B. Bằng cách sử dụng message broker để phân phối giao dịch đến các hệ thống xử lý khác nhau, cho phép mở rộng hệ thống dễ dàng.",
+      "C. Bằng cách sử dụng message broker để phân phối giao dịch đến các hệ thống xử lý khác nhau, không cho phép mở rộng hệ thống.",
+      "D. Bằng cách xử lý giao dịch trực tiếp tại hệ thống tạo giao dịch."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bằng cách sử dụng message broker để phân phối giao dịch đến các hệ thống xử lý khác nhau, cho phép mở rộng hệ thống dễ dàng."
+  },
+  {
+    "id": "q_106",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Một hệ thống mạng xã hội cần xử lý các sự kiện như \"bài đăng mới\", \"bình luận\", \"thích\". Mediator có thể được sử dụng để đơn giản hóa việc quản lý luồng sự kiện này như thế nào?",
+    "options": [
+      "A. Bằng cách cho phép các Mediator đến thành phần giao tiếp trực tiếp với nhau và phân tán luồng sự kiện trên nhiều hệ thống khác nhau.",
+      "B. Bằng cách tập trung tất cả luồng sự kiện tại Mediator và quản lý các tương tác giữa các thành phần.",
+      "C. Bằng cách phân tán luồng sự kiện trên nhiều hệ thống khác nhau.",
+      "D. Bằng cách lưu trữ tất cả các sự kiện trong một cơ sở dữ liệu duy nhất."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bằng cách tập trung tất cả luồng sự kiện tại Mediator và quản lý các tương tác giữa các thành phần."
+  },
+  {
+    "id": "q_107",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng sự kiện",
+    "question": "Trong một hệ thống thương mại điện tử, khi người dùng đặt hàng, sự kiện nào sẽ được tạo ra?",
+    "options": [
+      "A. Sự kiện \"Sản phẩm được xem\".",
+      "B. Sự kiện \"Sản phẩm được xem\" và sự kiện \" Thanh toán thành công \".",
+      "C. Sự kiện \"Thanh toán thành công\".",
+      "D. Sự kiện \"Đơn hàng được tạo\"."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Sự kiện \"Đơn hàng được tạo\"."
+  },
+  {
+    "id": "q_108",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Kiến trúc phân lớp là gì?",
+    "options": [
+      "A. Một loại kiến trúc chỉ có một lớp duy nhất.",
+      "B. Một loại kiến trúc chia hệ thống thành nhiều lớp riêng biệt.",
+      "C. Một loại kiến trúc cho phép các lớp giao tiếp trực tiếp với nhau.",
+      "D. Một loại kiến trúc không có lớp nào."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một loại kiến trúc chia hệ thống thành nhiều lớp riêng biệt."
+  },
+  {
+    "id": "q_109",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Lớp nào trong kiến trúc phân lớp chịu trách nhiệm hiển thị giao diện người dùng?",
+    "options": [
+      "A. Business Layer.",
+      "B. Data Layer.",
+      "C. Presentation Layer.",
+      "D. Service Layer."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Presentation Layer."
+  },
+  {
+    "id": "q_110",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Nguyên tắc nào sau đây là quan trọng trong kiến trúc phân lớp?",
+    "options": [
+      "A. Các lớp có thể giao tiếp trực tiếp với bất kỳ lớp nào khác.",
+      "B. Các lớp chỉ nên giao tiếp với các lớp liền kề.",
+      "C. Tất cả các lớp phải được triển khai trên cùng một máy chủ.",
+      "D. Không có nguyên tắc nào quan trọng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Các lớp chỉ nên giao tiếp với các lớp liền kề."
+  },
+  {
+    "id": "q_111",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Kiến trúc phân lớp KHÔNG thể giúp cải thiện điều gì?",
+    "options": [
+      "A. Khả năng mở rộng của hệ thống.",
+      "B. Khả năng bảo trì của hệ thống.",
+      "C. Khả năng tái sử dụng mã nguồn.",
+      "D. Khả năng đa nhiệm."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Khả năng đa nhiệm."
+  },
+  {
+    "id": "q_112",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Trong kiến trúc phân lớp, lớp nào thường được đặt ở dưới cùng?",
+    "options": [
+      "A. Lớp trình bày (Presentation Layer).",
+      "B. Lớp nghiệp vụ (Business Layer).",
+      "C. Lớp dữ liệu (Data Layer).",
+      "D. Lớp dịch vụ (Service Layer)."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lớp dữ liệu - Data Layer."
+  },
+  {
+    "id": "q_113",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Kiến trúc phân lớp phù hợp với loại ứng dụng nào nhất?",
+    "options": [
+      "A. Các ứng dụng web quy mô nhỏ.",
+      "B. Các ứng dụng di động đơn giản.",
+      "C. Các ứng dụng doanh nghiệp phức tạp.",
+      "D. Tất cả các loại ứng dụng."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Các ứng dụng doanh nghiệp phức tạp."
+  },
+  {
+    "id": "q_114",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Một ứng dụng web cần xử lý yêu cầu HTTP, kiểm tra tính hợp lệ của dữ liệu và hiển thị kết quả cho người dùng. Lớp nào trong kiến trúc phân lớp sẽ chịu trách nhiệm cho việc xử lý yêu cầu HTTP và kiểm tra tính hợp lệ của dữ liệu?",
+    "options": [
+      "A. Lớp trình bày (Presentation Layer).",
+      "B. Lớp nghiệp vụ (Business Layer).",
+      "C. Lớp dữ liệu (Data Layer).",
+      "D. Lớp dịch vụ (Service Layer)."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lớp trình bày - Presentation Layer."
+  },
+  {
+    "id": "q_115",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Một ứng dụng cần lưu trữ dữ liệu vào một cơ sở dữ liệu quan hệ. Lớp nào trong kiến trúc phân lớp sẽ chịu trách nhiệm cho việc này?",
+    "options": [
+      "A. Lớp trình bày (Presentation Layer).",
+      "B. Lớp nghiệp vụ (Business Layer).",
+      "C. Lớp dữ liệu (Data Layer).",
+      "D. Lớp dịch vụ (Service Layer)."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lớp dữ liệu - Data Layer."
+  },
+  {
+    "id": "q_116",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Một ứng dụng cần gửi email thông báo cho người dùng khi có sự kiện quan trọng xảy ra. Lớp nào trong kiến trúc phân lớp sẽ chịu trách nhiệm cho việc gửi email?",
+    "options": [
+      "A. Lớp trình bày (Presentation Layer).",
+      "B. Lớp nghiệp vụ (Business Layer).",
+      "C. Lớp dữ liệu (Data Layer).",
+      "D. Lớp dịch vụ (Service Layer)."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Lớp dịch vụ - Service Layer."
+  },
+  {
+    "id": "q_117",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Một ứng dụng cần đảm bảo tính bảo mật của dữ liệu người dùng. Lớp nào trong kiến trúc phân lớp sẽ thực hiện việc này?",
+    "options": [
+      "A. Lớp trình bày (Presentation Layer).",
+      "B. Lớp học vụ.",
+      "C. Lớp học liệu.",
+      "D. Lớp dịch vụ (Service Layer)."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Lớp nghiệp vụ / Business Layer - Đề gốc có lỗi đánh máy thành 'Lớp học vụ'."
+  },
+  {
+    "id": "q_118",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Một ứng dụng quản lý thư viện cần thực hiện các chức năng sau:  Quản lý thông tin sách (tên sách, tác giả, nhà xuất bản, năm xuất bản, số lượng).  Quản lý thông tin độc giả (mã độc giả, tên độc giả, địa chỉ, số điện thoại).  Quản lý việc mượn/trả sách (ngày mượn, ngày trả, tình trạng sách).  Tìm kiếm sách theo tên, tác giả, thể loại.  Hiển thị danh sách sách đang mượn của một độc giả. Hãy xác định các lớp cần thiết trong kiến trúc phân lớp cho ứng dụng?",
+    "options": [
+      "A. Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu.",
+      "B. Lớp giao diện người dùng, lớp xử lý logic, lớp lưu trữ dữ liệu.",
+      "C. Lớp quản lý sách, lớp quản lý độc giả, lớp quản lý mượn/trả sách.",
+      "D. Lớp trình bày, lớp nghiệp vụ."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu."
+  },
+  {
+    "id": "q_119",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Một ứng dụng mạng xã hội cần thực hiện các chức năng sau:  Quản lý thông tin người dùng (tên, email, mật khẩu, ảnh đại diện).  Quản lý bài viết (nội dung, ngày đăng, người đăng).  Quản lý bình luận (nội dung, ngày bình luận, người bình luận).  Quản lý quan hệ bạn bè (theo dõi, hủy theo dõi).  Hiển thị dòng thời gian (timeline) của người dùng. Hãy xác định các lớp cần thiết trong kiến trúc phân lớp cho ứng dụng này?",
+    "options": [
+      "A. Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu, lớp dịch vụ.",
+      "B. Lớp giao diện người dùng, lớp xử lý logic, lớp lưu trữ dữ liệu, lớp API.",
+      "C. Lớp người dùng, lớp bài viết, lớp bình luận, lớp bạn bè.",
+      "D. Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu, lớp dịch vụ, lớp bạn."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu, lớp dịch vụ."
+  },
+  {
+    "id": "q_120",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Một ứng dụng mạng xã hội cần thực hiện các chức năng sau:  Quản lý hồ sơ người dùng (tên, ảnh đại diện, thông tin cá nhân).  Đăng tải và xem bài viết (nội dung, hình ảnh, thời gian đăng).  Tương tác với bài viết (thích, bình luận, chia sẻ).  Gửi và nhận tin nhắn riêng tư.  Gửi thông báo (ví dụ: khi có người thích hoặc bình luận bài viết của bạn). Để gửi một thông báo đến người dùng khi có tương tác mới trên bài viết của họ, lớp nào sẽ chịu trách nhiệm chính trong việc khởi tạo và quản lý quá trình gửi thông báo?",
+    "options": [
+      "A. Lớp trình bày sẽ trực tiếp phát hiện tương tác và hiển thị thông báo trên giao diện người dùng.",
+      "B. Lớp dữ liệu sẽ tự động kích hoạt việc gửi thông báo khi có sự thay đổi trong dữ liệu tương tác.",
+      "C. Lớp nghiệp vụ sẽ xử lý logic tương tác, xác định cần gửi thông báo và có thể gọi lớp dịch vụ để thực hiện việc gửi thông báo.",
+      "D. Lớp người dùng sẽ tự quản lý các thông báo và quyết định thời điểm hiển thị."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lớp nghiệp vụ sẽ xử lý logic tương tác, xác định cần gửi thông báo và có thể gọi lớp dịch vụ để thực hiện việc gửi thông báo."
+  },
+  {
+    "id": "q_121",
+    "chapter": 2,
+    "topic": "Kiến trúc phân lớp",
+    "question": "Một hệ thống quản lý học tập trực tuyến (LMS) cần thực hiện các chức năng sau:  Quản lý thông tin khóa học (tên khóa học, mô tả, học liệu).  Quản lý thông tin học viên (mã học viên, tên, thông tin liên hệ).  Quản lý bài học và bài kiểm tra.  Theo dõi tiến độ học tập của học viên.  Gửi thông báo về lịch học và kết quả kiểm tra. Để theo dõi tiến độ học tập của một học viên (ví dụ: tỷ lệ hoàn thành khóa học), các lớp sẽ phối hợp như thế nào?",
+    "options": [
+      "A. Lớp trình bày định kỳ gửi yêu cầu đến lớp dữ liệu để lấy dữ liệu tiến độ và hiển thị cho học viên.",
+      "B. Lớp dữ liệu tự động tính toán và cập nhật tiến độ học tập của học viên mỗi khi có hoạt động học tập mới.",
+      "C. Lớp nghiệp vụ nhận yêu cầu xem tiến độ từ lớp trình bày, truy xuất dữ liệu học tập từ lớp dữ liệu, thực hiện các phép tính cần thiết và trả kết quả về lớp trình bày.",
+      "D. Lớp dịch vụ chịu trách nhiệm thu thập toàn bộ dữ liệu học tập và cung cấp API cho lớp trình bày để hiển thị tiến độ."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lớp nghiệp vụ nhận yêu cầu xem tiến độ từ lớp trình bày, truy xuất dữ liệu học tập từ lớp dữ liệu, thực hiện các phép tính cần thiết và trả kết quả về lớp trình bày."
+  },
+  {
+    "id": "q_122",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Kiến trúc gọi và trả lời là gì?",
+    "options": [
+      "A. Một loại kiến trúc trong đó tất cả các thành phần đều bình đẳng.",
+      "B. Một loại kiến trúc trong đó một thành phần (client) yêu cầu dịch vụ từ một thành phần khác (server).",
+      "C. Một loại kiến trúc trong đó các thành phần giao tiếp thông qua một bus chung.",
+      "D. Một loại kiến trúc trong đó các thành phần giao tiếp thông qua hàng đợi tin nhắn"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một loại kiến trúc trong đó một thành phần (client"
+  },
+  {
+    "id": "q_123",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Thành phần nào trong kiến trúc client-server yêu cầu dịch vụ?",
+    "options": [
+      "A. Server.",
+      "B. Client.",
+      "C. Bus.",
+      "D. Hàng đợi tin nhắn."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Client."
+  },
+  {
+    "id": "q_124",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Lợi ích chính của kiến trúc client-server là gì?",
+    "options": [
+      "A. Tăng độ phức tạp của hệ thống.",
+      "B. Giảm khả năng mở rộng của hệ thống.",
+      "C. Cho phép tập trung tài nguyên và quản lý dễ dàng hơn.",
+      "D. Cho phép tận dụng dữ liệu hệ thống một cách tối ưu nhất."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cho phép tập trung tài nguyên và quản lý dễ dàng hơn."
+  },
+  {
+    "id": "q_125",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Loại server nào xử lý logic nghiệp vụ cho ứng dụng?",
+    "options": [
+      "A. Web server.",
+      "B. Application server.",
+      "C. Database server.",
+      "D. Mail server."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Application server."
+  },
+  {
+    "id": "q_126",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Một ứng dụng di động cần truy xuất dữ liệu từ một API RESTful để hiển thị danh sách sản phẩm. Thành phần nào sẽ gửi yêu cầu API và hiển thị dữ liệu cho người dùng?",
+    "options": [
+      "A. Server.",
+      "B. Client.",
+      "C. Database.",
+      "D. Load balancer."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Client."
+  },
+  {
+    "id": "q_127",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Một ứng dụng di động (client) cho phép người dùng xem dự báo thời tiết. Ứng dụng này kết nối đến một dịch vụ thời tiết trực tuyến (server) để lấy dữ liệu. Khi người dùng mở ứng dụng và xem thời tiết hiện tại, điều gì mô tả đúng nhất tương tác client-server?",
+    "options": [
+      "A. Ứng dụng di động lưu trữ sẵn tất cả dữ liệu thời tiết và chỉ hiển thị cho người dùng.",
+      "B. Dịch vụ thời tiết trực tuyến liên tục gửi thông tin thời tiết mới nhất đến tất cả các ứng dụng di động đang mở và cùng nhau cập nhật thông tin thời tiết hiện tại.",
+      "C. Ứng dụng di động gửi một yêu cầu đến dịch vụ thời tiết trực tuyến, yêu cầu dữ liệu thời tiết hiện tại cho vị trí của người dùng, và dịch vụ trả về dữ liệu này.",
+      "D. Ứng dụng di động và dịch vụ thời tiết trực tuyến chia sẻ một cơ sở dữ liệu chung và cùng nhau cập nhật thông tin thời tiết."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ứng dụng di động gửi một yêu cầu đến dịch vụ thời tiết trực tuyến, yêu cầu dữ liệu thời tiết hiện tại cho vị trí của người dùng, và dịch vụ trả về dữ liệu này."
+  },
+  {
+    "id": "q_128",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Một hệ thống đặt phòng khách sạn trực tuyến cho phép người dùng (client) tìm kiếm phòng trống và đặt phòng. Thông tin khách sạn, phòng và đặt phòng được quản lý bởi một máy chủ (server). Khi người dùng nhập tiêu chí tìm kiếm (ngày đến, ngày đi, số lượng người), điều gì xảy ra theo kiến trúc client-server?",
+    "options": [
+      "A. Trình duyệt web của người dùng trực tiếp truy cập cơ sở dữ liệu khách sạn để tìm phòng trống và tiến hành chốt phòng cho khách hàng có nhu cầu đặt phòng.",
+      "B. Máy chủ khách sạn liên tục gửi thông tin phòng trống mới nhất đến tất cả người dùng đang truy cập, trình duyệt web gửi yêu cầu tìm kiếm (với các tiêu chí) đến máy chủ.",
+      "C. Trình duyệt web gửi yêu cầu tìm kiếm (với các tiêu chí) đến máy chủ, máy chủ truy vấn cơ sở dữ liệu và trả về danh sách các phòng trống phù hợp.",
+      "D. Các khách sạn tự động quảng cáo phòng trống của họ trực tiếp đến trình duyệt của người dùng."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Trình duyệt web gửi yêu cầu tìm kiếm (với các tiêu chí"
+  },
+  {
+    "id": "q_129",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Một hệ thống quản lý điểm danh sử dụng thẻ từ (client) để ghi nhận thời gian vào/ra của nhân viên. Dữ liệu điểm danh được gửi đến một máy chủ (server) để lưu trữ và tính toán công. Khi một nhân viên quẹt thẻ, tương tác client-server diễn ra như thế nào?",
+    "options": [
+      "A. Thẻ từ trực tiếp cập nhật cơ sở dữ liệu trên máy chủ.",
+      "B. Máy chủ liên tục quét tất cả các thẻ từ trong phạm vi, thiết bị đọc thẻ (client) gửi thông tin thẻ và thời gian đến máy chủ.",
+      "C. Thiết bị đọc thẻ (client) gửi thông tin thẻ và thời gian đến máy chủ, máy chủ xử lý và lưu lại thông tin điểm danh.",
+      "D. Cả thiết bị đọc thẻ và máy chủ cùng nhau xác thực nhân viên mà không có sự trao đổi thông tin rõ ràng."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Thiết bị đọc thẻ (client"
+  },
+  {
+    "id": "q_130",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Một hệ thống điều khiển nhà thông minh có các cảm biến (client) thu thập dữ liệu về nhiệt độ, ánh sáng, độ ẩm. Một bộ điều khiển trung tâm (server) nhận dữ liệu này và cho phép người dùng điều khiển các thiết bị (ví dụ: bật/tắt đèn) thông qua ứng dụng di động (client khác). Khi người dùng gửi lệnh bật đèn qua ứng dụng di động, kiến trúc client-server hoạt động ra sao?",
+    "options": [
+      "A. Ứng dụng di động trực tiếp gửi tín hiệu điều khiển đến đèn.",
+      "B. Bộ điều khiển trung tâm liên tục gửi trạng thái của tất cả các thiết bị về ứng dụng di động, sau đó có thể trả về trạng thái thành công hoặc không thành công cho ứng dụng.",
+      "C. Ứng dụng di động gửi yêu cầu bật đèn đến bộ điều khiển trung tâm, bộ điều khiển này xử lý và gửi lệnh đến đèn, sau đó có thể trả về trạng thái thành công cho ứng dụng.",
+      "D. Các cảm biến tự động điều khiển đèn dựa trên dữ liệu thu thập được mà không cần sự can thiệp của ứng dụng di động hoặc bộ điều khiển trung tâm."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ứng dụng di động gửi yêu cầu bật đèn đến bộ điều khiển trung tâm, bộ điều khiển này xử lý và gửi lệnh đến đèn, sau đó có thể trả về trạng thái thành công cho ứng dụng."
+  },
+  {
+    "id": "q_131",
+    "chapter": 2,
+    "topic": "Kiến trúc gọi và trả lời",
+    "question": "Một công ty muốn xây dựng một hệ thống quản lý nhân sự trực tuyến. Nhân viên có thể sử dụng trình duyệt web (client) để xem thông tin cá nhân, xin nghỉ phép, và xem bảng lương. Phần mềm quản lý nhân sự (server) lưu trữ tất cả dữ liệu và xử lý các nghiệp vụ. Khi một nhân viên gửi yêu cầu xin nghỉ phép, điều gì xảy ra theo kiến trúc client-server?",
+    "options": [
+      "A. Trình duyệt web trực tiếp cập nhật cơ sở dữ liệu của phần mềm quản lý nhân sự.",
+      "B. Phần mềm quản lý nhân sự chủ động gửi thông báo về lịch nghỉ phép cho tất cả nhân viên.",
+      "C. Trình duyệt web gửi yêu cầu xin nghỉ phép đến phần mềm quản lý nhân sự, phần mềm này xử lý và trả về thông báo xác nhận hoặc từ chối cho trình duyệt.",
+      "D. Cả trình duyệt web và phần mềm quản lý nhân sự cùng nhau xử lý yêu cầu xin nghỉ phép mà không có sự tương tác trực tiếp."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Trình duyệt web gửi yêu cầu xin nghỉ phép đến phần mềm quản lý nhân sự, phần mềm này xử lý và trả về thông báo xác nhận hoặc từ chối cho trình duyệt."
+  },
+  {
+    "id": "q_132",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Đối tượng trong kiến trúc hướng đối tượng thể hiện điều gì?",
+    "options": [
+      "A. Một hàm hoặc thủ tục.",
+      "B. Một biến toàn cục.",
+      "C. Một thực thể có trạng thái và hành vi.",
+      "D. Một tệp dữ liệu."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Một thực thể có trạng thái và hành vi."
+  },
+  {
+    "id": "q_133",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Khái niệm nào cho phép một đối tượng có thể có nhiều hình thức khác nhau?",
+    "options": [
+      "A. Đóng gói (Encapsulation)",
+      "B. Kế thừa (Inheritance)",
+      "C. Đa hình (Polymorphism)",
+      "D. Trừu tượng (Abstraction)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Đa hình - Polymorphism"
+  },
+  {
+    "id": "q_134",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Mục đích của tính đóng gói trong kiến trúc hướng đối tượng (OOA) là gì?",
+    "options": [
+      "A. Tăng hiệu suất của chương trình.",
+      "B. Ẩn giấu thông tin chi tiết và bảo vệ dữ liệu.",
+      "C. Cho phép kế thừa giữa các lớp.",
+      "D. Tạo ra các đối tượng đa hình."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ẩn giấu thông tin chi tiết và bảo vệ dữ liệu."
+  },
+  {
+    "id": "q_135",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Bước đầu tiên trong quy trình phân tích hướng đối tượng (OOA) thường là gì?",
+    "options": [
+      "A. Thiết kế cơ sở dữ liệu cho hệ thống thông tin.",
+      "B. Xác định các trường hợp sử dụng (use cases).",
+      "C. Viết mã nguồn.",
+      "D. Kiểm thử đơn vị (unit testing)."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Xác định các trường hợp sử dụng - use cases."
+  },
+  {
+    "id": "q_136",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Sơ đồ nào sau đây được sử dụng để mô hình hóa các lớp và mối quan hệ giữa chúng trong OOA?",
+    "options": [
+      "A. Sơ đồ luồng dữ liệu (Data flow diagram)",
+      "B. Sơ đồ thực thể kết hợp (Entity-relationship diagram)",
+      "C. Sơ đồ lớp (Class diagram)",
+      "D. Sơ đồ lớp trạng thái (State diagram)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sơ đồ lớp - Class diagram"
+  },
+  {
+    "id": "q_137",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Một hệ thống quản lý khách sạn cần lưu trữ thông tin về khách hàng, phòng và dịch vụ. Mối quan hệ nào sau đây phù hợp để mô hình hóa việc một khách hàng đặt một phòng?",
+    "options": [
+      "A. Kế thừa",
+      "B. Kết hợp",
+      "C. Phụ thuộc",
+      "D. Tổng hợp"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kết hợp - Association"
+  },
+  {
+    "id": "q_138",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Một ứng dụng quản lý dự án cần lưu trữ thông tin về dự án, công việc và thành viên. Khái niệm OOA nào giúp phân chia dự án thành các công việc nhỏ hơn?",
+    "options": [
+      "A. Kế thừa",
+      "B. Đa hình",
+      "C. Đóng gói",
+      "D. Tổng hợp"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Tổng hợp - Aggregation/Composition"
+  },
+  {
+    "id": "q_139",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Một ứng dụng quản lý thư viện cần tì m kiếm sách theo tên hoặc tác giả. Khái niệm OOA nào giúp tạo ra một giao diện tìm kiếm chung cho cả hai tiêu chí?",
+    "options": [
+      "A. Kế thừa",
+      "B. Đa hình",
+      "C. Đóng gói",
+      "D. Trừu tượng"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Đa hình - Polymorphism / Hoặc D. Trừu tượng, tùy ngữ cảnh giáo trình nhưng Đa hình (overloading"
+  },
+  {
+    "id": "q_140",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Một hệ thống quản lý tài liệu cần kiểm soát quyền truy cập của người dùng đối với các tài liệu. Khái niệm OOA nào giúp định nghĩa các vai trò (ví dụ: \"người đọc\", \"người viết\") và quyền tương ứng?",
+    "options": [
+      "A. Kế thừa",
+      "B. Đa hình",
+      "C. Kiểm soát truy cập dựa trên vai trò (Role-based access control - RBAC)",
+      "D. Sơ đồ lớp (Class diagram)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kiểm soát truy cập dựa trên vai trò - RBAC"
+  },
+  {
+    "id": "q_141",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Một hệ thống quản lý sân bay cần lưu trữ thông tin về chuyến bay, hành khách và vé. Lớp nào sau đây thể hiện mối quan hệ giữa hành khách và chuyến bay?",
+    "options": [
+      "A. Lớp Chuyến bay",
+      "B. Lớp Hành khách",
+      "C. Lớp Vé",
+      "D. Lớp Nhân viên"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lớp Vé"
+  },
+  {
+    "id": "q_142",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Một hệ thống quản lý điểm thi cần lưu trữ thông tin về sinh viên, môn học và điểm thi. Lớp nào sau đây thể hiện mối quan hệ giữa sinh viên và môn học?",
+    "options": [
+      "A. Lớp Sinh viên",
+      "B. Lớp Môn học",
+      "C. Lớp Điểm thi",
+      "D. Lớp Giáo viên"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lớp Điểm thi"
+  },
+  {
+    "id": "q_143",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Một hệ thống quản lý khóa học trực tuyến cần lưu trữ thông tin về học viên và các khóa học mà họ đã đăng ký. Lớp nào sau đâ y thể hiện mối quan hệ \"đăng ký\" giữa học viên và khóa học?",
+    "options": [
+      "A. Lớp Học viên đăng ký khóa học",
+      "B. Lớp Khóa học",
+      "C. Lớp Giảng viên đăng ký khóa học",
+      "D. Lớp Đăng ký khóa học"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Lớp Đăng ký khóa học"
+  },
+  {
+    "id": "q_144",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Khi thiết kế kiến trúc hướng đối tượng OOA cho phần mềm quản lý bán hàng, tập hợp các lớp nào sau đây thể hiện các thực thể cốt lõi và mối quan hệ mua hàng giữa khách hàng và sản phẩm?",
+    "options": [
+      "A. {Khách hàng, Sản phẩm, Nhân viên}",
+      "B. {Khách hàng, Sản phẩm, Đơn hàng, Thanh toán}",
+      "C. {Khách hàng, Sản phẩm, Đơn hàng, Chi tiết đơn hàng}",
+      "D. {Khách hàng, Sản phẩm, Kho, Nhà cung cấp}"
+    ],
+    "correctAnswer": "C",
+    "explanation": "{Khách hàng, Sản phẩm, Đơn hàng, Chi tiết đơn hàng}"
+  },
+  {
+    "id": "q_145",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng đối tượng",
+    "question": "Khi thiết kế kiến trúc hướng đối tượng OOA cho p hần mềm quản lý sự kiện, tập hợp các lớp nào sau đây thể hiện các thực thể cốt lõi và mối quan hệ đăng ký tham gia giữa người tham gia và sự kiện?",
+    "options": [
+      "A. {Người tham gia, Sự kiện, Ban tổ chức}",
+      "B. {Người tham gia, Sự kiện, Vé, Thanh toán}",
+      "C. {Người tham gia, Sự kiện, Đăng ký tham gia}",
+      "D. {Người tham gia, Sự kiện, Địa điểm, Thời gian}"
+    ],
+    "correctAnswer": "C",
+    "explanation": "{Người tham gia, Sự kiện, Đăng ký tham gia}"
+  },
+  {
+    "id": "q_146",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Kiến trúc hướng dịch vụ (SOA) dựa trên nguyên tắc nào?",
+    "options": [
+      "A. Các thành phần phần mềm được đóng gói thành các dịch vụ có thể tái sử dụng.",
+      "B. Các thành phần phần mềm được liên kết chặt chẽ với nhau.",
+      "C. Dữ liệu được lưu trữ tập trung trong một cơ sở dữ liệu duy nhất.",
+      "D. Giao diện người dùng được thiết kế theo hướng thủ tục."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Các thành phần phần mềm được đóng gói thành các dịch vụ có thể tái sử dụng."
+  },
+  {
+    "id": "q_147",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Giao thức nào thường được sử dụng để giao tiếp giữa các dịch vụ trong kiến trúc hướng dịch vụ (SOA)?",
+    "options": [
+      "A. FTP",
+      "B. SMTP",
+      "C. SOAP hoặc REST",
+      "D. TCP/IP"
+    ],
+    "correctAnswer": "C",
+    "explanation": "SOAP hoặc REST"
+  },
+  {
+    "id": "q_148",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Thành phần nào trong kiến trúc hướng dịch vụ (SOA) giúp điều phối và quản lý các dịch vụ?",
+    "options": [
+      "A. Service Provider",
+      "B. Service Consumer",
+      "C. Enterprise Service Bus (ESB)",
+      "D. Service Registry"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Enterprise Service Bus - ESB"
+  },
+  {
+    "id": "q_149",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Mô hình nào sau đây thường được sử dụng để mô tả các dịch vụ trong kiến trúc hướng dịch vụ (SOA)?",
+    "options": [
+      "A. Sơ đồ luồng dữ liệu (Data flow diagram)",
+      "B. Sơ đồ thực thể kết hợp (Entity-relationship diagram)",
+      "C. Web Services Description Language (WSDL)",
+      "D. Sơ đồ trạng thái (State diagram)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Web Services Description Language - WSDL"
+  },
+  {
+    "id": "q_150",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Một ứng dụng cần sử dụng các ch ức năng của một ứng dụng khác mà không cần biết chi tiết về cách thức hoạt động của ứng dụng đó. Khái niệm nào trong SOA giúp đạt được điều này?",
+    "options": [
+      "A. Tính đóng gói (Encapsulation)",
+      "B. Tính trừu tượng (Abstraction)",
+      "C. Tính liên kết lỏng lẻo (Loose coupling)",
+      "D. Tính đa hình (Polymorphism)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tính liên kết lỏng lẻo - Loose coupling"
+  },
+  {
+    "id": "q_151",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Một hệ thống cần xử lý một lượng lớn các yêu cầu dịch vụ cùng lúc. Giải pháp nào sau đây giúp hệ thống mở rộng khả năng xử lý?",
+    "options": [
+      "A. Sử dụng một máy chủ duy nhất có cấu hình mạnh.",
+      "B. Áp dụng kiến trúc microservices và cân bằng tải (load balancing).",
+      "C. Lưu trữ tất cả dữ liệu trong một cơ sở dữ liệu duy nhất.",
+      "D. Sử dụng giao thức FTP để truyền tải dữ liệu."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Áp dụng kiến trúc microservices và cân bằng tải - load balancing."
+  },
+  {
+    "id": "q_152",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Một hệ thống cần tìm kiếm và khám phá các dịch vụ web có sẵn. Thành phần nào trong SOA giúp thực hiện điều này?",
+    "options": [
+      "A. Service Provider",
+      "B. Service Consumer",
+      "C. Enterprise Service Bus (ESB)",
+      "D. Service Registry"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Service Registry"
+  },
+  {
+    "id": "q_153",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Một ứng dụng cần sử dụng một dịch vụ web để gửi email. Giao thức nào sau đây thường được sử dụng cho việc này?",
+    "options": [
+      "A. FTP",
+      "B. SMTP",
+      "C. HTTP",
+      "D. TCP/IP"
+    ],
+    "correctAnswer": "B",
+    "explanation": "SMTP - Đây là giao thức chuẩn chuyên biệt được sử dụng để gửi email."
+  },
+  {
+    "id": "q_154",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Ưu điểm của kiến trúc hướng dịch vụ (SOA) KHÔNG phải là?",
+    "options": [
+      "A. Tính linh hoạt và khả năng tái sử dụng cao.",
+      "B. Dễ dàng tích hợp các hệ thống khác nhau.",
+      "C. Khả năng mở rộng tốt.",
+      "D. Tăng hiệu suất chương trình."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Tăng hiệu suất chương trình"
+  },
+  {
+    "id": "q_155",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Khi thiết kế kiến trúc hướng dịch vụ SOA cho phần mềm quản lý bán hàng, tập hợp các dịch vụ nào sau đây thể hiện các chức năng cốt lõi liên quan đến khách hàng, sản phẩm và quá trình đặt hàng?",
+    "options": [
+      "A. {Dịch vụ Khách hàng, Dịch vụ Sản phẩm, Dịch vụ Nhân viên}",
+      "B. {Dịch vụ Khách hàng, Dịch vụ Sản phẩm, Dịch vụ Đặt hàng, Dịch vụ Thanh toán}",
+      "C. {Dịch vụ Khách hàng, Dịch vụ Sản phẩm, Dịch vụ Đơn hàng}",
+      "D. {Dịch vụ Khách hàng, Dịch vụ Sản phẩm, Dịch vụ Quản lý kho}"
+    ],
+    "correctAnswer": "B",
+    "explanation": "{Dịch vụ Khách hàng, Dịch vụ Sản phẩm, Dịch vụ Đặt hàng, Dịch vụ Thanh toán}"
+  },
+  {
+    "id": "q_156",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Khi thiết kế kiến trúc hướng dịch vụ SOA cho phần mềm quản lý dự án, tập hợp các dịch vụ nào sau đây thể hiện các chức năng cốt lõi liên quan đến thành viên, công việc và quản lý dự án?",
+    "options": [
+      "A. {Dịch vụ Thành viên, Dịch vụ Công việc, Dịch vụ Quản lý}",
+      "B. {Dịch vụ Thành viên, Dịch vụ Công việc, Dịch vụ Dự án}",
+      "C. {Dịch vụ Thành viên, Dịch vụ Công việc}",
+      "D. {Dịch vụ Thành viên, Dịch vụ Công việc, Dịch vụ Báo cáo}"
+    ],
+    "correctAnswer": "B",
+    "explanation": "{Dịch vụ Thành viên, Dịch vụ Công việc, Dịch vụ Dự án}"
+  },
+  {
+    "id": "q_157",
+    "chapter": 2,
+    "topic": "Kiến trúc hướng dịch vụ",
+    "question": "Khi thiết kế kiến trúc hướng dịch vụ SOA cho phần mềm quản lý tài chính cá nhân, tập hợp các dịch vụ nào sau đây thể hiện các chức n ăng cốt lõi liên quan đến người dùng và các giao dịch tài chính?",
+    "options": [
+      "A. {Dịch vụ Người dùng, Dịch vụ Giao dịch, Dịch vụ Báo cáo}",
+      "B. {Dịch vụ Người dùng, Dịch vụ Giao dịch, Dịch vụ Ngân sách}",
+      "C. {Dịch vụ Người dùng, Dịch vụ Giao dịch}",
+      "D. {Dịch vụ Người dùng, Dịch vụ Giao dịch, Dịch vụ Mục tiêu tài chính}"
+    ],
+    "correctAnswer": "A",
+    "explanation": "{Dịch vụ Người dùng, Dịch vụ Giao dịch, Dịch vụ Báo cáo}"
+  }
+]

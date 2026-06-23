@@ -1,0 +1,938 @@
+[
+  {
+    "id": "q_1",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm là gì?",
+    "options": [
+      "A. Quá trình viết mã cho một ứng dụng phần mềm.",
+      "B. Cấu trúc tổng thể của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc chi phối thiết kế và phát triển.",
+      "C. Cấu trúc tổng thể của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc chi phối thiết kế và phát triển và giao diện, ngôn ngữ lập trình người dùng của một ứng dụng phần mềm."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cấu trúc tổng thể của một hệ thống phần mềm, bao gồm các thành phần..."
+  },
+  {
+    "id": "q_2",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Chọn khái niệm đúng về kiến trúc phần mềm:",
+    "options": [
+      "A. Kiến trúc phần mềm là cấu trúc cơ bản của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc hướng dẫn thiết kế và phát triển.",
+      "B. Kiến trúc phần mềm là cấu trúc cơ bản của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc hướng dẫn cài đặt và lập trình.",
+      "C. Kiến trúc phần mềm là cấu trúc cơ bản của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc hướng dẫn lập trình và kiểm thử",
+      "D. Kiến trúc phần mềm là cấu trúc cơ bản của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc hướng dẫn phân tích và bảo trì phần mềm."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kiến trúc phần mềm là cấu trúc cơ bản của một hệ thống phần mềm, bao gồm các thành phần..."
+  },
+  {
+    "id": "q_3",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Ai trong số những người sau đây không được biết đến với việc đưa ra các khái niệm chính thức về kiến trúc phần mềm?",
+    "options": [
+      "A. Grady Booch",
+      "B. Martin Fowler",
+      "C. Bass et al (Len Bass, Paul Clements, Rick Kazman)",
+      "D. Bill Gates"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Bill Gates - Ông là nhà sáng lập Microsoft, không phải là nhà nghiên cứu đưa ra định nghĩa học thuật về kiến trúc phần mềm"
+  },
+  {
+    "id": "q_4",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Mục tiêu chính của kiến trúc phần mềm là gì?",
+    "options": [
+      "A. Tạo ra mã nguồn phức tạp và thể hiện khả năng của lập trình viên.",
+      "B. Giảm thiểu công sức bảo trì và nâng cấp phần mềm.",
+      "C. Tối ưu hóa hiệu suất phần cứng.",
+      "D. Tập trung vào tính thẩm mỹ của giao diện. 2"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Giảm thiểu công sức bảo trì và nâng cấp phần mềm"
+  },
+  {
+    "id": "q_5",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm ảnh hưởng chủ yếu đến những yếu tố nào của hệ thống?",
+    "options": [
+      "A. Hiệu năng, khả năng bảo trì, khả năng mở rộng, độ tin cậy.",
+      "B. Màu sắc chủ đạo của giao diện người dùng, khả năng bảo trì.",
+      "C. Ngôn ngữ lập trình được sử dụng.",
+      "D. Hệ điều hành mà phần mềm chạy trên đó."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hiệu năng, khả năng bảo trì, khả năng mở rộng, độ tin cậy"
+  },
+  {
+    "id": "q_6",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Các bên liên quan (stakeholders) quan tâm đến kiến trúc phần mềm bao gồm:",
+    "options": [
+      "A. Lập trình viên và người quản lý.",
+      "B. Người dùng cuối, nhà phát triển, quản lý dự án, kiến trúc sư phần mềm.",
+      "C. Người quản lý.",
+      "D. Gồm có nhà thiết kế giao diện và kiến trúc sư phần mềm."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Người dùng cuối, nhà phát triển, quản lý dự án, kiến trúc sư phần mềm"
+  },
+  {
+    "id": "q_7",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Đâu là hướng dẫn khi kiến trúc một hệ thống:",
+    "options": [
+      "A. Kiến trúc cần thể hiện được cấu trúc (structure) của hệ thống nhưng ẩn giấu các chi tiết cài đặt.",
+      "B. Kiến trúc không cần thể hiện được cấu trúc (structure) của hệ thống",
+      "C. Kiến trúc không ẩn giấu các chi tiết cài đặt.",
+      "D. Kiến trúc không cần thể hiện được cấu trúc (structure) của hệ thống và không được ẩn giấu các chi tiết cài đặt."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kiến trúc cần thể hiện được cấu trúc của hệ thống nhưng ẩn giấu các chi tiết cài đặt"
+  },
+  {
+    "id": "q_8",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Thành phần phần mềm được định nghĩa là:",
+    "options": [
+      "A. Một dòng mã lệnh đơn lẻ.",
+      "B. Một đơn vị mô-đun của phần mềm, có thể thay thế được, đóng gói một chức năng cụ thể.",
+      "C. Một tệp tin dữ liệu.",
+      "D. Một tài liệu hướng dẫn sử dụng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một đơn vị mô-đun của phần mềm, có thể thay thế được, đóng gói một chức năng cụ thể"
+  },
+  {
+    "id": "q_9",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Đặc điểm nào sau đây KHÔNG phải là đặc điểm của thành phần phần mềm?",
+    "options": [
+      "A. Tính mô-đun.",
+      "B. Tính đóng gói.",
+      "C. Tính phụ thuộc chặt chẽ.",
+      "D. Tính tái sử dụng."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tính phụ thuộc chặt chẽ - Thực tế thành phần tốt cần có tính phụ thuộc lỏng lẻo - loose coupling"
+  },
+  {
+    "id": "q_10",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Vai trò chính của thành phần phần mềm trong kiến trúc phần mềm là gì?",
+    "options": [
+      "A. Quản lý tài nguyên hệ thống.",
+      "B. Xây dựng giao diện người dùng.",
+      "C. Làm khối xây dựng cơ bản của kiến trúc phần mềm. 3",
+      "D. Tối ưu hóa hiệu suất phần cứng."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Làm khối xây dựng cơ bản của kiến trúc phần mềm"
+  },
+  {
+    "id": "q_11",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Giao diện của thành phần phần mềm được sử dụng để:",
+    "options": [
+      "A. Ẩn các chi tiết triển khai bên trong.",
+      "B. Xác định cách thành phần tương tác với các thành phần khác.",
+      "C. Ẩn các chi tiết triển khai bên trong và xác định cách thành phần tương tác với các thành phần khác.",
+      "D. Không ẩn các chi tiết triển khai bên trong và không thể xác định cách thành phần tương tác với các thành phần khác."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ẩn các chi tiết triển khai bên trong và xác định cách thành phần tương tác với các thành phần khác"
+  },
+  {
+    "id": "q_12",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Lợi ích chính của việc sử dụng thành phần phần mềm là:",
+    "options": [
+      "A. Giảm sự phức tạp của hệ thống.",
+      "B. Tăng tốc quá trình phát triển.",
+      "C. Tăng khả năng tái sử dụng mã.",
+      "D. Giảm sự phức tạp của hệ thống, tăng tốc quá trình phát triển, tăng khả năng tái sử dụng mã ."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Giảm sự phức tạp của hệ thống, tăng tốc quá trình phát triển, tăng khả năng tái sử dụng mã"
+  },
+  {
+    "id": "q_13",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Trong một ứng dụng web, thành phần nào sau đây có thể được coi là một thành phần phần mềm?",
+    "options": [
+      "A. Thành phần giao diện người dùng (UI), thành phần xử lý nghiệp vụ (Business logic).",
+      "B. Thành phần xử lý nghiệp vụ (Business logic).",
+      "C. Thành phần truy cập dữ liệu (Data access).",
+      "D. Thành phần giao diện người dùng (UI), thành phần xử lý nghiệp vụ (Business logic), thành phần truy cập dữ liệu (Data access)."
+    ],
+    "correctAnswer": "D",
+    "explanation": "Thành phần giao diện người dùng, thành phần xử lý nghiệp vụ, thành phần truy cập dữ liệu"
+  },
+  {
+    "id": "q_14",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Tính \"đóng gói\" của thành phần phần mềm có nghĩa là:",
+    "options": [
+      "A. Thành phần có thể được cài đặt trên nhiều hệ thống khác nhau và có thể được sử dụng lại trong nhiều dự án khác nhau.",
+      "B. Thành phần ẩn các chi tiết tr iển khai bên trong và chỉ hiển thị giao diện cần thiết.",
+      "C. Thành phần có thể được sử dụng lại trong nhiều dự án khác nhau.",
+      "D. Thành phần có thể được thay thế bằng một thành phần khác mà không ảnh hưởng đến hệ thống."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Thành phần ẩn các chi tiết triển khai bên trong và chỉ hiển thị giao diện cần thiết"
+  },
+  {
+    "id": "q_15",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kết nối (connector) trong kiến trúc phần mềm có nhiệm vụ chính là:",
+    "options": [
+      "A. Lưu trữ dữ liệu. 4",
+      "B. Thực thi tương tác giữa các thành phần.",
+      "C. Quản lý giao diện người dùng phần mềm.",
+      "D. Tối ưu hóa hiệu suất phần cứng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Thực thi tương tác giữa các thành phần"
+  },
+  {
+    "id": "q_16",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kết nối giúp kiến trúc sư phần mềm làm gì?",
+    "options": [
+      "A. Xác định cấu trúc tổng thể của hệ thống.",
+      "B. Định nghĩa rõ ràng cách các thành phần tương tác với nhau.",
+      "C. Quản lý vòng đời của phần mềm.",
+      "D. Tối ưu hóa mã nguồn."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Định nghĩa rõ ràng cách các thành phần tương tác với nhau"
+  },
+  {
+    "id": "q_17",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Trong một ứng dụng web, kết nối nào cho phép trình duyệt web giao tiếp với máy chủ web?",
+    "options": [
+      "A. SQL.",
+      "B. HTTP.",
+      "C. XML.",
+      "D. JSON."
+    ],
+    "correctAnswer": "B",
+    "explanation": "HTTP"
+  },
+  {
+    "id": "q_18",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Hình thức kết nối \"Truy nhập dữ liệu chung\" cho phép các thành phần tương tác bằng cách nào?",
+    "options": [
+      "A. Gửi thông điệp và gọi phương thức",
+      "B. Đọc và ghi vào bộ nhớ chung",
+      "C. Gọi phương thức từ xa",
+      "D. Sử dụng socket"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Đọc và ghi vào bộ nhớ chung"
+  },
+  {
+    "id": "q_19",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Trong các hệ phần mềm phức tạp trên mạng, kết nối thường diễn ra giữa bao nhiêu thành phần?",
+    "options": [
+      "A. Hai thành phần",
+      "B. Một thành phần và nhiều thành phần dịch vụ",
+      "C. Các thành phần cùng cấp",
+      "D. Các thành phần theo mô hình cây"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Một thành phần và nhiều thành phần dịch vụ"
+  },
+  {
+    "id": "q_20",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Loại kết nối nào được sử dụng để truyền một lượng lớn dữ liệu giữa các tiến trình 5 độc lập?",
+    "options": [
+      "A. Kết nối gọi thủ tục",
+      "B. Kết nối sự kiện",
+      "C. Kết nối luồng",
+      "D. Kết nối trung gian"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kết nối luồng"
+  },
+  {
+    "id": "q_21",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Ví dụ nào sau đây KHÔNG thuộc về \"Kết nối luồng\"?",
+    "options": [
+      "A. Socket TCP/UDP",
+      "B. Giao thức FTP",
+      "C. Phương thức trong lập trình hướng đối tượng",
+      "D. Giao thức SOAP"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Phương thức trong lập trình hướng đối tượng - Đây thường là lời gọi thủ tục"
+  },
+  {
+    "id": "q_22",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "\"Kết nối trung gian\" thường được sử dụng trong trường hợp nào?",
+    "options": [
+      "A. Các thành phần biết rõ về nhau",
+      "B. Các thành phần không biết nhu cầu và trạng thái của nhau",
+      "C. Để truyền dữ liệu nhỏ",
+      "D. Để kết nối theo mô hình client-server hoặc các thành phần biết rõ về nhau"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Các thành phần không biết nhu cầu và trạng thái của nhau"
+  },
+  {
+    "id": "q_23",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Loại kết nối nào được sử dụng để chỉ ra các tuyến tương tác và điều phối truyền thông giữa các thành phần?",
+    "options": [
+      "A. Kết nối thích nghi",
+      "B. Kết nối theo tuyến",
+      "C. Kết nối liên kết",
+      "D. Kết nối sự kiện"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kết nối theo tuyến"
+  },
+  {
+    "id": "q_24",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm đóng vai trò gì trong phát triển phần mềm?",
+    "options": [
+      "A. Chỉ liên quan đến việc thiết kế giao diện người dùng.",
+      "B. Định hướng và cấu trúc cho toàn bộ ứng dụng.",
+      "C. Tối ưu hóa hiệu suất phần cứng.",
+      "D. Chỉ quản lý cơ sở dữ liệu."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Định hướng và cấu trúc cho toàn bộ ứng dụng"
+  },
+  {
+    "id": "q_25",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm ảnh hưởng đến thuộc tính chất lượng nào của phần mềm?",
+    "options": [
+      "A. Ảnh hưởng đến hiệu suất, khả năng mở rộng của toàn bộ hệ thống.",
+      "B. Chỉ ảnh hưởng đến khả năng mở rộng của hệ thống.",
+      "C. Hiệu suất, khả năng mở rộng, độ tin cậy, bảo trì và bảo mật của hệ thống.",
+      "D. Chỉ ảnh hưởng đến bảo mật của hệ thống."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hiệu suất, khả năng mở rộng, độ tin cậy, bảo trì và bảo mật của hệ thống"
+  },
+  {
+    "id": "q_26",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Lợi ích chính của việc có một kiến trúc phần mềm tốt là gì?",
+    "options": [
+      "A. Giảm thiểu rủi ro và tăng chi phí phát triển.",
+      "B. Giảm thiểu rủi ro và chi phí phát sinh.",
+      "C. Tăng sự phức tạp của hệ thống.",
+      "D. Làm chậm quá trình phát triển. 6"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Giảm thiểu rủi ro và chi phí phát sinh"
+  },
+  {
+    "id": "q_27",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm giúp gì trong giao tiếp và hợp tác giữa các bên liên quan?",
+    "options": [
+      "A. Cung cấp một kiến trúc phần mềm làm căn cứ tính giá cho hợp đồng.",
+      "B. Cung cấp một ngôn ngữ chung và đảm bảo hiểu biết chung.",
+      "C. Làm giảm sự tương tác giữa các bên.",
+      "D. Không ảnh hưởng đến giao tiếp."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cung cấp một ngôn ngữ chung và đảm bảo hiểu biết chung"
+  },
+  {
+    "id": "q_28",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Tại sao kiến trúc phần mềm lại quan trọng trong việc bảo trì phần mềm?",
+    "options": [
+      "A. Nó giúp giảm độ phức tạp của mã nguồn.",
+      "B. Nó giúp dễ dàng hiểu và sửa đổi hệ thống.",
+      "C. Nó làm cho việc bảo trì trở nên không cần thiết.",
+      "D. Nó làm cho việc bảo trì trở nên khó khăn hơn."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Nó giúp dễ dàng hiểu và sửa đổi hệ thống"
+  },
+  {
+    "id": "q_29",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm giúp phát hiện và giải quyết vấn đề thiết kế khi nào?",
+    "options": [
+      "A. Chỉ sau khi triển khai phần mềm.",
+      "B. Trong giai đoạn kiểm thử.",
+      "C. Sớm trong quá trình phát triển.",
+      "D. Không giúp phát hiện vấn đề thiết kế."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sớm trong quá trình phát triển"
+  },
+  {
+    "id": "q_30",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm giúp tối ưu hóa việc sử dụng tài nguyên nào?",
+    "options": [
+      "A. Bộ nhớ.",
+      "B. CPU.",
+      "C. Bộ nhớ, CPU, mạng và các tài nguyên khác.",
+      "D. Bộ nhớ, mạng và các tài nguyên bất kỳ khác."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bộ nhớ, CPU, mạng và các tài nguyên khác"
+  },
+  {
+    "id": "q_31",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm giúp hệ thống dễ dàng thích ứng với thay đổi nào?",
+    "options": [
+      "A. Chỉ thay đổi về yêu cầu chức năng.",
+      "B. Cả thay đổi về đối tượng sử dụng và thay đổi kế hoạch phát triển.",
+      "C. Cả thay đổi về yêu cầu chức năng và môi trường chạy.",
+      "D. Không giúp thích ứng với thay đổi."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cả thay đổi về yêu cầu chức năng và môi trường chạy"
+  },
+  {
+    "id": "q_32",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm giúp giảm thiểu rủi ro nào trong quá trình phát triển?",
+    "options": [
+      "A. Giúp giảm thiểu rủi ro về thời gian phát triển hệ thống.",
+      "B. Chỉ rủi ro về chi phí.",
+      "C. Rủi ro về thời gian, chi phí và chất lượng.",
+      "D. Không giảm thiểu rủi ro."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Rủi ro về thời gian, chi phí và chất lượng"
+  },
+  {
+    "id": "q_33",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Vai trò của kiến trúc phần mềm trong việc đảm bảo độ tin cậy là gì?",
+    "options": [
+      "A. Giảm độ phức tạp của hệ thống.",
+      "B. Giảm thiểu rủi ro lỗi và đảm bảo hệ thống luôn sẵn sàng.",
+      "C. Tăng chi phí bảo trì. 7",
+      "D. Không ảnh hưởng đến độ tin cậy."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Giảm thiểu rủi ro lỗi và đảm bảo hệ thống luôn sẵn sàng"
+  },
+  {
+    "id": "q_34",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Kiến trúc phần mềm giúp tối ưu hóa hiệu suất như thế nào?",
+    "options": [
+      "A. Tăng số lượng thành phần và tăng sự phụ thuộc giữa các thành phần.",
+      "B. Tối ưu hóa việc sử dụng tài nguyên và giảm thiểu độ trễ.",
+      "C. Tăng sự phụ thuộc giữa các thành phần.",
+      "D. Không ảnh hưởng đến hiệu suất."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tối ưu hóa việc sử dụng tài nguyên và giảm thiểu độ trễ"
+  },
+  {
+    "id": "q_35",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Thuộc tính chất lượng nào đo lường khả năng phần mềm hoạt động ổn định và không bị lỗi?",
+    "options": [
+      "A. Hiệu suất",
+      "B. Khả năng mở rộng",
+      "C. Độ tin cậy",
+      "D. Khả năng bảo trì"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Độ tin cậy"
+  },
+  {
+    "id": "q_36",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Thuộc tính chất lượng nào liên quan đến khả năng phần mềm đáp ứng các yêu cầu về tốc độ và thời gian phản hồi?",
+    "options": [
+      "A. Hiệu suất",
+      "B. Khả năng mở rộng",
+      "C. Độ tin cậy",
+      "D. Khả năng bảo trì"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hiệu suất"
+  },
+  {
+    "id": "q_37",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Khả năng phần mềm dễ dàng được người dùng sử dụng được gọi là gì?",
+    "options": [
+      "A. Khả năng sử dụng",
+      "B. Khả năng bảo mật",
+      "C. Khả năng kiểm thử",
+      "D. Khả năng tái sử dụng"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Khả năng sử dụng"
+  },
+  {
+    "id": "q_38",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Khả năng phần mềm dễ dàng được kiểm tra các sai sót được gọi là gì?",
+    "options": [
+      "A. Khả năng sử dụng",
+      "B. Khả năng bảo mật",
+      "C. Khả năng kiểm thử",
+      "D. Khả năng tái sử dụng"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Khả năng kiểm thử"
+  },
+  {
+    "id": "q_39",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Thuộc tính chất lượng nào đo lường khả năng phần mềm đáp ứng được các yêu cầu về thời gian đáp ứng, dung lượng bộ nhớ và khả năng xử lý?",
+    "options": [
+      "A. Hiệu suất",
+      "B. Khả năng mở rộng",
+      "C. Độ tin cậy",
+      "D. Khả năng bảo trì"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hiệu suất"
+  },
+  {
+    "id": "q_40",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Mục tiêu chính của chiến lược thiết kế tập trung vào người dùng là gì? 8",
+    "options": [
+      "A. Tạo ra sản phẩm đẹp mắt nhất.",
+      "B. Tối ưu hóa lợi nhuận cho doanh nghiệp.",
+      "C. Đáp ứng nhu cầu và mong muốn của người dùng.",
+      "D. Sử dụng công nghệ tiên tiến nhất."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Đáp ứng nhu cầu và mong muốn của người dùng"
+  },
+  {
+    "id": "q_41",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Nguyên tắc nào KHÔNG thuộc về thiết kế tập trung vào người dùng?",
+    "options": [
+      "A. Hiểu rõ ngữ cảnh sử dụng.",
+      "B. Đánh giá liên tục với sự tham gia của người dùng.",
+      "C. Tập trung vào ý kiến của nhà thiết kế.",
+      "D. Thiết kế dựa trên sự thấu cảm với người dùng."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tập trung vào ý kiến của nhà thiết kế"
+  },
+  {
+    "id": "q_42",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Lợi ích chính của chiến lược thiết kế dựa trên dữ liệu (DDD) là gì?",
+    "options": [
+      "A. Tăng tính sáng tạo của nhà thiết kế.",
+      "B. Đưa ra quyết định thiết kế khách quan và hiệu quả hơn.",
+      "C. Giảm chi phí nghiên cứu người dùng.",
+      "D. Tăng tốc độ thiết kế sản phẩm."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Đưa ra quyết định thiết kế khách quan và hiệu quả hơn"
+  },
+  {
+    "id": "q_43",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Đánh giá khả năng sử dụng (usability testing) nhằm mục đích gì?",
+    "options": [
+      "A. Tìm ra lỗi lập trình của các nhóm lập trình viên tham gia code phần mềm.",
+      "B. Đo lường mức độ hài lòng của người dùng với sản phẩm.",
+      "C. Đánh giá hiệu quả của chiến lược marketing.",
+      "D. Kiểm tra tính bảo mật của hệ thống."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Đo lường mức độ hài lòng của người dùng với sản phẩm"
+  },
+  {
+    "id": "q_44",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Persona (hình mẫu người dùng) được sử dụng để làm gì trong chiến lược thiết kế tập trung vào người dùng (UCD)?",
+    "options": [
+      "A. Đại diện cho các phân khúc thị trường khác nhau.",
+      "B. Mô tả chi tiết về người dùng mục tiêu.",
+      "C. Phân tích hành vi của đối thủ cạnh tranh.",
+      "D. Lên kế hoạch chiến lược kinh doanh."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mô tả chi tiết về người dùng mục tiêu"
+  },
+  {
+    "id": "q_45",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Thiết kế tương tác (interaction design) tập trung vào điều gì trong chiến lược thiết kế tập trung vào người dùng (UCD)?",
+    "options": [
+      "A. Giao diện trực quan của sản phẩm.",
+      "B. Cách người dùng tương tác với sản phẩm.",
+      "C. Cấu trúc cơ sở dữ liệu của sản phẩm phần mềm.",
+      "D. Thuật toán hoạt động của hệ thống."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cách người dùng tương tác với sản phẩm"
+  },
+  {
+    "id": "q_46",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Lợi ích chính của chiến lược thiết kế linh hoạt (Agile design) là gì?",
+    "options": [
+      "A. Giảm thiểu rủi ro và tăng khả năng thích ứng với thay đổi.",
+      "B. Tiết kiệm chi phí phát triển phần mềm.",
+      "C. Đảm bảo sản phẩm hoàn hảo ngay từ lần đầu tiên. 9",
+      "D. Giảm sự tham gia của khách hàng trong quá trình phát triển."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Giảm thiểu rủi ro và tăng khả năng thích ứng với thay đổi"
+  },
+  {
+    "id": "q_47",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Khả năng mở rộng (scalability) của hệ thống là gì?",
+    "options": [
+      "A. Khả năng hệ thống hoạt động trên nhiều nền tảng khác nhau.",
+      "B. Khả năng hệ thống xử lý lượng tải công việc tăng lên.",
+      "C. Khả năng hệ thống phục hồi sau sự cố.",
+      "D. Khả năng hệ thống bảo vệ dữ liệu khỏi truy cập trái phép."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Khả năng hệ thống xử lý lượng tải công việc tăng lên"
+  },
+  {
+    "id": "q_48",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Chiến lược thiết kế linh hoạt (Agile design) là gì?",
+    "options": [
+      "A. Phương pháp thiết kế tập trung vào việc lập kế hoạch chi tiết từ đầu dự án.",
+      "B. Phương pháp thiết kế linh hoạt, lặp đi lặp lại và có khả năng thích ứng với thay đổi.",
+      "C. Phương pháp thiết kế chỉ áp dụng cho các dự án phần mềm lớn.",
+      "D. Phương pháp thiết kế không cần sự tham gia của khách hàng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Phương pháp thiết kế linh hoạt, lặp đi lặp lại và có khả năng thích ứng với thay đổi"
+  },
+  {
+    "id": "q_49",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Thiết kế dựa trên dữ liệu (DDD) là gì?",
+    "options": [
+      "A. Phương pháp thiết kế dựa trên cảm tính của nhà thiết kế.",
+      "B. Phương pháp thiết kế dựa trên phân tích dữ liệu người dùng.",
+      "C. Phương pháp thiết kế dựa trên xu hướng thị trường.",
+      "D. Phương pháp thiết kế dựa trên ý kiến của khách hàng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Phương pháp thiết kế dựa trên phân tích dữ liệu người dùng"
+  },
+  {
+    "id": "q_50",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Khi nào nên bắt đầu áp dụng chiến lược thiết kế tập trung vào người dùng (UCD) trong quy trình phát triển phần mềm?",
+    "options": [
+      "A. Sau khi sản phẩm đã hoàn thiện.",
+      "B. Trong giai đoạn thử nghiệm sản phẩm.",
+      "C. Ngay từ giai đoạn đầu của dự án.",
+      "D. Khi có phản hồi tiêu cực từ người dùng."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ngay từ giai đoạn đầu của dự án"
+  },
+  {
+    "id": "q_51",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Phương pháp nào thường được sử dụng trong chiến lược thiết kế linh hoạt (Agile design) để chia nhỏ công việc thành các phần nhỏ hơn?",
+    "options": [
+      "A. Mô hình thác nước (Waterfall).",
+      "B. Mô hình xoắn ốc (Spiral).",
+      "C. Mô hình Scrum hoặc Kanban.",
+      "D. Mô hình nguyên mẫu (Prototype)."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Mô hình Scrum hoặc Kanban"
+  },
+  {
+    "id": "q_52",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Nguyên tắc nào sau đây KHÔNG thuộc về chiến lược thiết kế linh hoạt (Agile design)?",
+    "options": [
+      "A. Ưu tiên sự hài lòng của khách hàng thông qua việc phân phối phần mềm có giá trị sớm và liên tục.",
+      "B. Chào đón việc thay đổi yêu cầu, ngay cả ở giai đoạn phát triển muộn.",
+      "C. Tập trung vào việc hoàn thành tài liệu chi tiết trước khi bắt đầu phát triển.",
+      "D. Hợp tác chặt chẽ với các bên liên quan trong suốt dự án."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tập trung vào việc hoàn thành tài liệu chi tiết trước khi bắt đầu phát triển - Agile chuộng phần mềm chạy được hơn tài liệu"
+  },
+  {
+    "id": "q_53",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Tại sao việc tạo mẫu (prototyping) lại quan trọng trong chiến lược thiết kế tập trung vào 10 người dùng (UCD)?",
+    "options": [
+      "A. Để tiết kiệm chi phí sản xuất của nhà phát triển phần mềm.",
+      "B. Để kiểm tra tính khả thi của thiết kế với người dùng.",
+      "C. Để gây ấn tượng với nhà đầu tư.",
+      "D. Để hoàn thiện thiết kế trước khi ra mắt."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Để kiểm tra tính khả thi của thiết kế với người dùng"
+  },
+  {
+    "id": "q_54",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Loại dữ liệu nào KHÔNG được sử dụng trong chiến lược thiết kế dựa trên dữ liệu (DDD)?",
+    "options": [
+      "A. Dữ liệu hành vi người dùng (ví dụ: số lần nhấp chuột, thời gian tương tác).",
+      "B. Dữ liệu nhân khẩu học (ví dụ: tuổi, giới tính, địa điểm).",
+      "C. Dữ liệu cảm tính của nhà thiết kế.",
+      "D. Dữ liệu phản hồi của người dùng (ví dụ: khảo sát, đánh giá)."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Dữ liệu cảm tính của nhà thiết kế"
+  },
+  {
+    "id": "q_55",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Công cụ nào thường được sử dụng để phân tích dữ liệu trong chiến lược thiết kế dựa trên dữ liệu (DDD)?",
+    "options": [
+      "A. Phần mềm thiết kế đồ họa (ví dụ: Photoshop, Illustrator).",
+      "B. Công cụ phân tích web (ví dụ: Google Analytics, Mixpanel).",
+      "C. Phần mềm quản lý dự án (ví dụ: Trello, Asana).",
+      "D. Tất cả các công cụ trên."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Công cụ phân tích web"
+  },
+  {
+    "id": "q_56",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Bước đầu tiên trong quy trình chiến lược thiết kế dựa trên dữ liệu (DDD) là gì?",
+    "options": [
+      "A. Thiết kế giao diện người dùng (UI).",
+      "B. Thu thập và phân tích dữ liệu.",
+      "C. Tạo mẫu (prototype) sản phẩm.",
+      "D. Kiểm tra khả năng sử dụng (usability testing)."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Thu thập và phân tích dữ liệu"
+  },
+  {
+    "id": "q_57",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Chỉ số (metric) nào KHÔNG được sử dụng để đánh giá hiệu quả thiết kế trong chiến lược thiết kế dựa trên dữ liệu (DDD)?",
+    "options": [
+      "A. Tỷ lệ chuyển đổi (conversion rate).",
+      "B. Tỷ lệ thoát trang (bounce rate).",
+      "C. Mức độ hài lòng của nhà thiết kế.",
+      "D. Thời gian hoàn thành tác vụ."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Mức độ hài lòng của nhà thiết kế"
+  },
+  {
+    "id": "q_58",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Phương pháp nào giúp thu thập dữ liệu định tính trong chiến lược thiết kế dựa trên dữ liệu (DDD)?",
+    "options": [
+      "A. Phân tích nhật ký máy chủ (server logs).",
+      "B. Phỏng vấn sâu người dùng.",
+      "C. Thử nghiệm A/B.",
+      "D. Khảo sát trực tuyến với câu hỏi đóng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Phỏng vấn sâu người dùng"
+  },
+  {
+    "id": "q_59",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Tại sao việc trực quan hóa dữ liệu lại quan trọng trong chiến lược thiết kế dựa trên dữ liệu (DDD)? 11",
+    "options": [
+      "A. Giúp nhà thiết kế tạo ra các biểu đồ đẹp mắt.",
+      "B. Giúp nhà thiết kế hiểu rõ hơn về dữ liệu và đưa ra quyết định chính xác.",
+      "C. Giúp nhà thiết kế tiết kiệm thời gian phân tích dữ liệu.",
+      "D. Giúp nhà thiết kế trình bày dữ liệu cho khách hàng."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Giúp nhà thiết kế hiểu rõ hơn về dữ liệu và đưa ra quyết định chính xác"
+  },
+  {
+    "id": "q_60",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Thử nghiệm A/B được sử dụng để làm gì trong chiến lược thiết kế dựa trên dữ liệu (DDD)?",
+    "options": [
+      "A. So sánh hai phiên bản thiết kế và chọn ra phiên bản tốt hơn.",
+      "B. Thu thập phản hồi của người dùng về một phiên bản thiết kế.",
+      "C. Phân tích hành vi của người dùng trên trang web.",
+      "D. Tạo ra các giả thuyết thiết kế."
+    ],
+    "correctAnswer": "A",
+    "explanation": "So sánh hai phiên bản thiết kế và chọn ra phiên bản tốt hơn"
+  },
+  {
+    "id": "q_61",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Thách thức lớn nhất khi áp dụng chiến lược thiết kế dựa trên dữ liệu (DDD) là gì?",
+    "options": [
+      "A. Thiếu công cụ phân tích dữ liệu.",
+      "B. Khó khăn trong việc thu thập dữ liệu người dùng.",
+      "C. Khả năng diễn giải dữ liệu và đưa ra quyết định thiết kế phù hợp.",
+      "D. Chi phí triển khai DDD cao."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Khả năng diễn giải dữ liệu và đưa ra quyết định thiết kế phù hợp"
+  },
+  {
+    "id": "q_62",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Trong chiến lược thiết kế linh hoạt (Agile design), việc kiểm tra và đánh giá sản phẩm diễn ra khi nào?",
+    "options": [
+      "A. Chỉ sau khi hoàn thành toàn bộ dự án.",
+      "B. Liên tục ở giai đoạn cuối của mỗi vòng lặp (sprint).",
+      "C. Liên tục trong suốt quá trình phát triển."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Liên tục trong suốt quá trình phát triển"
+  },
+  {
+    "id": "q_63",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Phương pháp nào giúp đảm bảo tính minh bạch và giao tiếp hiệu quả trong chiến lược thiết kế linh hoạt (Agile design)?",
+    "options": [
+      "A. Sử dụng tài liệu chi tiết và phức tạp nhằm tạo ra các sản phẩm có kỹ thuật khó, không đối thủ cạnh tranh.",
+      "B. Tổ chức các cuộc họp hàng ngày (daily stand -ups) và các buổi đánh giá (review meetings).",
+      "C. Hạn chế giao tiếp giữa các thành viên trong nhóm.",
+      "D. Chỉ giao tiếp qua email."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tổ chức các cuộc họp hàng ngày và các buổi đánh giá"
+  },
+  {
+    "id": "q_64",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Một công ty khởi nghiệp muốn phát triển một ứng dụng di động mới với nguồn lực hạn chế và yêu cầu thay đổi liên tục. Chiến lược thiết kế nào sau đây sẽ phù hợp nhất?",
+    "options": [
+      "A. Mô hình thác nước (Waterfall).",
+      "B. Mô hình xoắn ốc (Spiral).",
+      "C. Mô hình Agile (Scrum hoặc Kanban).",
+      "D. Mô hình nguyên mẫu (Prototype)."
+    ],
+    "correctAnswer": "C",
+    "explanation": "Mô hình Agile - Scrum hoặc Kanban"
+  },
+  {
+    "id": "q_65",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Một nhóm phát triển phần mềm muốn tăng cường sự hợp tác và giao tiếp giữa các thành viên. Chiến lược thiết kế linh hoạt Agile nào sau đây sẽ hữu ích nhất? 12",
+    "options": [
+      "A. Lập kế hoạch chi tiết từ đầu dự án và tuân thủ nghiêm ngặt các quy định của luật phát quốc tế.",
+      "B. Tổ chức các cuộc họp hàng ngày (daily stand -ups) và các buổi đánh giá (review meetings).",
+      "C. Hạn chế sự tham gia của khách hàng để tránh làm gián đoạn quá trình phát triển.",
+      "D. Tập trung vào việc hoàn thành tài liệu chi tiết trước khi bắt đầu phát triển."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tổ chức các cuộc họp hàng ngày và các buổi đánh giá"
+  },
+  {
+    "id": "q_66",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Một nhóm phát triển phần mềm muốn tăng cường khả năng thích ứng với các thay đổi công nghệ. Phương pháp Agile nào sau đây sẽ hữu ích nhất?",
+    "options": [
+      "A. Sử dụng các công nghệ đã được kiểm chứng và ổn định.",
+      "B. Liên tục cập nhật và thử nghiệm các công nghệ mới trong quá trình phát triển.",
+      "C. Hạn chế sử dụng các công nghệ mới để tránh rủi ro.",
+      "D. Chỉ sử dụng các công nghệ được khách hàng yêu cầu."
+    ],
+    "correctAnswer": "B",
+    "explanation": "Liên tục cập nhật và thử nghiệm các công nghệ mới trong quá trình phát triển"
+  },
+  {
+    "id": "q_67",
+    "chapter": 1,
+    "topic": "Tổng quan Kiến trúc phần mềm",
+    "question": "Một công ty phần mềm muốn cải thiện hiệu suất của ứng dụng. Dữ liệu nào sau đây sẽ hữu ích nhất để phân tích?",
+    "options": [
+      "A. Dữ liệu về thời gian tải trang và thời gian phản hồi của các tính năng.",
+      "B. Dữ liệu về thời gian tải các tính năng được người dùng yêu thích nhất.",
+      "C. Dữ liệu về thời gian tải trang và thời gian phản hồi các tính năng của các đối thủ cạnh tranh.",
+      "D. Dữ liệu về thời gian tải trang và thời gian thiết kế kiến trúc của ứng dụng."
+    ],
+    "correctAnswer": "A",
+    "explanation": "Dữ liệu về thời gian tải trang và thời gian phản hồi của các tính năng"
+  }
+]

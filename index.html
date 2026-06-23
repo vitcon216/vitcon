@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống trắc nghiệm Kiến Trúc Phần Mềm</title>
+    <meta name="description" content="Ôn tập và kiểm tra thử môn Kiến trúc phần mềm với giao diện hiện đại">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Thư viện icon (Feather) -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div id="app-container">
+        
+        <!-- Màn hình chính -->
+        <div id="home-screen" class="screen active">
+            <div class="glass-panel text-center fade-in-up">
+                <h1 class="gradient-text">Kiến Trúc Phần Mềm</h1>
+                <p class="subtitle">Nền tảng ôn luyện & Thi thử cao cấp</p>
+                <div class="card-grid">
+                    <button class="mode-btn" onclick="app.showRevisionSetup()">
+                        <i data-feather="book-open"></i>
+                        <span>Phần 1: Ôn Tập</span>
+                        <small>Chọn chương từ 1 đến 4, có giải thích đáp án</small>
+                    </button>
+                    <button class="mode-btn accent" onclick="app.startMockTest()">
+                        <i data-feather="clock"></i>
+                        <span>Phần 2: Thi Thử</span>
+                        <small>60 Phút - 40 Câu hỏi (dethithu.docx)</small>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Màn hình cài đặt ôn tập -->
+        <div id="revision-setup-screen" class="screen">
+            <div class="glass-panel fade-in-up">
+                <button class="icon-btn back-btn" onclick="app.showHome()"><i data-feather="arrow-left"></i> Quay lại</button>
+                <h2>Chọn chương ôn tập</h2>
+                <div class="checkbox-group">
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="1" id="chap1" checked>
+                        <span class="checkmark"></span>
+                        Chương 1: Tổng quan <span id="count-chap1" style="color:var(--text-secondary); margin-left:0.5rem"></span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="2" id="chap2" checked>
+                        <span class="checkmark"></span>
+                        Chương 2: Các kiến trúc cơ bản <span id="count-chap2" style="color:var(--text-secondary); margin-left:0.5rem"></span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="3" id="chap3" checked>
+                        <span class="checkmark"></span>
+                        Chương 3: Thiết kế kiến trúc phần mềm <span id="count-chap3" style="color:var(--text-secondary); margin-left:0.5rem"></span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="4" id="chap4" checked>
+                        <span class="checkmark"></span>
+                        Chương 4: Thiết kế mẫu (Design Patterns) <span id="count-chap4" style="color:var(--text-secondary); margin-left:0.5rem"></span>
+                    </label>
+                </div>
+                <button class="primary-btn full-width mt-4" onclick="app.startRevision()">Bắt đầu ôn tập</button>
+            </div>
+        </div>
+
+        <!-- Màn hình làm bài -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header glass-panel slide-down">
+                <div class="quiz-progress">
+                    <span id="quiz-progress-text">Câu 1/40</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="quiz-progress-fill"></div>
+                    </div>
+                </div>
+                <div class="quiz-timer" id="quiz-timer-container" style="display: none;">
+                    <i data-feather="clock"></i> <span id="time-left">60:00</span>
+                </div>
+                <button class="secondary-btn" onclick="app.submitQuiz()">Nộp bài</button>
+            </div>
+
+            <div class="question-container glass-panel fade-in-up mt-4" id="question-container">
+                <!-- Nội dung câu hỏi sẽ được render qua JS -->
+            </div>
+
+            <div class="quiz-navigation mt-4">
+                <button class="icon-btn" id="prev-btn" onclick="app.prevQuestion()"><i data-feather="chevron-left"></i> Câu trước</button>
+                <div class="question-dots" id="question-dots">
+                    <!-- render dots -->
+                </div>
+                <button class="icon-btn" id="next-btn" onclick="app.nextQuestion()">Câu tiếp <i data-feather="chevron-right"></i></button>
+            </div>
+        </div>
+
+        <!-- Màn hình kết quả -->
+        <div id="result-screen" class="screen">
+            <div class="glass-panel text-center fade-in-up">
+                <h2>Kết quả làm bài</h2>
+                <div class="score-circle">
+                    <span id="score-text">0/0</span>
+                </div>
+                <p id="score-message" class="mt-2"></p>
+                <div class="action-buttons mt-4">
+                    <button class="primary-btn" onclick="app.reviewAnswers()"><i data-feather="eye"></i> Xem lại bài làm & Giải thích</button>
+                    <button class="secondary-btn" onclick="app.showHome()"><i data-feather="home"></i> Về trang chủ</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Màn hình xem lại bài (Review) -->
+        <div id="review-screen" class="screen">
+            <div class="glass-panel sticky-header slide-down">
+                <button class="icon-btn" onclick="app.showResult()"><i data-feather="arrow-left"></i> Quay lại kết quả</button>
+                <h3>Chi tiết bài làm</h3>
+            </div>
+            <div id="review-container" class="mt-4">
+                <!-- Danh sách câu hỏi kèm giải thích sẽ render ở đây -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
