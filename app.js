@@ -26,16 +26,22 @@ class QuizApp {
     updateChapterCounts() {
         if (!this.database || !this.database.revision) return;
         let counts = {1: 0, 2: 0, 3: 0, 4: 0};
+        let total = 0;
         this.database.revision.forEach(q => {
             if (counts[q.chapter] !== undefined) {
                 counts[q.chapter]++;
+                total++;
             }
         });
         
-        document.getElementById('count-chap1').innerText = `(${counts[1]} câu)`;
-        document.getElementById('count-chap2').innerText = `(${counts[2]} câu)`;
-        document.getElementById('count-chap3').innerText = `(${counts[3]} câu)`;
-        document.getElementById('count-chap4').innerText = `(${counts[4]} câu)`;
+        const select = document.getElementById('chapter-select');
+        if (select && select.options.length >= 5) {
+            select.options[0].text = `Tất cả các chương (${total} câu)`;
+            select.options[1].text = `Chương 1: Tổng quan (${counts[1]} câu)`;
+            select.options[2].text = `Chương 2: Các kiến trúc cơ bản (${counts[2]} câu)`;
+            select.options[3].text = `Chương 3: Thiết kế kiến trúc phần mềm (${counts[3]} câu)`;
+            select.options[4].text = `Chương 4: Thiết kế mẫu (Design Patterns) (${counts[4]} câu)`;
+        }
     }
 
     // --- Navigation ---
@@ -57,11 +63,14 @@ class QuizApp {
     // --- Start Modes ---
     startRevision() {
         if (!this.database) return;
-        const selectedChaps = [];
-        if (document.getElementById('chap1').checked) selectedChaps.push(1);
-        if (document.getElementById('chap2').checked) selectedChaps.push(2);
-        if (document.getElementById('chap3').checked) selectedChaps.push(3);
-        if (document.getElementById('chap4').checked) selectedChaps.push(4);
+        
+        const selectVal = document.getElementById('chapter-select').value;
+        let selectedChaps = [];
+        if (selectVal === 'all') {
+            selectedChaps = [1, 2, 3, 4];
+        } else {
+            selectedChaps = [parseInt(selectVal)];
+        }
 
         if (selectedChaps.length === 0) {
             alert("Vui lòng chọn ít nhất 1 chương để ôn tập.");

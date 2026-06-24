@@ -38,27 +38,14 @@
             <div class="glass-panel fade-in-up">
                 <button class="icon-btn back-btn" onclick="app.showHome()"><i data-feather="arrow-left"></i> Quay lại</button>
                 <h2>Chọn chương ôn tập</h2>
-                <div class="checkbox-group">
-                    <label class="custom-checkbox">
-                        <input type="checkbox" value="1" id="chap1" checked>
-                        <span class="checkmark"></span>
-                        Chương 1: Tổng quan <span id="count-chap1" style="color:var(--text-secondary); margin-left:0.5rem"></span>
-                    </label>
-                    <label class="custom-checkbox">
-                        <input type="checkbox" value="2" id="chap2" checked>
-                        <span class="checkmark"></span>
-                        Chương 2: Các kiến trúc cơ bản <span id="count-chap2" style="color:var(--text-secondary); margin-left:0.5rem"></span>
-                    </label>
-                    <label class="custom-checkbox">
-                        <input type="checkbox" value="3" id="chap3" checked>
-                        <span class="checkmark"></span>
-                        Chương 3: Thiết kế kiến trúc phần mềm <span id="count-chap3" style="color:var(--text-secondary); margin-left:0.5rem"></span>
-                    </label>
-                    <label class="custom-checkbox">
-                        <input type="checkbox" value="4" id="chap4" checked>
-                        <span class="checkmark"></span>
-                        Chương 4: Thiết kế mẫu (Design Patterns) <span id="count-chap4" style="color:var(--text-secondary); margin-left:0.5rem"></span>
-                    </label>
+                <div class="form-group" style="margin-bottom: 20px;">
+                    <select id="chapter-select" style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: rgba(255, 255, 255, 0.05); color: var(--text-primary); font-size: 1.05rem; outline: none; cursor: pointer; font-family: inherit;">
+                        <option value="all" style="background: var(--bg-color); color: var(--text-primary);">Tất cả các chương</option>
+                        <option value="1" style="background: var(--bg-color); color: var(--text-primary);">Chương 1: Tổng quan</option>
+                        <option value="2" style="background: var(--bg-color); color: var(--text-primary);">Chương 2: Các kiến trúc cơ bản</option>
+                        <option value="3" style="background: var(--bg-color); color: var(--text-primary);">Chương 3: Thiết kế kiến trúc phần mềm</option>
+                        <option value="4" style="background: var(--bg-color); color: var(--text-primary);">Chương 4: Thiết kế mẫu (Design Patterns)</option>
+                    </select>
                 </div>
                 <button class="primary-btn full-width mt-4" onclick="app.startRevision()">Bắt đầu ôn tập</button>
             </div>
