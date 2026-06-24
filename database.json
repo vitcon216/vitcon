@@ -57,7 +57,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Giảm thiểu công sức bảo trì và nâng cấp phần mềm",
-      "detailed_explanation": "<strong>Giải thích:</strong> Mục tiêu quan trọng nhất là tạo ra một hệ thống dễ hiểu, dễ quản lý, từ đó giảm thiểu công sức bảo trì và nâng cấp phần mềm sau này.<br/>- <strong>Loại A:</strong> Tạo ra mã nguồn phức tạp là điều tối kỵ trong kỹ thuật phần mềm.<br/>- <strong>Loại C:</strong> Tối ưu hiệu suất phần cứng là việc của hệ điều hành hoặc kỹ sư phần cứng, kiến trúc phần mềm tối ưu hiệu suất phần mềm.<br/>- <strong>Loại D:</strong> Tính thẩm mỹ giao diện thuộc về lĩnh vực UI/UX Design."
+      "detailed_explanation": "<strong>Giải thích:</strong> Cấu trúc tổng thể của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc chi phối thiết kế và phát triển.<br/>- <strong>Loại A:</strong> Quá trình viết mã là khâu lập trình (Implementation), chỉ là một phần nhỏ.<br/>- <strong>Loại C:</strong> Giao diện và ngôn ngữ lập trình là chi tiết cài đặt cụ thể, kiến trúc phần mềm không bắt buộc phải quy định cứng nhắc các chi tiết này ở mức độ tổng quát."
     },
     {
       "id": "q_5",
@@ -147,7 +147,7 @@
       ],
       "correctAnswer": "C",
       "explanation": "Làm khối xây dựng cơ bản của kiến trúc phần mềm",
-      "detailed_explanation": "<strong>Giải thích:</strong> Thành phần đóng vai trò như những viên gạch (khối xây dựng cơ bản) để lắp ráp và cấu thành nên toàn bộ kiến trúc hệ thống.<br/>- <strong>Loại A:</strong> Quản lý tài nguyên là nhiệm vụ của OS hoặc middleware.<br/>- <strong>Loại B:</strong> Chỉ là vai trò của thành phần UI, không đại diện cho mọi thành phần phần mềm.<br/>- <strong>Loại D:</strong> Tối ưu hiệu suất phần cứng không phải chức năng cốt lõi."
+      "detailed_explanation": "<strong>Giải thích:</strong> Cấu trúc tổng thể của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc chi phối thiết kế và phát triển.<br/>- <strong>Loại A:</strong> Quá trình viết mã là khâu lập trình (Implementation), chỉ là một phần nhỏ.<br/>- <strong>Loại C:</strong> Giao diện và ngôn ngữ lập trình là chi tiết cài đặt cụ thể, kiến trúc phần mềm không bắt buộc phải quy định cứng nhắc các chi tiết này ở mức độ tổng quát."
     },
     {
       "id": "q_11",
@@ -296,8 +296,7 @@
         "D. Kết nối trung gian"
       ],
       "correctAnswer": "C",
-      "explanation": "Kết nối luồng",
-      "detailed_explanation": "<strong>Giải thích:</strong> Kết nối luồng (Stream connector như TCP socket, pipe) được dùng để bơm liên tục một lượng lớn dữ liệu (streaming) giữa các tiến trình mà không làm gián đoạn.<br/>- <strong>Loại A:</strong> Gọi thủ tục (RPC) thường dùng cho lệnh ngắn, dữ liệu nhỏ.<br/>- <strong>Loại B:</strong> Kết nối sự kiện chỉ gửi thông điệp ngắn gọn (Event/Message).<br/>- <strong>Loại D:</strong> Trung gian (Broker) có thể bị nghẽn nếu truyền dữ liệu luồng khổng lồ liên tục."
+      "explanation": "Kết nối luồng"
     },
     {
       "id": "q_21",
@@ -717,7 +716,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Phương pháp thiết kế linh hoạt, lặp đi lặp lại và có khả năng thích ứng với thay đổi",
-      "detailed_explanation": "<strong>Giải thích:</strong> Là cách làm việc lặp đi lặp lại (iterative), chia nhỏ yêu cầu và phản hồi liên tục, luôn sẵn sàng thích ứng trước các thay đổi.<br/>- <strong>Loại A:</strong> Lên kế hoạch chi tiết từ đầu là mô hình thác nước (Waterfall).<br/>- <strong>Loại C:</strong> Áp dụng được cho cả dự án nhỏ.<br/>- <strong>Loại D:</strong> Cực kỳ cần sự tham gia của khách hàng."
+      "detailed_explanation": "<strong>Giải thích:</strong> Agile chia nhỏ dự án thành các chu kỳ ngắn, giúp đội ngũ có thể quay xe, thay đổi thiết kế ngay lập tức nếu yêu cầu thị trường biến động, giảm rủi ro đi sai hướng kéo dài.<br/>- <strong>Loại B:</strong> Không hẳn tiết kiệm chi phí, đôi khi phải làm đi làm lại (Refactor).<br/>- <strong>Loại C:</strong> Agile không hứa hẹn sản phẩm hoàn hảo ngay lần đầu, mà hoàn thiện dần qua các vòng lặp.<br/>- <strong>Loại D:</strong> Agile đòi hỏi khách hàng tham gia liên tục (Feedback loop)."
     },
     {
       "id": "q_49",
@@ -732,7 +731,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Phương pháp thiết kế dựa trên phân tích dữ liệu người dùng",
-      "detailed_explanation": "<strong>Giải thích:</strong> Data-Driven Design là việc sử dụng thông tin định lượng (Analytics, Logging, A/B Testing) để hướng dẫn và chứng minh các quyết định thiết kế thay vì cảm tính.<br/>- <strong>Loại A:</strong> Thiết kế cảm tính là đối lập với DDD.<br/>- <strong>Loại C, D:</strong> Xu hướng hay ý kiến khách hàng (định tính) chỉ là một phần nhỏ, cốt lõi phải là phân tích bộ dữ liệu thực tế."
+      "detailed_explanation": "<strong>Giải thích:</strong> DDD (Data-Driven Design) dùng số liệu thực tế (A/B testing, Analytics) để quyết định, tránh các định kiến chủ quan, giúp sản phẩm đi đúng hướng.<br/>- <strong>Loại A:</strong> Phân tích dữ liệu đôi khi lại gò bó bớt tính \"bay bổng\" sáng tạo.<br/>- <strong>Loại C:</strong> Đôi khi phải tốn kém xây dựng hệ thống thu thập dữ liệu (Analytics/Big Data).<br/>- <strong>Loại D:</strong> Phân tích dữ liệu có thể tốn thời gian hơn là \"đoán đại\"."
     },
     {
       "id": "q_50",
@@ -791,8 +790,7 @@
         "D. Để hoàn thiện thiết kế trước khi ra mắt."
       ],
       "correctAnswer": "B",
-      "explanation": "Để kiểm tra tính khả thi của thiết kế với người dùng",
-      "detailed_explanation": "<strong>Giải thích:</strong> Prototyping cho phép người dùng tương tác thử với ý tưởng (trên bản nháp/Figma) để xem họ có hiểu và thao tác được không, trước khi tốn tiền code thật.<br/>- <strong>Loại A:</strong> Giúp tiết kiệm chi phí, nhưng mục tiêu là để kiểm tra khả năng sử dụng (usability).<br/>- <strong>Loại C:</strong> Gây ấn tượng cho nhà đầu tư không phải mục đích cốt lõi của UCD.<br/>- <strong>Loại D:</strong> Không cần hoàn thiện, mẫu thử chỉ cần đủ để test."
+      "explanation": "Để kiểm tra tính khả thi của thiết kế với người dùng"
     },
     {
       "id": "q_54",
@@ -837,7 +835,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Thu thập và phân tích dữ liệu",
-      "detailed_explanation": "<strong>Giải thích:</strong> Muốn \"dựa trên dữ liệu\" thì việc đầu tiên phải có hệ thống thu thập dữ liệu (tracking) và phân tích nó để tìm ra vấn đề trước.<br/>- <strong>Loại A, C, D:</strong> Đều là các bước sau (tạo bản vẽ, làm prototype, test) khi đã có insight từ dữ liệu."
+      "detailed_explanation": "<strong>Giải thích:</strong> Data-Driven Design là việc sử dụng thông tin định lượng (Analytics, Logging, A/B Testing) để hướng dẫn và chứng minh các quyết định thiết kế thay vì cảm tính.<br/>- <strong>Loại A:</strong> Thiết kế cảm tính là đối lập với DDD.<br/>- <strong>Loại C, D:</strong> Xu hướng hay ý kiến khách hàng (định tính) chỉ là một phần nhỏ, cốt lõi phải là phân tích bộ dữ liệu thực tế."
     },
     {
       "id": "q_57",
@@ -912,7 +910,7 @@
       ],
       "correctAnswer": "C",
       "explanation": "Khả năng diễn giải dữ liệu và đưa ra quyết định thiết kế phù hợp",
-      "detailed_explanation": "<strong>Giải thích:</strong> Thu thập dữ liệu đã dễ nhờ các công cụ (Google Analytics), nhưng việc \"đọc hiểu\" con số đó và ra quyết định thay đổi UI/UX sao cho trúng đích mới là phần khó và cần chuyên môn cao nhất.<br/>- <strong>Loại A:</strong> Công cụ rất nhiều và miễn phí.<br/>- <strong>Loại B:</strong> Thu thập rất dễ bằng code tracking.<br/>- <strong>Loại D:</strong> Chi phí không nhất thiết quá cao."
+      "detailed_explanation": "<strong>Giải thích:</strong> Data-Driven Design là việc sử dụng thông tin định lượng (Analytics, Logging, A/B Testing) để hướng dẫn và chứng minh các quyết định thiết kế thay vì cảm tính.<br/>- <strong>Loại A:</strong> Thiết kế cảm tính là đối lập với DDD.<br/>- <strong>Loại C, D:</strong> Xu hướng hay ý kiến khách hàng (định tính) chỉ là một phần nhỏ, cốt lõi phải là phân tích bộ dữ liệu thực tế."
     },
     {
       "id": "q_62",
@@ -1061,7 +1059,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Chi phí hiệu suất do truyền dữ liệu giữa các bộ lọc.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Quá trình truyền, chuyển đổi định dạng và sao chép dữ liệu qua nhiều ống và bộ lọc khác nhau sinh ra chi phí hiệu năng (overhead).<br/>- <strong>Loại A:</strong> Có thể quản lý trạng thái, dù việc này có thể làm mất đi tính stateless lý tưởng.<br/>- <strong>Loại C:</strong> Việc xử lý lỗi không nhất thiết quá phức tạp nếu thiết kế từng module đủ tốt.<br/>- <strong>Loại D:</strong> Việc khó quản lý trạng thái chưa phải là thách thức nghiêm trọng nhất bằng việc độ trễ bị tăng cao khi luân chuyển dữ liệu."
+      "detailed_explanation": "<strong>Giải thích:</strong> Định nghĩa chuẩn của kiến trúc Pipe and Filter là chia quy trình thành các bước riêng biệt (bộ lọc) được liên kết bằng các kênh truyền tải (ống).<br/>- <strong>Loại A:</strong> Định nghĩa quá chung chung và chưa nêu rõ được cơ chế chia nhỏ quy trình.<br/>- <strong>Loại C:</strong> Đây là đặc điểm của kiến trúc chia sẻ bộ nhớ (Shared memory) hoặc Blackboard, nơi mọi thành phần cùng đọc/ghi vào một kho dữ liệu chung.<br/>- <strong>Loại D:</strong> Đây không phải là mẫu kiến trúc sinh ra để dành riêng cho giao diện người dùng (UI), mà dùng cho luồng xử lý dữ liệu."
     },
     {
       "id": "q_72",
@@ -1076,7 +1074,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Thực hiện một nhiệm vụ xử lý cụ thể.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Bộ lọc đóng vai trò nhận dữ liệu đầu vào, thực hiện một thao tác xử lý, biến đổi hoặc tính toán cụ thể, và đẩy dữ liệu đầu ra.<br/>- <strong>Loại A:</strong> Đây là chức năng chính của các \"ống\" (pipe).<br/>- <strong>Loại C:</strong> Lưu trữ dữ liệu thường không phải là nhiệm vụ của bộ lọc (chúng thường xử lý xong đẩy đi luôn).<br/>- <strong>Loại D:</strong> Việc hiển thị kết quả cuối cùng thường thuộc về hệ thống giao diện, bộ lọc chỉ làm nhiệm vụ logic xử lý."
+      "detailed_explanation": "<strong>Giải thích:</strong> Định nghĩa chuẩn của kiến trúc Pipe and Filter là chia quy trình thành các bước riêng biệt (bộ lọc) được liên kết bằng các kênh truyền tải (ống).<br/>- <strong>Loại A:</strong> Định nghĩa quá chung chung và chưa nêu rõ được cơ chế chia nhỏ quy trình.<br/>- <strong>Loại C:</strong> Đây là đặc điểm của kiến trúc chia sẻ bộ nhớ (Shared memory) hoặc Blackboard, nơi mọi thành phần cùng đọc/ghi vào một kho dữ liệu chung.<br/>- <strong>Loại D:</strong> Đây không phải là mẫu kiến trúc sinh ra để dành riêng cho giao diện người dùng (UI), mà dùng cho luồng xử lý dữ liệu."
     },
     {
       "id": "q_73",
@@ -1091,7 +1089,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Bộ lọc không trạng thái.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Các bộ lọc nên là không trạng thái (stateless), giúp chúng hoạt động độc lập tuyệt đối, dễ bảo trì, thay thế mà không lo ảnh hưởng lịch sử dữ liệu cũ.<br/>- <strong>Loại A:</strong> Các thành phần không được phụ thuộc lẫn nhau để đảm bảo tính độc lập.<br/>- <strong>Loại C:</strong> Dữ liệu được xử lý có chủ đích theo luồng, không phải ngẫu nhiên.<br/>- <strong>Loại D:</strong> Các ống chỉ được dùng làm kênh truyền dữ liệu, tuyệt đối không tham gia xử lý logic."
+      "detailed_explanation": "<strong>Giải thích:</strong> Định nghĩa chuẩn của kiến trúc Pipe and Filter là chia quy trình thành các bước riêng biệt (bộ lọc) được liên kết bằng các kênh truyền tải (ống).<br/>- <strong>Loại A:</strong> Định nghĩa quá chung chung và chưa nêu rõ được cơ chế chia nhỏ quy trình.<br/>- <strong>Loại C:</strong> Đây là đặc điểm của kiến trúc chia sẻ bộ nhớ (Shared memory) hoặc Blackboard, nơi mọi thành phần cùng đọc/ghi vào một kho dữ liệu chung.<br/>- <strong>Loại D:</strong> Đây không phải là mẫu kiến trúc sinh ra để dành riêng cho giao diện người dùng (UI), mà dùng cho luồng xử lý dữ liệu."
     },
     {
       "id": "q_74",
@@ -1331,7 +1329,7 @@
       ],
       "correctAnswer": "A",
       "explanation": "Khả năng mở rộng cao hơn, khả năng chịu lỗi tốt hơn và sự ghép nối lỏng lẻo.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Bằng cách tách biệt người gửi (Publisher) và người nhận (Subscriber), các thành phần hoàn toàn độc lập (loose coupling), rất dễ mở rộng và không bị lỗi dây chuyền (fault tolerance).<br/>- <strong>Loại B:</strong> Bảo mật không phải là một lợi ích tự nhiên sinh ra từ EDA.<br/>- <strong>Loại C:</strong> EDA thường làm hệ thống khó kiểm thử hơn do tính chất bất đồng bộ.<br/>- <strong>Loại D:</strong> Khả năng tái sử dụng mã thuộc về Component-based hoặc SOA nhiều hơn."
+      "detailed_explanation": "<strong>Giải thích:</strong> EDA là kiến trúc phân tán mà ở đó các thành phần không gọi hàm nhau trực tiếp mà tương tác gián tiếp bằng cách phát ra và lắng nghe các \"Sự kiện\" (Events).<br/>- <strong>Loại A:</strong> \"Các sự kiện giao tiếp với nhau\" là sai, vì sự kiện chỉ là gói dữ liệu, các \"thành phần\" (components) mới là thứ giao tiếp với nhau.<br/>- <strong>Loại C:</strong> Không bắt buộc giao tiếp qua CSDL chung, thường dùng Message Broker.<br/>- <strong>Loại D:</strong> Giao tiếp qua RPC là đặc trưng của kiến trúc hướng dịch vụ (SOA) hoặc Microservices gọi trực tiếp đồng bộ."
     },
     {
       "id": "q_90",
@@ -1346,7 +1344,7 @@
       ],
       "correctAnswer": "A",
       "explanation": "Độ phức tạp cao hơn, khó gỡ lỗi và khó kiểm thử.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Do tính chất bất đồng bộ và rải rác, việc dò tìm luồng dữ liệu (tracing), gỡ lỗi (debugging) và kiểm thử (testing) là cực kỳ khó khăn.<br/>- <strong>Loại B:</strong> EDA nổi tiếng vì khả năng mở rộng tuyệt vời, không phải hạn chế.<br/>- <strong>Loại C:</strong> Chi phí và tốc độ phát triển không cố định, phụ thuộc quy mô.<br/>- <strong>Loại D:</strong> Tính tương tác cực kì tốt (giữa các hệ thống dị đồng)."
+      "detailed_explanation": "<strong>Giải thích:</strong> EDA là kiến trúc phân tán mà ở đó các thành phần không gọi hàm nhau trực tiếp mà tương tác gián tiếp bằng cách phát ra và lắng nghe các \"Sự kiện\" (Events).<br/>- <strong>Loại A:</strong> \"Các sự kiện giao tiếp với nhau\" là sai, vì sự kiện chỉ là gói dữ liệu, các \"thành phần\" (components) mới là thứ giao tiếp với nhau.<br/>- <strong>Loại C:</strong> Không bắt buộc giao tiếp qua CSDL chung, thường dùng Message Broker.<br/>- <strong>Loại D:</strong> Giao tiếp qua RPC là đặc trưng của kiến trúc hướng dịch vụ (SOA) hoặc Microservices gọi trực tiếp đồng bộ."
     },
     {
       "id": "q_91",
@@ -1464,9 +1462,8 @@
         "C. Xử lý logic phức tạp giữa các thành phần.",
         "D. Cần mở rộng hệ thống."
       ],
-      "correctAnswer": "B",
-      "explanation": "Xử lý logic phức tạp giữa các thành phần.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Kiến trúc phân lớp là việc tổ chức mã nguồn hệ thống thành các tầng/lớp (layers) xếp chồng lên nhau. Mỗi lớp thực hiện một nhóm chức năng chuyên biệt (ví dụ: giao diện, nghiệp vụ, dữ liệu).<br/>- <strong>Loại A:</strong> Không thể chạy độc lập hoàn toàn vì lớp trên cần gọi lớp dưới.<br/>- <strong>Loại C:</strong> Thành phần phân tán tự động là đặc tính của Service-Oriented hoặc Microservices.<br/>- <strong>Loại D:</strong> Không có quy định bắt buộc phải kết nối chung bằng một \"bus\", việc gọi giữa các lớp thường là gọi hàm hoặc đối tượng."
+      "correctAnswer": "C",
+      "explanation": "Xử lý logic phức tạp giữa các thành phần."
     },
     {
       "id": "q_99",
@@ -1479,9 +1476,8 @@
         "C. Cả hai đều không phù hợp",
         "D. Không có kiến trúc nào ở trên"
       ],
-      "correctAnswer": "C",
-      "explanation": "Broker Topology",
-      "detailed_explanation": "<strong>Giải thích:</strong> Tách biệt mối quan tâm (Separation of Concerns) giúp hệ thống dễ hiểu, dễ kiểm thử, dễ bảo trì và có khả năng thay thế một lớp (ví dụ đổi UI) mà không làm hỏng lớp khác.<br/>- <strong>Loại A:</strong> Hiệu suất thường bị giảm (overhead) do dữ liệu phải đi xuyên qua nhiều lớp.<br/>- <strong>Loại B:</strong> Không giải quyết trực tiếp bài toán chịu tải hoặc khôi phục sau sự cố (Fault tolerance).<br/>- <strong>Loại D:</strong> Kiến trúc phân lớp vẫn có thể bị sập một phần gây ảnh hưởng dây chuyền."
+      "correctAnswer": "A",
+      "explanation": "Broker Topology"
     },
     {
       "id": "q_100",
@@ -1495,8 +1491,7 @@
         "D. Không có kiến trúc nào ở trên"
       ],
       "correctAnswer": "B",
-      "explanation": "Mediator Topology",
-      "detailed_explanation": "<strong>Giải thích:</strong> Khi một yêu cầu được gửi từ giao diện xuống database, nó phải đi qua lớp UI -> logic -> data access, gây ra độ trễ (latency/overhead). Đôi khi có hiện tượng \"Lỗ hổng kiến trúc\" (Architecture sinkhole) khi yêu cầu chỉ đi xuyên qua các lớp mà không có xử lý logic gì.<br/>- <strong>Loại A:</strong> Kiến trúc này đặc biệt nổi tiếng vì DỄ bảo trì, chứ không phải khó.<br/>- <strong>Loại C:</strong> Dễ hiểu và rõ ràng.<br/>- <strong>Loại D:</strong> Tái sử dụng là ưu điểm của nó."
+      "explanation": "Mediator Topology"
     },
     {
       "id": "q_101",
@@ -1509,9 +1504,8 @@
         "C. Cả hai đều phù hợp",
         "D. Không có kiến trúc nào ở trên"
       ],
-      "correctAnswer": "A",
-      "explanation": "Broker Topology",
-      "detailed_explanation": "<strong>Giải thích:</strong> Lớp trình bày (Presentation Layer / UI Layer) chịu trách nhiệm hiển thị thông tin ra màn hình và bắt các sự kiện tương tác của người dùng.<br/>- <strong>Loại B:</strong> Lớp nghiệp vụ xử lý logic tính toán ngầm.<br/>- <strong>Loại C:</strong> Lớp truy cập dữ liệu giao tiếp với Database.<br/>- <strong>Loại D:</strong> Lớp dịch vụ cung cấp API."
+      "correctAnswer": "B",
+      "explanation": "Broker Topology"
     },
     {
       "id": "q_102",
@@ -1525,8 +1519,7 @@
         "D. Không cần sử dụng Event Channel."
       ],
       "correctAnswer": "B",
-      "explanation": "Sử dụng Event Channel dạng Topic để cho phép nhiều dịch vụ nhận thông báo.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Là bộ não của ứng dụng, chứa các quy tắc kinh doanh (business rules), công thức tính toán và xử lý các luồng nghiệp vụ.<br/>- <strong>Loại A:</strong> Việc lưu trữ là của lớp dữ liệu.<br/>- <strong>Loại C:</strong> Giao diện là của Presentation Layer.<br/>- <strong>Loại D:</strong> Gọi API ngoài là của lớp Tích hợp/Dịch vụ."
+      "explanation": "Sử dụng Event Channel dạng Topic để cho phép nhiều dịch vụ nhận thông báo."
     },
     {
       "id": "q_103",
@@ -1539,9 +1532,8 @@
         "C. Lưu trữ tất cả các event trong Event Channel.",
         "D. Không cần lưu trữ event."
       ],
-      "correctAnswer": "B",
-      "explanation": "Lưu trữ tất cả các event trong Event Channel.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Data Access Layer (DAL) chuyên chịu trách nhiệm đọc/ghi, truy vấn dữ liệu từ cơ sở dữ liệu (Database) hoặc các kho lưu trữ khác.<br/>- <strong>Loại A:</strong> Không xử lý logic kinh doanh ở đây.<br/>- <strong>Loại C:</strong> Quản lý giao diện là của lớp trên cùng.<br/>- <strong>Loại D:</strong> Truyền nhận sự kiện thuộc về Broker hoặc Layer khác."
+      "correctAnswer": "C",
+      "explanation": "Lưu trữ tất cả các event trong Event Channel."
     },
     {
       "id": "q_104",
@@ -1554,9 +1546,8 @@
         "C. Sử dụng một Mediator để điều phối luồng sự kiện.",
         "D. Lưu trữ sự kiện \"đơn hàng được tạo\" trong cơ sở dữ liệu và cho phép các hệ thống khác truy vấn."
       ],
-      "correctAnswer": "A",
-      "explanation": "Sử dụng một message broker để nhận sự kiện \"đơn hàng được tạo\" và phân phối đến các hệ thống liên quan.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Xác thực (Authentication) và kiểm tra quyền thường được chặn ngay tại cửa vào (Presentation Layer hoặc đôi khi là Security/Service layer nằm phía trước) để từ chối các request không hợp lệ trước khi chúng đi sâu vào hệ thống.<br/>- <strong>Loại B, C, D:</strong> Đều có thể chứa một phần ủy quyền, nhưng tiếp nhận xác thực từ người dùng là ở Presentation/Controller."
+      "correctAnswer": "B",
+      "explanation": "Sử dụng một message broker để nhận sự kiện \"đơn hàng được tạo\" và phân phối đến các hệ thống liên quan."
     },
     {
       "id": "q_105",
@@ -1569,9 +1560,8 @@
         "C. Bằng cách sử dụng message broker để phân phối giao dịch đến các hệ thống xử lý khác nhau, không cho phép mở rộng hệ thống.",
         "D. Bằng cách xử lý giao dịch trực tiếp tại hệ thống tạo giao dịch."
       ],
-      "correctAnswer": "C",
-      "explanation": "Bằng cách sử dụng message broker để phân phối giao dịch đến các hệ thống xử lý khác nhau, cho phép mở rộng hệ thống dễ dàng.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Mô hình 3 lớp (3-Tier) là mô hình kinh điển nhất cho Web: Lớp Giao diện (Presentation), Lớp Nghiệp vụ (Business/Application), và Lớp Dữ liệu (Data).<br/>- <strong>Loại A:</strong> 1 lớp là Monolithic nguyên khối hỗn độn.<br/>- <strong>Loại B:</strong> 2 lớp thường là Client-Server thuần túy.<br/>- <strong>Loại D:</strong> 4 lớp thường cho các ứng dụng Enterprise phức tạp hơn."
+      "correctAnswer": "B",
+      "explanation": "Bằng cách sử dụng message broker để phân phối giao dịch đến các hệ thống xử lý khác nhau, cho phép mở rộng hệ thống dễ dàng."
     },
     {
       "id": "q_106",
@@ -1584,9 +1574,8 @@
         "C. Bằng cách phân tán luồng sự kiện trên nhiều hệ thống khác nhau.",
         "D. Bằng cách lưu trữ tất cả các sự kiện trong một cơ sở dữ liệu duy nhất."
       ],
-      "correctAnswer": "C",
-      "explanation": "Bằng cách tập trung tất cả luồng sự kiện tại Mediator và quản lý các tương tác giữa các thành phần.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Việc phân lớp giúp giảm thiểu tối đa tác động. Tuy nhiên nếu đổi giao diện/hàm (API) mà lớp trên gọi xuống lớp dưới, thì lớp liên quan trực tiếp sẽ phải cập nhật theo.<br/>- <strong>Loại A:</strong> Mọi thay đổi đều ảnh hưởng là sai, nếu chỉ đổi logic bên trong hàm thì không ảnh hưởng lớp khác.<br/>- <strong>Loại B:</strong> Hoàn toàn không ảnh hưởng là lý thuyết không tưởng nếu đổi Interface.<br/>- <strong>Loại D:</strong> Luôn ảnh hưởng đến giao diện là sai."
+      "correctAnswer": "B",
+      "explanation": "Bằng cách tập trung tất cả luồng sự kiện tại Mediator và quản lý các tương tác giữa các thành phần."
     },
     {
       "id": "q_107",
@@ -1599,9 +1588,8 @@
         "C. Sự kiện \"Thanh toán thành công\".",
         "D. Sự kiện \"Đơn hàng được tạo\"."
       ],
-      "correctAnswer": "B",
-      "explanation": "Sự kiện \"Đơn hàng được tạo\".",
-      "detailed_explanation": "<strong>Giải thích:</strong> Lớp này gọi là Cross-cutting concerns (Mối quan tâm cắt ngang), chứa các chức năng chung dùng cho mọi lớp như: Logging, Security (bảo mật), Exception handling.<br/>- <strong>Loại A:</strong> Dịch vụ thường có thể nằm ngang, nhưng \"Dịch vụ\" ở đây mang tính cung cấp tiện ích chung.<br/>- <strong>Loại C:</strong> Nghiệp vụ nằm ngang là sai cấu trúc.<br/>- <strong>Loại D:</strong> Lưu trữ luôn nằm ở tầng đáy."
+      "correctAnswer": "D",
+      "explanation": "Sự kiện \"Đơn hàng được tạo\"."
     },
     {
       "id": "q_108",
@@ -1616,7 +1604,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Một loại kiến trúc chia hệ thống thành nhiều lớp riêng biệt.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Kiến trúc phân lớp thường là \"đóng\" (Strict Layered). Nhưng đôi khi cho phép \"linh hoạt\" (Relaxed / Open Layered Architecture) để lớp UI gọi thẳng xuống Database đối với những query đọc dữ liệu quá đơn giản, giúp tránh sinkhole anti-pattern.<br/>- <strong>Loại A, C, D:</strong> Đều không liên quan đến cơ chế cho phép nhảy lớp của kiến trúc."
+      "detailed_explanation": "<strong>Giải thích:</strong> Tách biệt mối quan tâm (Separation of Concerns) giúp hệ thống dễ hiểu, dễ kiểm thử, dễ bảo trì và có khả năng thay thế một lớp (ví dụ đổi UI) mà không làm hỏng lớp khác.<br/>- <strong>Loại A:</strong> Hiệu suất thường bị giảm (overhead) do dữ liệu phải đi xuyên qua nhiều lớp.<br/>- <strong>Loại B:</strong> Không giải quyết trực tiếp bài toán chịu tải hoặc khôi phục sau sự cố (Fault tolerance).<br/>- <strong>Loại D:</strong> Kiến trúc phân lớp vẫn có thể bị sập một phần gây ảnh hưởng dây chuyền."
     },
     {
       "id": "q_109",
@@ -1630,8 +1618,7 @@
         "D. Service Layer."
       ],
       "correctAnswer": "C",
-      "explanation": "Presentation Layer.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Nhờ tính tách biệt, chỉ có Lớp truy cập dữ liệu (Data Access Layer) chứa các câu lệnh SQL cụ thể mới cần sửa. Các lớp nghiệp vụ và UI không hề hay biết CSDL bên dưới là gì.<br/>- <strong>Loại A, B:</strong> Không cần thay đổi vì không dính dáng đến câu lệnh DB.<br/>- <strong>Loại D:</strong> Không cần đổi toàn bộ."
+      "explanation": "Presentation Layer."
     },
     {
       "id": "q_110",
@@ -1644,9 +1631,8 @@
         "C. Tất cả các lớp phải được triển khai trên cùng một máy chủ.",
         "D. Không có nguyên tắc nào quan trọng."
       ],
-      "correctAnswer": "A",
-      "explanation": "Các lớp chỉ nên giao tiếp với các lớp liền kề.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Đây là một tính năng hoàn chỉnh từ trên xuống dưới (Full-stack feature). UI cần thêm nút/màn hình thanh toán, Nghiệp vụ cần thêm logic tính tiền, Dữ liệu cần bảng lưu hóa đơn. Phải thay đổi cả 3 lớp.<br/>- <strong>Loại B, C, D:</strong> Đều thiếu, vì tính năng mới tác động toàn diện."
+      "correctAnswer": "B",
+      "explanation": "Các lớp chỉ nên giao tiếp với các lớp liền kề."
     },
     {
       "id": "q_111",
@@ -1659,9 +1645,8 @@
         "C. Khả năng tái sử dụng mã nguồn.",
         "D. Khả năng đa nhiệm."
       ],
-      "correctAnswer": "A",
-      "explanation": "Khả năng đa nhiệm.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Lớp trình bày (Presentation Layer) sẽ phải phân tách ra hoặc làm mới hoàn toàn (thành Frontend Web và Mobile App). Các lớp bên dưới (API, Logic, DB) hoàn toàn có thể giữ nguyên để dùng chung.<br/>- <strong>Loại B, C:</strong> Không bị ảnh hưởng nhiều.<br/>- <strong>Loại D:</strong> Không ảnh hưởng tất cả."
+      "correctAnswer": "D",
+      "explanation": "Khả năng đa nhiệm."
     },
     {
       "id": "q_112",
@@ -1674,9 +1659,8 @@
         "C. Lớp dữ liệu (Data Layer).",
         "D. Lớp dịch vụ (Service Layer)."
       ],
-      "correctAnswer": "A",
-      "explanation": "Lớp dữ liệu - Data Layer.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Nghẽn cổ chai (bottleneck) có thể xảy ra ở bất kỳ đâu: UI render chậm, logic tính toán lặp vô hạn, hoặc DB truy vấn không có index. Cần profile và tối ưu ở lớp gặp vấn đề.<br/>- <strong>Loại B, C, D:</strong> Chỉ định một lớp cụ thể là vội vàng và chưa chắc đã đúng nguyên nhân."
+      "correctAnswer": "C",
+      "explanation": "Lớp dữ liệu - Data Layer."
     },
     {
       "id": "q_113",
@@ -1689,9 +1673,8 @@
         "C. Các ứng dụng doanh nghiệp phức tạp.",
         "D. Tất cả các loại ứng dụng."
       ],
-      "correctAnswer": "B",
-      "explanation": "Các ứng dụng doanh nghiệp phức tạp.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Khi test lớp Nghiệp vụ, nó thường gọi xuống Lớp Dữ liệu. Để test độc lập (Unit Test) mà không cần database thật, ta phải tạo các Mock/Stub để làm giả Lớp Dữ liệu.<br/>- <strong>Loại A:</strong> Các lớp có thể chạy độc lập trong môi trường mock.<br/>- <strong>Loại C:</strong> Logic phân tán rải rác là vấn đề của Microservices, không phải của Layered.<br/>- <strong>Loại D:</strong> Thay đổi code không phải vấn đề cốt lõi của kiểm thử."
+      "correctAnswer": "C",
+      "explanation": "Các ứng dụng doanh nghiệp phức tạp."
     },
     {
       "id": "q_114",
@@ -1704,9 +1687,8 @@
         "C. Lớp dữ liệu (Data Layer).",
         "D. Lớp dịch vụ (Service Layer)."
       ],
-      "correctAnswer": "B",
-      "explanation": "Lớp trình bày - Presentation Layer.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Kiến trúc phân lớp thường là Monolithic (Nguyên khối). Việc mở rộng một chức năng nhỏ bắt buộc phải nhân bản toàn bộ cả khối ứng dụng, kém linh hoạt hơn nhiều so với việc chỉ scale một microservice độc lập.<br/>- <strong>Loại A:</strong> Quản lý dễ hơn nhưng khó phát triển và deploy độc lập.<br/>- <strong>Loại C:</strong> Bảo mật là một khái niệm rộng, không quyết định bởi mô hình này.<br/>- <strong>Loại D:</strong> Không thể luôn đảm bảo hiệu năng tốt hơn."
+      "correctAnswer": "A",
+      "explanation": "Lớp trình bày - Presentation Layer."
     },
     {
       "id": "q_115",
@@ -1719,9 +1701,8 @@
         "C. Lớp dữ liệu (Data Layer).",
         "D. Lớp dịch vụ (Service Layer)."
       ],
-      "correctAnswer": "B",
-      "explanation": "Lớp dữ liệu - Data Layer.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Event-driven phản hồi cực nhanh nhờ bất đồng bộ. Layered Architecture gọi hàm tuần tự đồng bộ từ trên xuống dưới nên độ trễ thường cao hơn.<br/>- <strong>Loại A:</strong> Không mở rộng dễ dàng hơn.<br/>- <strong>Loại C:</strong> Layered thường dễ debug hơn Event-driven.<br/>- <strong>Loại D:</strong> Bảo mật không liên quan trực tiếp."
+      "correctAnswer": "C",
+      "explanation": "Lớp dữ liệu - Data Layer."
     },
     {
       "id": "q_116",
@@ -1734,9 +1715,8 @@
         "C. Lớp dữ liệu (Data Layer).",
         "D. Lớp dịch vụ (Service Layer)."
       ],
-      "correctAnswer": "C",
-      "explanation": "Lớp dịch vụ - Service Layer.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Layered Architecture phân chia toàn bộ ứng dụng vật lý/logic (UI, BLL, DAL). MVC thường chỉ là một mẫu thiết kế dùng riêng ở trong tầng Presentation (Lớp trình bày) để điều hướng UI.<br/>- <strong>Loại A, B:</strong> Sai vì đánh đồng hai khái niệm khác mức độ.<br/>- <strong>Loại D:</strong> Không hề mâu thuẫn, MVC thường nằm gọn trong một lớp của Layered."
+      "correctAnswer": "D",
+      "explanation": "Lớp dịch vụ - Service Layer."
     },
     {
       "id": "q_117",
@@ -1749,9 +1729,8 @@
         "C. Lớp học liệu.",
         "D. Lớp dịch vụ (Service Layer)."
       ],
-      "correctAnswer": "A",
-      "explanation": "Lớp nghiệp vụ / Business Layer - Đề gốc có lỗi đánh máy thành 'Lớp học vụ'.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Phụ thuộc quy mô. Ứng dụng nhỏ/trung bình, team nhỏ thì dùng Layered cho nhanh và dễ quản lý. Ứng dụng khổng lồ, chia nhiều team thì dùng Microservices.<br/>- <strong>Loại B:</strong> Sai, Layered dùng cho nhỏ/vừa tốt hơn.<br/>- <strong>Loại C, D:</strong> Đây là quyết định chiến lược (Trade-off), không có cái nào luôn tốt hơn."
+      "correctAnswer": "B",
+      "explanation": "Lớp nghiệp vụ / Business Layer - Đề gốc có lỗi đánh máy thành 'Lớp học vụ'."
     },
     {
       "id": "q_118",
@@ -1764,9 +1743,8 @@
         "C. Lớp quản lý sách, lớp quản lý độc giả, lớp quản lý mượn/trả sách.",
         "D. Lớp trình bày, lớp nghiệp vụ."
       ],
-      "correctAnswer": "B",
-      "explanation": "Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu.",
-      "detailed_explanation": "<strong>Giải thích:</strong> \"Tính tiền phạt\" là một quy tắc kinh doanh (Business rule). Do đó, nó phải nằm ở Lớp nghiệp vụ (Business Logic Layer).<br/>- <strong>Loại A:</strong> Lớp trình bày chỉ hiển thị số tiền phạt.<br/>- <strong>Loại C:</strong> Lớp dữ liệu chỉ lưu con số.<br/>- <strong>Loại D:</strong> Lớp dịch vụ thường dùng gọi API ngoài."
+      "correctAnswer": "A",
+      "explanation": "Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu."
     },
     {
       "id": "q_119",
@@ -1780,8 +1758,7 @@
         "D. Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu, lớp dịch vụ, lớp bạn."
       ],
       "correctAnswer": "A",
-      "explanation": "Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu, lớp dịch vụ.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Các lớp tiêu chuẩn bao gồm: Trình bày (Web/App UI), Nghiệp vụ (Logic tính tiền, giảm giá), Dữ liệu (Lưu Database), và Dịch vụ (Gọi API cổng thanh toán VNPay, Momo...).<br/>- <strong>Loại B:</strong> Tên gọi hơi lộn xộn nhưng tương tự A, tuy nhiên A chuẩn về thuật ngữ hơn.<br/>- <strong>Loại C, D:</strong> Đưa các đối tượng (Người dùng, Bạn bè) làm tên lớp kiến trúc là sai hoàn toàn (đó là class/model trong OOP)."
+      "explanation": "Lớp trình bày, lớp nghiệp vụ, lớp dữ liệu, lớp dịch vụ."
     },
     {
       "id": "q_120",
@@ -1795,8 +1772,7 @@
         "D. Lớp người dùng sẽ tự quản lý các thông báo và quyết định thời điểm hiển thị."
       ],
       "correctAnswer": "C",
-      "explanation": "Lớp nghiệp vụ sẽ xử lý logic tương tác, xác định cần gửi thông báo và có thể gọi lớp dịch vụ để thực hiện việc gửi thông báo.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Lớp nghiệp vụ sẽ nhận diện logic (có người vừa bình luận), sau đó đưa ra quyết định \"phải thông báo\", và gọi Lớp dịch vụ (Notification Service/Push Server) để bắn thông báo đi.<br/>- <strong>Loại A:</strong> Lớp trình bày là Frontend, không được phép xử lý luồng sự kiện thông báo ngầm cho người khác.<br/>- <strong>Loại B:</strong> DB Trigger không được khuyến khích chứa business logic (trừ phi dùng kiến trúc đặc thù).<br/>- <strong>Loại D:</strong> Lớp \"người dùng\" không phải tên một tầng kiến trúc."
+      "explanation": "Lớp nghiệp vụ sẽ xử lý logic tương tác, xác định cần gửi thông báo và có thể gọi lớp dịch vụ để thực hiện việc gửi thông báo."
     },
     {
       "id": "q_121",
@@ -1810,8 +1786,7 @@
         "D. Lớp dịch vụ chịu trách nhiệm thu thập toàn bộ dữ liệu học tập và cung cấp API cho lớp trình bày để hiển thị tiến độ."
       ],
       "correctAnswer": "C",
-      "explanation": "Lớp nghiệp vụ nhận yêu cầu xem tiến độ từ lớp trình bày, truy xuất dữ liệu học tập từ lớp dữ liệu, thực hiện các phép tính cần thiết và trả kết quả về lớp trình bày.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Trình tự chuẩn mực của Layered Architecture: Yêu cầu từ UI (Trình bày) -> Truyền xuống Logic (Nghiệp vụ) -> Lấy dữ liệu thô (Dữ liệu) -> Logic tính toán phần trăm hoàn thành -> Trả về UI hiển thị.<br/>- <strong>Loại A:</strong> UI gọi thẳng DB là bỏ qua bảo mật và logic (trừ khi dùng Relaxed layers nhưng ít gặp với tính toán phức tạp).<br/>- <strong>Loại B:</strong> DB không nên tự chứa logic tính toán phức tạp.<br/>- <strong>Loại D:</strong> Dịch vụ không chịu trách nhiệm tính toán nội bộ của hệ thống lõi.<br/><br/>## Kiến trúc Gọi và Trả lời (Call and Return / Client-Server)"
+      "explanation": "Lớp nghiệp vụ nhận yêu cầu xem tiến độ từ lớp trình bày, truy xuất dữ liệu học tập từ lớp dữ liệu, thực hiện các phép tính cần thiết và trả kết quả về lớp trình bày."
     },
     {
       "id": "q_122",
@@ -1885,8 +1860,7 @@
         "D. Load balancer."
       ],
       "correctAnswer": "B",
-      "explanation": "Client.",
-      "detailed_explanation": "<strong>Giải thích:</strong> App điện thoại đóng vai trò là Client (Máy khách). Nó khởi tạo request HTTP RESTful đến Server và dùng JSON trả về để vẽ giao diện hiển thị cho user.<br/>- <strong>Loại A:</strong> Server cung cấp API.<br/>- <strong>Loại C, D:</strong> DB và Load balancer nằm ở phía backend."
+      "explanation": "Client."
     },
     {
       "id": "q_127",
@@ -1900,8 +1874,7 @@
         "D. Ứng dụng di động và dịch vụ thời tiết trực tuyến chia sẻ một cơ sở dữ liệu chung và cùng nhau cập nhật thông tin thời tiết."
       ],
       "correctAnswer": "C",
-      "explanation": "Ứng dụng di động gửi một yêu cầu đến dịch vụ thời tiết trực tuyến, yêu cầu dữ liệu thời tiết hiện tại cho vị trí của người dùng, và dịch vụ trả về dữ liệu này.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Mô hình Request - Response cơ bản. Ứng dụng (Client) xin dữ liệu thời tiết (Call/Request), dịch vụ (Server) tính toán và gửi về (Return/Response).<br/>- <strong>Loại A:</strong> App không thể lưu sẵn tất cả dữ liệu thời tiết thực tế được vì nó luôn biến động.<br/>- <strong>Loại B:</strong> Server không chủ động đẩy liên tục cho các app trừ khi dùng WebSocket, nhưng Request-Response (Call-return) là giao thức gửi-đáp truyền thống.<br/>- <strong>Loại D:</strong> Hai bên không bao giờ share chung Database vật lý."
+      "explanation": "Ứng dụng di động gửi một yêu cầu đến dịch vụ thời tiết trực tuyến, yêu cầu dữ liệu thời tiết hiện tại cho vị trí của người dùng, và dịch vụ trả về dữ liệu này."
     },
     {
       "id": "q_128",
@@ -1914,9 +1887,8 @@
         "C. Trình duyệt web gửi yêu cầu tìm kiếm (với các tiêu chí) đến máy chủ, máy chủ truy vấn cơ sở dữ liệu và trả về danh sách các phòng trống phù hợp.",
         "D. Các khách sạn tự động quảng cáo phòng trống của họ trực tiếp đến trình duyệt của người dùng."
       ],
-      "correctAnswer": "B",
-      "explanation": "Trình duyệt web gửi yêu cầu tìm kiếm (với các tiêu chí",
-      "detailed_explanation": "<strong>Giải thích:</strong> Ứng dụng email (như Outlook, Gmail app) cài trên máy người dùng là Client. Nó gửi yêu cầu tải thư đến Máy chủ (Server).<br/>- <strong>Loại A:</strong> Máy chủ lưu trữ là Server.<br/>- <strong>Loại C:</strong> Giao thức mạng chỉ là phương thức giao tiếp (như IMAP/POP3).<br/>- <strong>Loại D:</strong> Người dùng điều khiển Client, không phải là thành phần phần mềm.<br/><br/>## Kiến trúc Hướng Dịch Vụ (Service-Oriented Architecture - SOA)"
+      "correctAnswer": "C",
+      "explanation": "Trình duyệt web gửi yêu cầu tìm kiếm (với các tiêu chí"
     },
     {
       "id": "q_129",
@@ -1930,8 +1902,7 @@
         "D. Cả thiết bị đọc thẻ và máy chủ cùng nhau xác thực nhân viên mà không có sự trao đổi thông tin rõ ràng."
       ],
       "correctAnswer": "C",
-      "explanation": "Thiết bị đọc thẻ (client",
-      "detailed_explanation": "<strong>Giải thích:</strong> SOA giúp xây dựng các chức năng thành các \"dịch vụ\" độc lập, có thể dùng đi dùng lại ở nhiều dự án khác nhau (tái sử dụng), và dễ dàng liên kết (tích hợp) các nền tảng khác nhau thông qua mạng.<br/>- <strong>Loại A:</strong> SOA chia nhỏ hệ thống thành nhiều dịch vụ, do đó giảm sự phụ thuộc nguyên khối, tuy nhiên độ phức tạp quản trị mạng lại tăng lên.<br/>- <strong>Loại B:</strong> Bảo mật mạng thực tế khó hơn, và không giới hạn mở rộng.<br/>- <strong>Loại D:</strong> SOA luôn có độ trễ do gọi qua mạng, nên không tối ưu hóa mã nguồn chạy trên một máy cục bộ."
+      "explanation": "Thiết bị đọc thẻ (client"
     },
     {
       "id": "q_130",
@@ -1944,9 +1915,8 @@
         "C. Ứng dụng di động gửi yêu cầu bật đèn đến bộ điều khiển trung tâm, bộ điều khiển này xử lý và gửi lệnh đến đèn, sau đó có thể trả về trạng thái thành công cho ứng dụng.",
         "D. Các cảm biến tự động điều khiển đèn dựa trên dữ liệu thu thập được mà không cần sự can thiệp của ứng dụng di động hoặc bộ điều khiển trung tâm."
       ],
-      "correctAnswer": "B",
-      "explanation": "Ứng dụng di động gửi yêu cầu bật đèn đến bộ điều khiển trung tâm, bộ điều khiển này xử lý và gửi lệnh đến đèn, sau đó có thể trả về trạng thái thành công cho ứng dụng.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Xây dựng (hoặc thuê) một \"Dịch vụ tỷ giá\" độc lập. Ngân hàng và các ứng dụng vệ tinh chỉ cần gọi API của dịch vụ này để lấy dữ liệu.<br/>- <strong>Loại A:</strong> Tích hợp mã nguồn trực tiếp vào là Monolithic (Nguyên khối), làm ứng dụng phình to.<br/>- <strong>Loại C:</strong> Gửi email thủ công không phải là giải pháp phần mềm tự động.<br/>- <strong>Loại D:</strong> Database chung dẫn đến phụ thuộc chặt chẽ (tight coupling), trái với nguyên lý SOA."
+      "correctAnswer": "C",
+      "explanation": "Ứng dụng di động gửi yêu cầu bật đèn đến bộ điều khiển trung tâm, bộ điều khiển này xử lý và gửi lệnh đến đèn, sau đó có thể trả về trạng thái thành công cho ứng dụng."
     },
     {
       "id": "q_131",
@@ -1959,9 +1929,8 @@
         "C. Trình duyệt web gửi yêu cầu xin nghỉ phép đến phần mềm quản lý nhân sự, phần mềm này xử lý và trả về thông báo xác nhận hoặc từ chối cho trình duyệt.",
         "D. Cả trình duyệt web và phần mềm quản lý nhân sự cùng nhau xử lý yêu cầu xin nghỉ phép mà không có sự tương tác trực tiếp."
       ],
-      "correctAnswer": "B",
-      "explanation": "Trình duyệt web gửi yêu cầu xin nghỉ phép đến phần mềm quản lý nhân sự, phần mềm này xử lý và trả về thông báo xác nhận hoặc từ chối cho trình duyệt.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Do các dịch vụ giao tiếp với nhau qua môi trường mạng (HTTP/SOAP), độ trễ (latency) của mạng cộng với quá trình đóng gói/giải nén dữ liệu (serialize) làm tăng thời gian phản hồi so với gọi hàm nội bộ.<br/>- <strong>Loại A:</strong> SOA không giới hạn ngôn ngữ, các dịch vụ có thể viết bằng Java, C#, Python... tùy ý.<br/>- <strong>Loại C:</strong> Chi phí bảo trì có thể cao do kiến trúc mạng phức tạp.<br/>- <strong>Loại D:</strong> SOA rất dễ mở rộng bằng cách thêm server cho từng dịch vụ riêng biệt."
+      "correctAnswer": "C",
+      "explanation": "Trình duyệt web gửi yêu cầu xin nghỉ phép đến phần mềm quản lý nhân sự, phần mềm này xử lý và trả về thông báo xác nhận hoặc từ chối cho trình duyệt."
     },
     {
       "id": "q_132",
@@ -1975,8 +1944,7 @@
         "D. Một tệp dữ liệu."
       ],
       "correctAnswer": "C",
-      "explanation": "Một thực thể có trạng thái và hành vi.",
-      "detailed_explanation": "<strong>Giải thích:</strong> ESB (Enterprise Service Bus) là trái tim của hệ thống SOA truyền thống. Nó đứng ở giữa, nhận thông điệp, dịch từ chuẩn này sang chuẩn khác và tìm đúng dịch vụ đích để gửi đi.<br/>- <strong>Loại A:</strong> Router mạng chỉ chuyển tiếp gói tin ở tầng Network (IP), không hiểu logic ứng dụng.<br/>- <strong>Loại B:</strong> Load balancer cân bằng tải cho cùng một dịch vụ, không dịch định dạng.<br/>- <strong>Loại D:</strong> Database chỉ lưu trữ."
+      "explanation": "Một thực thể có trạng thái và hành vi."
     },
     {
       "id": "q_133",
@@ -1989,9 +1957,8 @@
         "C. Đa hình (Polymorphism)",
         "D. Trừu tượng (Abstraction)"
       ],
-      "correctAnswer": "B",
-      "explanation": "Đa hình - Polymorphism",
-      "detailed_explanation": "<strong>Giải thích:</strong> Các phần mềm cũ thường viết nguyên khối (monolithic) và không có cổng giao tiếp API (như REST/SOAP). Phải viết các Adapter hoặc \"đập đi xây lại\" một phần mới có thể bọc chúng thành Dịch vụ.<br/>- <strong>Loại A:</strong> Có thể dùng Adapter để giao tiếp dù khác ngôn ngữ.<br/>- <strong>Loại C:</strong> SOA không bắt buộc dùng chung Database.<br/>- <strong>Loại D:</strong> Legacy app không hỗ trợ thì càng cần SOA bọc lại, nhưng khó khăn chính là do bản thân app cũ không có thiết kế service."
+      "correctAnswer": "C",
+      "explanation": "Đa hình - Polymorphism"
     },
     {
       "id": "q_134",
@@ -2004,9 +1971,8 @@
         "C. Cho phép kế thừa giữa các lớp.",
         "D. Tạo ra các đối tượng đa hình."
       ],
-      "correctAnswer": "C",
-      "explanation": "Ẩn giấu thông tin chi tiết và bảo vệ dữ liệu.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Nhờ chia nhỏ thành các Service có Interface rõ ràng, công ty có thể chia thành nhiều Team. Team A làm Service A, Team B làm Service B hoàn toàn độc lập mà không dẫm chân lên code của nhau.<br/>- <strong>Loại A:</strong> Tốn nhiều thời gian thiết kế kiến trúc và DevOps hơn.<br/>- <strong>Loại B:</strong> Phải tốn tài nguyên quản lý mạng và server hơn.<br/>- <strong>Loại D:</strong> Độ bảo mật có thể phức tạp hơn vì có nhiều điểm vào (endpoints) trên mạng."
+      "correctAnswer": "B",
+      "explanation": "Ẩn giấu thông tin chi tiết và bảo vệ dữ liệu."
     },
     {
       "id": "q_135",
@@ -2020,8 +1986,7 @@
         "D. Kiểm thử đơn vị (unit testing)."
       ],
       "correctAnswer": "B",
-      "explanation": "Xác định các trường hợp sử dụng - use cases.",
-      "detailed_explanation": "<strong>Giải thích:</strong> SOA thường dùng Enterprise Service Bus (ESB) rất đồ sộ, nặng nề, tập trung quản lý logic tích hợp. Microservices chia nhỏ hơn nữa, dùng các giao thức cực nhẹ (như REST/gRPC), loại bỏ ESB để dịch vụ thực sự độc lập (Smart endpoints, dumb pipes).<br/>- <strong>Loại A:</strong> Microservices lại càng không chia sẻ Database (Database per service).<br/>- <strong>Loại C:</strong> Microservices mới là xu hướng hiện tại và tương lai.<br/>- <strong>Loại D:</strong> Microservices là phiên bản \"tiến hóa\" chia nhỏ hơn của SOA."
+      "explanation": "Xác định các trường hợp sử dụng - use cases."
     },
     {
       "id": "q_136",
@@ -2034,9 +1999,8 @@
         "C. Sơ đồ lớp (Class diagram)",
         "D. Sơ đồ lớp trạng thái (State diagram)"
       ],
-      "correctAnswer": "B",
-      "explanation": "Sơ đồ lớp - Class diagram",
-      "detailed_explanation": "<strong>Giải thích:</strong> SOA cực kỳ mạnh mẽ ở cấp độ doanh nghiệp lớn (Enterprise), nơi có hàng tá hệ thống cũ mới đan xen (ERP, CRM, Kế toán). SOA dùng ESB để tích hợp tất cả chúng lại với nhau.<br/>- <strong>Loại A:</strong> Khởi nghiệp/nhỏ nên dùng Monolithic hoặc Microservices nhẹ.<br/>- <strong>Loại C:</strong> Ưu tiên thời gian thực cực thấp thì không nên dùng mạng phân tán nhiều trễ.<br/>- <strong>Loại D:</strong> Không cần mở rộng thì dùng Monolithic cho rẻ."
+      "correctAnswer": "C",
+      "explanation": "Sơ đồ lớp - Class diagram"
     },
     {
       "id": "q_137",
@@ -2050,8 +2014,7 @@
         "D. Tổng hợp"
       ],
       "correctAnswer": "B",
-      "explanation": "Kết hợp - Association",
-      "detailed_explanation": "<strong>Giải thích:</strong> Trong kiến trúc phân lớp kết hợp hướng dịch vụ, Lớp Dịch vụ (Service Layer / API Layer) có chức năng mở cửa (expose) các API để các hệ thống/bệnh viện bên ngoài có thể gọi và lấy dữ liệu một cách an toàn.<br/>- <strong>Loại A:</strong> Lớp trình bày chỉ hiển thị nội bộ cho user ở bệnh viện đó.<br/>- <strong>Loại C:</strong> Lớp dữ liệu không bao giờ được phép cho bên ngoài truy cập trực tiếp vì rủi ro bảo mật khổng lồ.<br/>- <strong>Loại D:</strong> Lớp nghiệp vụ chỉ tính toán logic, cần Lớp dịch vụ bọc lại để giao tiếp mạng."
+      "explanation": "Kết hợp - Association"
     },
     {
       "id": "q_138",
@@ -2064,9 +2027,8 @@
         "C. Đóng gói",
         "D. Tổng hợp"
       ],
-      "correctAnswer": "C",
-      "explanation": "Tổng hợp - Aggregation/Composition",
-      "detailed_explanation": "<strong>Giải thích:</strong> Thanh toán của bên thứ ba (như VNPay, PayPal) là hệ thống độc lập, khác công ty, khác máy chủ. SOA (gọi API) giúp ứng dụng và hệ thống thanh toán hoạt động tách biệt, không cần biết bên kia code bằng gì hay lưu database ra sao.<br/>- <strong>Loại A:</strong> Không cần chung một cơ sở dữ liệu.<br/>- <strong>Loại B:</strong> Gọi qua mạng SOA thường chậm hơn gọi nội bộ trong phân lớp.<br/>- <strong>Loại D:</strong> Nếu code thanh toán hỏng, app vẫn có thể báo \"Lỗi thanh toán\" thay vì sập toàn bộ app.<br/><br/>## Mô hình hóa Dịch vụ & Thiết kế SOA"
+      "correctAnswer": "D",
+      "explanation": "Tổng hợp - Aggregation/Composition"
     },
     {
       "id": "q_139",
@@ -2079,9 +2041,8 @@
         "C. Đóng gói",
         "D. Trừu tượng"
       ],
-      "correctAnswer": "C",
-      "explanation": "Đa hình - Polymorphism / Hoặc D. Trừu tượng, tùy ngữ cảnh giáo trình nhưng Đa hình (overloading",
-      "detailed_explanation": "<strong>Giải thích:</strong> Trong mô hình đào tạo giáo dục, cốt lõi là Sinh viên, Lớp học và Giảng viên."
+      "correctAnswer": "B",
+      "explanation": "Đa hình - Polymorphism / Hoặc D. Trừu tượng, tùy ngữ cảnh giáo trình nhưng Đa hình (overloading"
     },
     {
       "id": "q_140",
@@ -2094,9 +2055,8 @@
         "C. Kiểm soát truy cập dựa trên vai trò (Role-based access control - RBAC)",
         "D. Sơ đồ lớp (Class diagram)"
       ],
-      "correctAnswer": "B",
-      "explanation": "Kiểm soát truy cập dựa trên vai trò - RBAC",
-      "detailed_explanation": "<strong>Giải thích:</strong> Thư viện xoay quanh thực thể Sách, người mượn (Độc giả) và quá trình mượn (Phiếu mượn)."
+      "correctAnswer": "C",
+      "explanation": "Kiểm soát truy cập dựa trên vai trò - RBAC"
     },
     {
       "id": "q_141",
@@ -2110,8 +2070,7 @@
         "D. Lớp Nhân viên"
       ],
       "correctAnswer": "C",
-      "explanation": "Lớp Vé",
-      "detailed_explanation": "<strong>Giải thích:</strong> Khách hàng đặt vé để đi trên một Chuyến bay. Ba thực thể chính là: Khách hàng, Chuyến bay, Vé máy bay."
+      "explanation": "Lớp Vé"
     },
     {
       "id": "q_142",
@@ -2124,9 +2083,8 @@
         "C. Lớp Điểm thi",
         "D. Lớp Giáo viên"
       ],
-      "correctAnswer": "A",
-      "explanation": "Lớp Điểm thi",
-      "detailed_explanation": "<strong>Giải thích:</strong> Bệnh viện xoay quanh việc Bác sĩ khám cho Bệnh nhân, và lưu lại trong Hồ sơ bệnh án."
+      "correctAnswer": "C",
+      "explanation": "Lớp Điểm thi"
     },
     {
       "id": "q_143",
@@ -2139,9 +2097,8 @@
         "C. Lớp Giảng viên đăng ký khóa học",
         "D. Lớp Đăng ký khóa học"
       ],
-      "correctAnswer": "A",
-      "explanation": "Lớp Đăng ký khóa học",
-      "detailed_explanation": "<strong>Giải thích:</strong> Khách hàng mua Sản phẩm, tạo ra các Đơn hàng."
+      "correctAnswer": "D",
+      "explanation": "Lớp Đăng ký khóa học"
     },
     {
       "id": "q_144",
@@ -2154,9 +2111,8 @@
         "C. {Khách hàng, Sản phẩm, Đơn hàng, Chi tiết đơn hàng}",
         "D. {Khách hàng, Sản phẩm, Kho, Nhà cung cấp}"
       ],
-      "correctAnswer": "A",
-      "explanation": "{Khách hàng, Sản phẩm, Đơn hàng, Chi tiết đơn hàng}",
-      "detailed_explanation": "<strong>Giải thích:</strong> Nhân sự (Nhân viên) làm việc ở các Phòng ban, và được trả Bảng lương."
+      "correctAnswer": "C",
+      "explanation": "{Khách hàng, Sản phẩm, Đơn hàng, Chi tiết đơn hàng}"
     },
     {
       "id": "q_145",
@@ -2170,8 +2126,7 @@
         "D. {Người tham gia, Sự kiện, Địa điểm, Thời gian}"
       ],
       "correctAnswer": "C",
-      "explanation": "{Người tham gia, Sự kiện, Đăng ký tham gia}",
-      "detailed_explanation": "<strong>Giải thích:</strong> Một sự kiện có người tham gia thông qua hành động đăng ký. (Người tham gia, Sự kiện, Đăng ký tham gia)."
+      "explanation": "{Người tham gia, Sự kiện, Đăng ký tham gia}"
     },
     {
       "id": "q_146",
@@ -2245,8 +2200,7 @@
         "D. Tính đa hình (Polymorphism)"
       ],
       "correctAnswer": "C",
-      "explanation": "Tính liên kết lỏng lẻo - Loose coupling",
-      "detailed_explanation": "<strong>Giải thích:</strong> Liên kết lỏng lẻo (Loose coupling) cho phép bên gọi (Consumer) chỉ cần biết Interface (WSDL/API) của bên cung cấp mà không cần biết bên kia code bằng ngôn ngữ gì hay dùng Database nào.<br/>- <strong>Loại A, B, D:</strong> Là đặc tính của Lập trình Hướng đối tượng (OOP)."
+      "explanation": "Tính liên kết lỏng lẻo - Loose coupling"
     },
     {
       "id": "q_151",
@@ -2320,8 +2274,7 @@
         "D. {Dịch vụ Khách hàng, Dịch vụ Sản phẩm, Dịch vụ Quản lý kho}"
       ],
       "correctAnswer": "B",
-      "explanation": "{Dịch vụ Khách hàng, Dịch vụ Sản phẩm, Dịch vụ Đặt hàng, Dịch vụ Thanh toán}",
-      "detailed_explanation": "<strong>Giải thích:</strong> Quản lý bán hàng gồm người mua (Khách hàng), hàng hóa (Sản phẩm), lên đơn (Đặt hàng) và thu tiền (Thanh toán)."
+      "explanation": "{Dịch vụ Khách hàng, Dịch vụ Sản phẩm, Dịch vụ Đặt hàng, Dịch vụ Thanh toán}"
     },
     {
       "id": "q_156",
@@ -2335,8 +2288,7 @@
         "D. {Dịch vụ Thành viên, Dịch vụ Công việc, Dịch vụ Báo cáo}"
       ],
       "correctAnswer": "B",
-      "explanation": "{Dịch vụ Thành viên, Dịch vụ Công việc, Dịch vụ Dự án}",
-      "detailed_explanation": "<strong>Giải thích:</strong> Xoay quanh Dự án, các Công việc trong dự án đó, và các Thành viên thực hiện."
+      "explanation": "{Dịch vụ Thành viên, Dịch vụ Công việc, Dịch vụ Dự án}"
     },
     {
       "id": "q_157",
@@ -2350,8 +2302,7 @@
         "D. {Dịch vụ Người dùng, Dịch vụ Giao dịch, Dịch vụ Mục tiêu tài chính}"
       ],
       "correctAnswer": "A",
-      "explanation": "{Dịch vụ Người dùng, Dịch vụ Giao dịch, Dịch vụ Báo cáo}",
-      "detailed_explanation": "<strong>Giải thích:</strong> Ứng dụng tài chính gồm Người dùng (tài khoản cá nhân), tạo ra các Giao dịch (thu/chi), và xem lại tổng kết thông qua Báo cáo."
+      "explanation": "{Dịch vụ Người dùng, Dịch vụ Giao dịch, Dịch vụ Báo cáo}"
     },
     {
       "id": "q_158",
@@ -2396,7 +2347,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "Đảm bảo phần mềm đáp ứng các yêu cầu chức năng và phi chức năng.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Mục đích tối thượng của kiến trúc là tạo ra một bản thiết kế đảm bảo phần mềm chạy đúng nghiệp vụ (yêu cầu chức năng) và chạy tốt, nhanh, bảo mật (yêu cầu phi chức năng).<br/>- <strong>Loại A:</strong> Chỉ tối ưu hiệu suất là chưa đủ, còn cần bảo trì, mở rộng, bảo mật...<br/>- <strong>Loại C:</strong> Tài liệu chỉ là sản phẩm phụ, bản thân thiết kế hệ thống mới là mục tiêu chính.<br/>- <strong>Loại D:</strong> Kiểm tra lỗi là nhiệm vụ của pha Testing."
+      "detailed_explanation": "<strong>Giải thích:</strong> Cấu trúc tổng thể của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc chi phối thiết kế và phát triển.<br/>- <strong>Loại A:</strong> Quá trình viết mã là khâu lập trình (Implementation), chỉ là một phần nhỏ.<br/>- <strong>Loại C:</strong> Giao diện và ngôn ngữ lập trình là chi tiết cài đặt cụ thể, kiến trúc phần mềm không bắt buộc phải quy định cứng nhắc các chi tiết này ở mức độ tổng quát."
     },
     {
       "id": "q_161",
@@ -2426,7 +2377,7 @@
       ],
       "correctAnswer": "C",
       "explanation": "Hiểu được vấn đề cần giải quyết.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Nếu không hiểu rõ \"Vấn đề cần giải quyết là gì\" (Phân tích yêu cầu), mọi thiết kế kỹ thuật phía sau đều trở nên vô nghĩa (Garbage in, Garbage out).<br/>- <strong>Loại A, B, D:</strong> Đều là các bước thực hiện sau khi đã hiểu rõ bài toán."
+      "detailed_explanation": "<strong>Giải thích:</strong> Cấu trúc tổng thể của một hệ thống phần mềm, bao gồm các thành phần, mối quan hệ giữa chúng và các nguyên tắc chi phối thiết kế và phát triển.<br/>- <strong>Loại A:</strong> Quá trình viết mã là khâu lập trình (Implementation), chỉ là một phần nhỏ.<br/>- <strong>Loại C:</strong> Giao diện và ngôn ngữ lập trình là chi tiết cài đặt cụ thể, kiến trúc phần mềm không bắt buộc phải quy định cứng nhắc các chi tiết này ở mức độ tổng quát."
     },
     {
       "id": "q_163",
@@ -2515,8 +2466,7 @@
         "D. Nguyên lý không tự lặp lại các chức năng."
       ],
       "correctAnswer": "A",
-      "explanation": "Nguyên lý đơn nhiệm - Single Responsibility Principle",
-      "detailed_explanation": "<strong>Giải thích:</strong> Nguyên lý Đơn nhiệm (Single Responsibility Principle - SRP) quy định mỗi module/lớp chỉ nên có một lý do duy nhất để thay đổi. Gom mọi thứ vào 1 cục (God object) là vi phạm SRP.<br/>- <strong>Loại B:</strong> Hiểu biết tối thiểu (Law of Demeter) nói về việc không gọi hàm bắc cầu quá sâu.<br/>- <strong>Loại C:</strong> Phân rã không phải tên nguyên lý chuẩn xác như Đơn nhiệm.<br/>- <strong>Loại D:</strong> Không lặp lại mã (DRY)."
+      "explanation": "Nguyên lý đơn nhiệm - Single Responsibility Principle"
     },
     {
       "id": "q_169",
@@ -2530,8 +2480,7 @@
         "D. Nguyên lý cực tiểu hóa thiết kế"
       ],
       "correctAnswer": "D",
-      "explanation": "Nguyên lý cực tiểu hóa thiết kế - YAGNI / KISS",
-      "detailed_explanation": "<strong>Giải thích:</strong> Nguyên lý cực tiểu hóa thiết kế (KISS - Keep It Simple Stupid, hoặc YAGNI - You Aren't Gonna Need It) khuyên rằng chỉ nên thiết kế những gì hiện tại cần thiết, không thiết kế thừa thãi (Over-engineering).<br/>- <strong>Loại A, B, C:</strong> Không liên quan trực tiếp đến việc nhồi nhét quá nhiều tính năng tương lai."
+      "explanation": "Nguyên lý cực tiểu hóa thiết kế - YAGNI / KISS"
     },
     {
       "id": "q_170",
@@ -2545,8 +2494,7 @@
         "D. Tách biệt các quan tâm"
       ],
       "correctAnswer": "D",
-      "explanation": "Tách biệt các quan tâm - Separation of Concerns",
-      "detailed_explanation": "<strong>Giải thích:</strong> Tách biệt các mối quan tâm (Separation of Concerns - SoC) là nguyên lý chia hệ thống thành các tầng độc lập để không \"dẫm chân\" lên nhau (Ví dụ điển hình là Layered Architecture).<br/>- <strong>Loại A:</strong> Đơn nhiệm áp dụng ở cấp độ Class/Function nhiều hơn.<br/>- <strong>Loại B, C:</strong> Không đại diện rõ nhất cho mô hình 3 lớp như ý D."
+      "explanation": "Tách biệt các quan tâm - Separation of Concerns"
     },
     {
       "id": "q_171",
@@ -2560,8 +2508,7 @@
         "D. Nguyên lý cực tiểu hóa thiết kế"
       ],
       "correctAnswer": "B",
-      "explanation": "Tính tiến hóa của kiến trúc",
-      "detailed_explanation": "<strong>Giải thích:</strong> Tính tiến hóa (Evolutionary Architecture) đảm bảo hệ thống có khả năng lớn lên, thay đổi và mở rộng theo thời gian mà không bị phá vỡ cấu trúc cũ.<br/>- <strong>Loại A, C, D:</strong> Là các nguyên lý hỗ trợ tính tiến hóa, nhưng bản chất linh hoạt mở rộng đại diện cho sự Tiến hóa."
+      "explanation": "Tính tiến hóa của kiến trúc"
     },
     {
       "id": "q_172",
@@ -2575,8 +2522,7 @@
         "D. Phác thảo giao diện người dùng (UI) ban đầu của hệ thống, bao gồm các màn hình cho phép người dùng tìm kiếm, mượn và trả sách."
       ],
       "correctAnswer": "C",
-      "explanation": "Thu thập và phân tích các yêu cầu của người dùng và các bên liên quan...",
-      "detailed_explanation": "<strong>Giải thích:</strong> Hiểu vấn đề chính là đi thu thập Requirement (Yêu cầu chức năng, phi chức năng) từ khách hàng.<br/>- <strong>Loại A:</strong> Là khâu Phân tích hướng đối tượng / Thiết kế chi tiết.<br/>- <strong>Loại B:</strong> Là khâu Thiết kế Dữ liệu.<br/>- <strong>Loại D:</strong> Là khâu Thiết kế Giao diện (Mockup)."
+      "explanation": "Thu thập và phân tích các yêu cầu của người dùng và các bên liên quan..."
     },
     {
       "id": "q_173",
@@ -2590,8 +2536,7 @@
         "D. Một sơ đồ kiến trúc phần mềm cấp cao ban đầu."
       ],
       "correctAnswer": "B",
-      "explanation": "Một danh sách các use case ưu tiên và các yêu cầu phi chức năng quan trọng.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Kết quả của khâu khảo sát yêu cầu là một danh sách các Use case (tính năng) ưu tiên và các kịch bản Quality Attributes (Yêu cầu phi chức năng).<br/>- <strong>Loại A, D:</strong> Là kết quả của bước Thiết kế kiến trúc.<br/>- <strong>Loại C:</strong> Là một phần, nhưng B bao quát hơn các khía cạnh cần cho KTPM."
+      "explanation": "Một danh sách các use case ưu tiên và các yêu cầu phi chức năng quan trọng."
     },
     {
       "id": "q_174",
@@ -2605,8 +2550,7 @@
         "D. Giảm thiểu rủi ro."
       ],
       "correctAnswer": "C",
-      "explanation": "Cải thiện khả năng hợp tác.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Khi có bản vẽ kiến trúc chia hệ thống thành Frontend, Backend, Database. Frontend team biết rõ họ làm gì, Backend biết họ làm gì. Nó cải thiện khả năng hợp tác (Communication).<br/>- <strong>Loại A, B, D:</strong> Không giải thích trực tiếp ý \"thành viên hiểu rõ vai trò\"."
+      "explanation": "Cải thiện khả năng hợp tác."
     },
     {
       "id": "q_175",
@@ -2620,8 +2564,7 @@
         "D. Bằng cách tối ưu hóa hiệu suất của phần mềm."
       ],
       "correctAnswer": "B",
-      "explanation": "Bằng cách xác định rõ các thành phần và mối quan hệ giữa chúng từ sớm.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Bằng cách phác thảo sơ đồ, ta thấy trước các điểm \"nghẽn\", các rủi ro phụ thuộc chéo trước khi đặt tay vào viết code, từ đó ngăn chặn thảm họa muộn màng.<br/>- <strong>Loại A:</strong> Ngôn ngữ chung giúp giao tiếp, không trực tiếp giảm rủi ro thiết kế.<br/>- <strong>Loại C, D:</strong> Là lợi ích phụ.<br/><br/>## Phần 2: Phương pháp ADD (Attribute-Driven Design) & Các Chiến thuật"
+      "explanation": "Bằng cách xác định rõ các thành phần và mối quan hệ giữa chúng từ sớm."
     },
     {
       "id": "q_176",
@@ -2634,9 +2577,8 @@
         "C. Đảm bảo chất lượng và hiệu suất.",
         "D. Hỗ trợ quá trình ra quyết định."
       ],
-      "correctAnswer": "B",
-      "explanation": "Là cơ sở để kiểm tra, phân tích.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Để bảo vệ dữ liệu đứng yên (Data at rest) khỏi hacker, chiến thuật tốt nhất là Mã hóa dữ liệu (Encryption) ngay tại cơ sở dữ liệu.<br/>- <strong>Loại A:</strong> Chỉ bảo vệ mật khẩu, không bảo vệ các dữ liệu khác.<br/>- <strong>Loại C:</strong> HTTPS chỉ bảo vệ dữ liệu đường truyền (Data in transit).<br/>- <strong>Loại D:</strong> Sao lưu (Backup) là chiến thuật Availability, không chống lộ dữ liệu."
+      "correctAnswer": "A",
+      "explanation": "Là cơ sở để kiểm tra, phân tích."
     },
     {
       "id": "q_177",
@@ -2649,9 +2591,8 @@
         "C. Tăng cường khả năng tái sử dụng.",
         "D. Hỗ trợ quá trình ra quyết định."
       ],
-      "correctAnswer": "C",
-      "explanation": "Cung cấp thông tin cần thiết, định hướng.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Áp dụng bộ nhớ đệm (Cache - như Redis) giúp giảm số lần truy vấn trực tiếp vào DB, làm giảm độ trễ (latency) và tăng thông lượng (throughput) cực mạnh để chịu tải lớn.<br/>- <strong>Loại A:</strong> Xác thực đa yếu tố là Security.<br/>- <strong>Loại B:</strong> Chuyển sang UDP sẽ làm mất gói tin, không dùng cho TMĐT.<br/>- <strong>Loại D:</strong> Log chi tiết làm giảm hiệu năng (do tốn I/O ghi đĩa)."
+      "correctAnswer": "A",
+      "explanation": "Cung cấp thông tin cần thiết, định hướng."
     },
     {
       "id": "q_178",
@@ -2664,9 +2605,8 @@
         "C. Bằng cách giảm thiểu rủi ro phát sinh trong quá trình phát triển.",
         "D. Bằng cách tăng cường khả năng tái sử dụng các thành phần."
       ],
-      "correctAnswer": "C",
-      "explanation": "Bằng cách tách thiết kế thành những quan tâm khác nhau.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Hệ thống điều khiển hàng không có tính mạng con người liên quan, nếu sập vài giây sẽ gây thảm họa. Do đó yêu cầu Availability (99.999%) là bắt buộc sống còn.<br/>- <strong>Loại A, B, D:</strong> Cần sẵn sàng nhưng không sinh tử/khẩn cấp bằng hệ thống hàng không."
+      "correctAnswer": "B",
+      "explanation": "Bằng cách tách thiết kế thành những quan tâm khác nhau."
     },
     {
       "id": "q_179",
@@ -2679,9 +2619,8 @@
         "C. Giai đoạn bảo trì.",
         "D. Giai đoạn phân tích yêu cầu."
       ],
-      "correctAnswer": "A",
-      "explanation": "Giai đoạn thiết kế kiến trúc.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Cân bằng tải chia đều truy cập ra nhiều server. Nếu 1 server sập, nó tự chuyển luồng qua server khác đang sống, đảm bảo hệ thống luôn \"Sẵn sàng\".<br/>- <strong>Loại B:</strong> Mã hóa là Security.<br/>- <strong>Loại C:</strong> Tự động khôi phục là tính năng của Orchestrator (như K8s), Load balancer chỉ phân phối tải.<br/>- <strong>Loại D:</strong> Giảm dung lượng là Compression."
+      "correctAnswer": "B",
+      "explanation": "Giai đoạn thiết kế kiến trúc."
     },
     {
       "id": "q_180",
@@ -2695,8 +2634,7 @@
         "D. Giá thành sản phẩm."
       ],
       "correctAnswer": "C",
-      "explanation": "Nguyên tắc thiết kế.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Chiến thuật (Tactic) là một quyết định/kỹ thuật thiết kế cụ thể (như Ping/Echo, Heartbeat, Active Queue) nhằm thỏa mãn một \"Thuộc tính chất lượng\" (Ví dụ: Availability).<br/>- <strong>Loại A, B:</strong> Quản lý dự án không liên quan đến cấu trúc kỹ thuật.<br/>- <strong>Loại D:</strong> Lựa chọn ngôn ngữ là Implementation."
+      "explanation": "Nguyên tắc thiết kế."
     },
     {
       "id": "q_181",
@@ -2710,8 +2648,7 @@
         "D. Khả năng mở rộng"
       ],
       "correctAnswer": "B",
-      "explanation": "Độ tin cậy.",
-      "detailed_explanation": "<strong>Giải thích:</strong> ADD là phương pháp thiết kế kiến trúc lặp đi lặp lại (Iterative), lấy các thuộc tính chất lượng (Security, Performance, Availability...) làm bánh lái (driver) để lựa chọn chiến thuật và mẫu thiết kế.<br/>- <strong>Loại A:</strong> Không chỉ là chức năng, mà tập trung chủ yếu vào phi chức năng.<br/>- <strong>Loại C:</strong> Là phương pháp thiết kế, không phải kiểm thử.<br/>- <strong>Loại D:</strong> Không tập trung vào giao diện."
+      "explanation": "Độ tin cậy."
     },
     {
       "id": "q_182",
@@ -2725,8 +2662,7 @@
         "D. Choose one or more design concepts that satisfy the selected drivers"
       ],
       "correctAnswer": "B",
-      "explanation": "Review Inputs",
-      "detailed_explanation": "<strong>Giải thích:</strong> ADD giúp tìm ra một thiết kế kiến trúc hoàn chỉnh có thể dung hòa và thỏa mãn cả chức năng (Use cases) lẫn chất lượng (Quality Attributes).<br/>- <strong>Loại A:</strong> Đánh giá chi phí không phải mục tiêu chính của kỹ thuật ADD.<br/>- <strong>Loại C:</strong> Không tối ưu quy trình phát triển (đó là việc của Agile).<br/>- <strong>Loại D:</strong> Không thiết kế CSDL chi tiết."
+      "explanation": "Review Inputs"
     },
     {
       "id": "q_183",
@@ -2739,9 +2675,8 @@
         "C. Bước 4: Choose one or more design concepts that satisfy the selected drivers",
         "D. Bước 5: Insta ntiate architectural elements, allocate responsibilities, and define interfaces."
       ],
-      "correctAnswer": "C",
-      "explanation": "Bước 5: Instantiate architectural elements, allocate responsibilities, and define interfaces.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Vì là phương pháp \"Thiết kế Kiến trúc\", người dùng chính xác nhất phải là Kiến trúc sư phần mềm (Software Architect).<br/>- <strong>Loại A, B, D:</strong> Dev, QA, PM không trực tiếp thiết kế kiến trúc tổng thể."
+      "correctAnswer": "D",
+      "explanation": "Bước 5: Instantiate architectural elements, allocate responsibilities, and define interfaces."
     },
     {
       "id": "q_184",
@@ -2785,8 +2720,7 @@
         "D. Một loại cơ sở dữ liệu kết hợp với các công cụ quản lý dự án, kịch bản kiểm thử."
       ],
       "correctAnswer": "C",
-      "explanation": "Sự kết hợp giữa các yêu cầu về chức năng và chất lượng \"định hình\" kiến trúc - Architectural drivers",
-      "detailed_explanation": "<strong>Giải thích:</strong> Nó bao gồm (Use cases quan trọng + Các thuộc tính chất lượng then chốt + Ràng buộc công nghệ). Đây là những yếu tố \"lái\" / \"định hình\" hướng đi của kiến trúc sư.<br/>- <strong>Loại A, B, D:</strong> Sai thuật ngữ chuyên ngành."
+      "explanation": "Sự kết hợp giữa các yêu cầu về chức năng và chất lượng \"định hình\" kiến trúc - Architectural drivers"
     },
     {
       "id": "q_187",
@@ -2815,8 +2749,7 @@
         "D. Bước 6: Sketch views and record design decisions"
       ],
       "correctAnswer": "B",
-      "explanation": "Bước 1: Review Inputs - Xác định yêu cầu đầu vào bao gồm chức năng và thuộc tính chất lượng",
-      "detailed_explanation": "<strong>Giải thích:</strong> Trong quy trình ADD (ADD 3.0), Bước 1: \"Review Inputs\" (Đánh giá đầu vào) là bước tập hợp, rà soát lại mọi tài liệu yêu cầu (Driver) từ khách hàng.<br/>- <strong>Loại A:</strong> Bước 2 là chọn driver cho một vòng lặp (iteration).<br/>- <strong>Loại C:</strong> Bước 4 là chọn concept (mẫu) thiết kế.<br/>- <strong>Loại D:</strong> Bước 6 là vẽ sơ đồ."
+      "explanation": "Bước 1: Review Inputs - Xác định yêu cầu đầu vào bao gồm chức năng và thuộc tính chất lượng"
     },
     {
       "id": "q_189",
@@ -2845,8 +2778,7 @@
         "D. Bước 7: Perform analysis of current design and review iteration goal and achievement of design purpose"
       ],
       "correctAnswer": "B",
-      "explanation": "Bước 4: Choose one or more design concepts that satisfy the selected drivers - Bước này tập trung vào việc chọn mẫu thiết kế và chiến thuật kiến trúc",
-      "detailed_explanation": "<strong>Giải thích:</strong> Bước 4 \"Choose design concepts\" (Lựa chọn khái niệm thiết kế) là lúc kiến trúc sư quyết định dùng chiến thuật gì (Ví dụ: Tactic \"Tăng hiệu năng\", Pattern \"Event-Driven\") để thỏa mãn driver thời gian thực."
+      "explanation": "Bước 4: Choose one or more design concepts that satisfy the selected drivers - Bước này tập trung vào việc chọn mẫu thiết kế và chiến thuật kiến trúc"
     },
     {
       "id": "q_191",
@@ -2860,8 +2792,7 @@
         "D. Bước 6: Sketch views and record design decisions"
       ],
       "correctAnswer": "C",
-      "explanation": "Bước 1: Review Inputs - Khả năng tương tác là một yêu cầu thuộc tính chất lượng, được xem xét và ghi nhận ở bước đầu vào",
-      "detailed_explanation": "<strong>Giải thích:</strong> Interoperability là một yêu cầu chất lượng (Quality Attribute). Việc xác định và ghi nhận nó diễn ra ở Bước 1: Review Inputs."
+      "explanation": "Bước 1: Review Inputs - Khả năng tương tác là một yêu cầu thuộc tính chất lượng, được xem xét và ghi nhận ở bước đầu vào"
     },
     {
       "id": "q_192",
@@ -2875,8 +2806,7 @@
         "D. Hệ thống có chi phí phát triển thấp và thời gian đưa ra thị trường nhanh chóng."
       ],
       "correctAnswer": "C",
-      "explanation": "Hệ thống đáp ứng các yêu cầu nghiêm ngặt về thời gian thực và độ tin cậy, giảm thiểu nguy cơ xảy ra tai nạn.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Do Architectural drivers của dự án này là An toàn (Safety) và Thời gian thực (Performance/Latency), ADD sẽ lái kiến trúc tập trung sinh ra kết quả thỏa mãn các yếu tố này, giúp giảm thiểu rủi ro sinh mạng.<br/>- <strong>Loại A, B:</strong> Mở rộng / UI đẹp không phải ưu tiên sống còn của nhà máy.<br/>- <strong>Loại D:</strong> Giá rẻ thường tỷ lệ nghịch với Safety hệ thống công nghiệp."
+      "explanation": "Hệ thống đáp ứng các yêu cầu nghiêm ngặt về thời gian thực và độ tin cậy, giảm thiểu nguy cơ xảy ra tai nạn."
     },
     {
       "id": "q_193",
@@ -2890,8 +2820,7 @@
         "D. Phần mềm CRM có khả năng tích hợp với nhiều hệ thống khác nhau."
       ],
       "correctAnswer": "B",
-      "explanation": "Phần mềm CRM có kiến trúc linh hoạt, cho phép dễ dàng tùy chỉnh và mở rộng để đáp ứng nhu cầu của từng ngành cụ thể.",
-      "detailed_explanation": "<strong>Giải thích:</strong> Driver ở đây là Tính linh hoạt (Modifiability) và Khả năng tùy biến (Customization). ADD sẽ chọn các Pattern như Microkernel hoặc Plugin-based để sinh ra kiến trúc dễ tùy chỉnh nhất.<br/>- <strong>Loại A, C, D:</strong> Đều lệch trọng tâm của bài toán là \"tùy chỉnh cho nhiều ngành\"."
+      "explanation": "Phần mềm CRM có kiến trúc linh hoạt, cho phép dễ dàng tùy chỉnh và mở rộng để đáp ứng nhu cầu của từng ngành cụ thể."
     },
     {
       "id": "q_194",
@@ -2934,7 +2863,7 @@
         "C. Abstract Factory",
         "D. Builder"
       ],
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "explanation": "State - Cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi.",
       "detailed_explanation": "<strong>Giải thích:</strong> Abstract Factory cung cấp interface để tạo ra các \"họ\" (families) đối tượng liên quan (như nút bấm, thanh cuộn...) cho từng nền tảng mà không chỉ định lớp cụ thể.<br/>- <strong>Loại A (Prototype):</strong> Tập trung vào việc nhân bản đối tượng.<br/>- <strong>Loại B (Factory Method):</strong> Thường chỉ tạo ra một sản phẩm duy nhất, không phù hợp tạo \"họ\" các sản phẩm giao diện.<br/>- <strong>Loại D (Builder):</strong> Dùng để lắp ráp đối tượng phức tạp thay vì tạo nhiều loại đối tượng theo nhóm nền tảng."
     },
@@ -2949,7 +2878,7 @@
         "C. Singleton",
         "D. Builder"
       ],
-      "correctAnswer": "D",
+      "correctAnswer": "B",
       "explanation": "Template Method - Định nghĩa một khung (skeleton",
       "detailed_explanation": "<strong>Giải thích:</strong> Mẫu Builder tách rời quá trình xây dựng một đối tượng phức tạp khỏi biểu diễn của nó, cho phép cùng một quy trình xây dựng có thể tạo ra các biểu diễn khác nhau (ví dụ xe thể thao, xe SUV).<br/>- <strong>Loại A (Prototype):</strong> Tạo bằng cách sao chép, không hỗ trợ xây dựng từng bước.<br/>- <strong>Loại B (Factory Method):</strong> Tạo đối tượng trong một bước duy nhất thay vì lắp ráp nhiều thành phần.<br/>- <strong>Loại C (Singleton):</strong> Chỉ cho phép tạo một đối tượng duy nhất của toàn hệ thống."
     },
@@ -2964,7 +2893,7 @@
         "C. Singleton",
         "D. Builder"
       ],
-      "correctAnswer": "A",
+      "correctAnswer": "B",
       "explanation": "Memento - Lưu lại trạng thái của đối tượng để khôi phục (undo",
       "detailed_explanation": "<strong>Giải thích:</strong> Mẫu Prototype cho phép tạo đối tượng mới bằng cách sao chép (clone) một nguyên mẫu đã tồn tại, giúp tiết kiệm chi phí khởi tạo.<br/>- <strong>Loại B (Factory Method):</strong> Yêu cầu khởi tạo đối tượng mới từ đầu dựa trên logic.<br/>- <strong>Loại C (Singleton):</strong> Đảm bảo chỉ có một thể hiện, hoàn toàn ngược lại với việc tạo bản sao.<br/>- <strong>Loại D (Builder):</strong> Xây dựng từng bước từ đầu, không tận dụng trạng thái của đối tượng cũ."
     },
@@ -2994,7 +2923,7 @@
         "C. Nó cho phép quản lý sự phụ thuộc một-nhiều giữa các đối tượng.",
         "D. Nó cho phép tạo ra các đối tượng theo yêu cầu của người dùng."
       ],
-      "correctAnswer": "A",
+      "correctAnswer": "B",
       "explanation": "Hành vi thay đổi theo trạng thái.",
       "detailed_explanation": "<strong>Giải thích:</strong> Builder giúp tách biệt quá trình lắp ráp (construction step-by-step) khỏi các bộ phận tạo nên nó, mang lại sự linh hoạt tối đa khi ráp các cấu hình khác nhau.<br/>- <strong>Loại B:</strong> Việc tạo đối tượng duy nhất là chức năng của Singleton.<br/>- <strong>Loại C:</strong> Phụ thuộc một-nhiều là chức năng của Observer.<br/>- <strong>Loại D:</strong> Quá chung chung, bất kỳ Creational pattern nào cũng đáp ứng yêu cầu người dùng."
     },
@@ -3069,7 +2998,7 @@
         "C. Adapter",
         "D. Decorator"
       ],
-      "correctAnswer": "A",
+      "correctAnswer": "B",
       "explanation": "Interpreter - Cung cấp bộ thông dịch và định nghĩa ngữ pháp cho ngôn ngữ đơn giản.",
       "detailed_explanation": "<strong>Giải thích:</strong> Bridge tách phần trừu tượng (Logic nền tảng) ra khỏi phần thực thi (Mã thực hiện trên từng OS), giúp có thể thêm nền tảng mới độc lập mà không phải sửa logic cốt lõi.<br/>- <strong>Loại B (Composite):</strong> Liên quan đến cấu trúc cây nhóm đối tượng.<br/>- <strong>Loại C (Adapter):</strong> Chuyển đổi giao diện không khớp, không phải để độc lập nền tảng.<br/>- <strong>Loại D (Decorator):</strong> Thêm trách nhiệm động cho đối tượng."
     },
@@ -3084,7 +3013,7 @@
         "C. Proxy",
         "D. Adapter"
       ],
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "explanation": "State - Cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi.",
       "detailed_explanation": "<strong>Giải thích:</strong> Proxy tạo ra một đối tượng đại diện để kiểm soát quyền truy cập hoặc áp dụng Lazy Initialization (trì hoãn khởi tạo đối tượng nặng cho tới khi cần).<br/>- <strong>Loại A (Facade):</strong> Cung cấp một giao diện đơn giản cho một hệ thống phức tạp.<br/>- <strong>Loại B (Flyweight):</strong> Chia sẻ trạng thái chung để tiết kiệm bộ nhớ khi có hàng triệu đối tượng.<br/>- <strong>Loại D (Adapter):</strong> Chuyển đổi giao diện."
     },
@@ -3114,7 +3043,7 @@
         "C. Proxy",
         "D. Adapter"
       ],
-      "correctAnswer": "A",
+      "correctAnswer": "B",
       "explanation": "Memento - Lưu lại trạng thái của đối tượng để khôi phục (undo",
       "detailed_explanation": "<strong>Giải thích:</strong> Facade đóng vai trò như \"mặt tiền\", cung cấp một phương thức gọi duy nhất, dễ dàng thay vì bắt client phải tương tác với hàng chục lớp con phức tạp.<br/>- <strong>Loại B (Flyweight):</strong> Nhằm mục đích tiết kiệm RAM, không phải đơn giản hóa giao diện.<br/>- <strong>Loại C (Proxy):</strong> Kiểm soát truy cập hoặc lazy load, không phải che giấu hệ thống lớn.<br/>- <strong>Loại D (Adapter):</strong> Chuyển đổi interface để tương thích, không mang tính \"gom chung\" che giấu nhiều lớp."
     },
