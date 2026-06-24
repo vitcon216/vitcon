@@ -186,22 +186,19 @@ class QuizApp {
             }
         });
 
-        let explanation = `<div style="margin-bottom: 8px;"><strong>Lý do chọn ${q.correctAnswer}:</strong> Phương án này đúng vì <em>"${correctText}"</em> đáp ứng chính xác nhất ngữ cảnh của câu hỏi.</div>`;
+        let explanation = `<div style="margin-bottom: 8px;"><strong>Giải thích:</strong> ${q.explanation && q.explanation.length > 5 ? q.explanation : correctText}</div>`;
         
-        if (wrongText) {
-            explanation += `<div style="color: #f87171; border-left: 2px solid #f87171; padding-left: 10px; margin-top: 10px;">
-                <strong>Tại sao ${userAns} sai?</strong><br/>
-                Bạn đã chọn: <em>"${wrongText}"</em>.<br/>
-                Phương án này không phù hợp hoặc chỉ đúng một phần, không phản ánh toàn diện bản chất vấn đề như đáp án ${q.correctAnswer}.
-            </div>`;
-        } else {
-            explanation += `<div style="color: var(--text-secondary); margin-top: 10px;">Các phương án còn lại đưa ra những đặc điểm không chính xác hoặc không phải cốt lõi của khái niệm.</div>`;
-        }
-        
-        // Thêm trích xuất từ file đáp án cũ nếu có
-        if (q.explanation && q.explanation.length > 5) {
-            explanation += `<div style="margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border);"><strong>Ghi chú gốc:</strong> ${q.explanation}</div>`;
-        }
+        q.options.forEach(opt => {
+            let letter = opt.substring(0, 1);
+            let text = opt.substring(2).trim();
+            if (letter !== q.correctAnswer) {
+                let reason = 'Phương án này không phản ánh đầy đủ bản chất hoặc không phải là đáp án đúng trong ngữ cảnh này.';
+                if (userAns && letter === userAns) {
+                    reason = 'Phương án bạn chọn không chính xác trong ngữ cảnh này.';
+                }
+                explanation += `<div style="margin-top: 4px;">- <strong>Loại ${letter}:</strong> ${text}. ${reason}</div>`;
+            }
+        });
 
         return explanation;
     }
