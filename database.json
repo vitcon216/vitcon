@@ -2834,7 +2834,7 @@
         "D. Builder"
       ],
       "correctAnswer": "C",
-      "explanation": "Chain of Responsibility - Truyền các sự kiện (GUI event bubbling",
+      "explanation": "Mẫu Singleton được sử dụng để đảm bảo rằng một lớp chỉ có duy nhất một thể hiện (instance) và cung cấp một điểm truy cập toàn cục tới thể hiện đó.",
       "detailed_explanation": "<strong>Giải thích:</strong> Mẫu Singleton được sử dụng để đảm bảo rằng một lớp chỉ có duy nhất một thể hiện (instance) và cung cấp một điểm truy cập toàn cục tới thể hiện đó.<br/>- <strong>Loại A (Factory Method):</strong> Dùng để tạo đối tượng thông qua interface, không giới hạn số lượng đối tượng được tạo ra.<br/>- <strong>Loại B (Abstract Factory):</strong> Dùng để tạo ra các họ đối tượng liên quan với nhau, không đảm bảo tính duy nhất.<br/>- <strong>Loại D (Builder):</strong> Dùng để xây dựng một đối tượng phức tạp từng bước, không liên quan đến việc giới hạn số lượng thể hiện."
     },
     {
@@ -2849,7 +2849,7 @@
         "D. Builder"
       ],
       "correctAnswer": "B",
-      "explanation": "Interpreter - Cung cấp bộ thông dịch và định nghĩa ngữ pháp cho ngôn ngữ đơn giản.",
+      "explanation": "Factory Method cung cấp một interface để tạo đối tượng, nhưng để các lớp con quyết định lớp nào sẽ được khởi tạo (PDF, Excel, Word).",
       "detailed_explanation": "<strong>Giải thích:</strong> Factory Method cung cấp một interface để tạo đối tượng, nhưng để các lớp con quyết định lớp nào sẽ được khởi tạo (PDF, Excel, Word).<br/>- <strong>Loại A (Prototype):</strong> Dùng để copy (clone) từ một mẫu có sẵn, không phải để tạo ra các loại báo cáo khác nhau.<br/>- <strong>Loại C (Singleton):</strong> Đảm bảo duy nhất một đối tượng, không phù hợp để tạo nhiều báo cáo.<br/>- <strong>Loại D (Builder):</strong> Dùng để xây dựng từng phần của đối tượng phức tạp, trong khi ở đây chỉ cần tạo ra toàn bộ báo cáo từ một loại."
     },
     {
@@ -2863,8 +2863,8 @@
         "C. Abstract Factory",
         "D. Builder"
       ],
-      "correctAnswer": "D",
-      "explanation": "State - Cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi.",
+      "correctAnswer": "C",
+      "explanation": "Abstract Factory cung cấp interface để tạo ra các \"họ\" (families) đối tượng liên quan (như nút bấm, thanh cuộn...) cho từng nền tảng mà không chỉ định lớp cụ thể.",
       "detailed_explanation": "<strong>Giải thích:</strong> Abstract Factory cung cấp interface để tạo ra các \"họ\" (families) đối tượng liên quan (như nút bấm, thanh cuộn...) cho từng nền tảng mà không chỉ định lớp cụ thể.<br/>- <strong>Loại A (Prototype):</strong> Tập trung vào việc nhân bản đối tượng.<br/>- <strong>Loại B (Factory Method):</strong> Thường chỉ tạo ra một sản phẩm duy nhất, không phù hợp tạo \"họ\" các sản phẩm giao diện.<br/>- <strong>Loại D (Builder):</strong> Dùng để lắp ráp đối tượng phức tạp thay vì tạo nhiều loại đối tượng theo nhóm nền tảng."
     },
     {
@@ -2878,8 +2878,8 @@
         "C. Singleton",
         "D. Builder"
       ],
-      "correctAnswer": "B",
-      "explanation": "Template Method - Định nghĩa một khung (skeleton",
+      "correctAnswer": "D",
+      "explanation": "Mẫu Builder tách rời quá trình xây dựng một đối tượng phức tạp khỏi biểu diễn của nó, cho phép cùng một quy trình xây dựng có thể tạo ra các biểu diễn khác nhau (ví dụ xe thể thao, xe SUV).",
       "detailed_explanation": "<strong>Giải thích:</strong> Mẫu Builder tách rời quá trình xây dựng một đối tượng phức tạp khỏi biểu diễn của nó, cho phép cùng một quy trình xây dựng có thể tạo ra các biểu diễn khác nhau (ví dụ xe thể thao, xe SUV).<br/>- <strong>Loại A (Prototype):</strong> Tạo bằng cách sao chép, không hỗ trợ xây dựng từng bước.<br/>- <strong>Loại B (Factory Method):</strong> Tạo đối tượng trong một bước duy nhất thay vì lắp ráp nhiều thành phần.<br/>- <strong>Loại C (Singleton):</strong> Chỉ cho phép tạo một đối tượng duy nhất của toàn hệ thống."
     },
     {
@@ -2893,8 +2893,8 @@
         "C. Singleton",
         "D. Builder"
       ],
-      "correctAnswer": "B",
-      "explanation": "Memento - Lưu lại trạng thái của đối tượng để khôi phục (undo",
+      "correctAnswer": "A",
+      "explanation": "Mẫu Prototype cho phép tạo đối tượng mới bằng cách sao chép (clone) một nguyên mẫu đã tồn tại, giúp tiết kiệm chi phí khởi tạo.",
       "detailed_explanation": "<strong>Giải thích:</strong> Mẫu Prototype cho phép tạo đối tượng mới bằng cách sao chép (clone) một nguyên mẫu đã tồn tại, giúp tiết kiệm chi phí khởi tạo.<br/>- <strong>Loại B (Factory Method):</strong> Yêu cầu khởi tạo đối tượng mới từ đầu dựa trên logic.<br/>- <strong>Loại C (Singleton):</strong> Đảm bảo chỉ có một thể hiện, hoàn toàn ngược lại với việc tạo bản sao.<br/>- <strong>Loại D (Builder):</strong> Xây dựng từng bước từ đầu, không tận dụng trạng thái của đối tượng cũ."
     },
     {
@@ -2909,7 +2909,7 @@
         "D. Khi cần tạo ra các đối tượng có cấu trúc phức tạp."
       ],
       "correctAnswer": "B",
-      "explanation": "Yêu cầu được chuyển qua một chuỗi đối tượng, đối tượng phù hợp sẽ xử lý.",
+      "explanation": "Factory Method cung cấp sự linh hoạt khi hệ thống cần tạo đối tượng dựa trên giao diện hoặc lớp trừu tượng, và để lớp con quyết định lớp cụ thể nào được triển khai, thay vì gọi `new` làm mã bị kết dính.",
       "detailed_explanation": "<strong>Giải thích:</strong> Factory Method cung cấp sự linh hoạt khi hệ thống cần tạo đối tượng dựa trên giao diện hoặc lớp trừu tượng, và để lớp con quyết định lớp cụ thể nào được triển khai, thay vì gọi `new` làm mã bị kết dính.<br/>- <strong>Loại A:</strong> Việc quản lý đối tượng duy nhất là chức năng của Singleton.<br/>- <strong>Loại C:</strong> Quản lý danh sách đối tượng có thể dùng Collection hoặc Pool.<br/>- <strong>Loại D:</strong> Đối tượng cấu trúc phức tạp thì nên dùng Builder."
     },
     {
@@ -2923,8 +2923,8 @@
         "C. Nó cho phép quản lý sự phụ thuộc một-nhiều giữa các đối tượng.",
         "D. Nó cho phép tạo ra các đối tượng theo yêu cầu của người dùng."
       ],
-      "correctAnswer": "B",
-      "explanation": "Hành vi thay đổi theo trạng thái.",
+      "correctAnswer": "A",
+      "explanation": "Builder giúp tách biệt quá trình lắp ráp (construction step-by-step) khỏi các bộ phận tạo nên nó, mang lại sự linh hoạt tối đa khi ráp các cấu hình khác nhau.",
       "detailed_explanation": "<strong>Giải thích:</strong> Builder giúp tách biệt quá trình lắp ráp (construction step-by-step) khỏi các bộ phận tạo nên nó, mang lại sự linh hoạt tối đa khi ráp các cấu hình khác nhau.<br/>- <strong>Loại B:</strong> Việc tạo đối tượng duy nhất là chức năng của Singleton.<br/>- <strong>Loại C:</strong> Phụ thuộc một-nhiều là chức năng của Observer.<br/>- <strong>Loại D:</strong> Quá chung chung, bất kỳ Creational pattern nào cũng đáp ứng yêu cầu người dùng."
     },
     {
@@ -2939,7 +2939,7 @@
         "D. Việc thay đổi cấu hình sẽ tạo ra một đối tượng cấu hình mới và sẽ có rất nhiều cấu hình tồn tại trong suốt vòng đời của ứng dụng, đảm bảo tính nhất quán của ứng dụng."
       ],
       "correctAnswer": "B",
-      "explanation": "Thay đổi trạng thái một thành phần, các thành phần liên quan được thông báo.",
+      "explanation": "Singleton đảm bảo suốt vòng đời ứng dụng chỉ có duy nhất một đối tượng Configuration được khởi tạo và sử dụng toàn cục, đảm bảo tính nhất quán của dữ liệu.",
       "detailed_explanation": "<strong>Giải thích:</strong> Singleton đảm bảo suốt vòng đời ứng dụng chỉ có duy nhất một đối tượng Configuration được khởi tạo và sử dụng toàn cục, đảm bảo tính nhất quán của dữ liệu.<br/>- <strong>Loại A:</strong> Đi ngược lại mục đích Singleton (tạo nhiều đối tượng).<br/>- <strong>Loại C:</strong> Làm phân mảnh cấu hình, trái với bản chất nhất quán.<br/>- <strong>Loại D:</strong> Việc tạo đối tượng mới mỗi khi cấu hình thay đổi là không đúng với Singleton."
     },
     {
@@ -2954,7 +2954,7 @@
         "D. Bạn không thể tạo ra các họ thành phần giao diện (ví dụ: bộ nút và thanh cuộn) phù hợp với từng nền tảng một cách nhất quán.."
       ],
       "correctAnswer": "B",
-      "explanation": "Bạn có thể tạo ra các họ thành phần giao diện phù hợp với từng nền tảng một cách nhất quán.",
+      "explanation": "Abstract Factory đảm bảo rằng ứng dụng luôn tạo ra \"cùng một bộ/họ\" thành phần (như Windows Button đi với Windows Scrollbar), tránh râu ông nọ cắm cằm bà kia.",
       "detailed_explanation": "<strong>Giải thích:</strong> Abstract Factory đảm bảo rằng ứng dụng luôn tạo ra \"cùng một bộ/họ\" thành phần (như Windows Button đi với Windows Scrollbar), tránh râu ông nọ cắm cằm bà kia.<br/>- <strong>Loại A:</strong> Các thành phần giao diện không hề độc lập mà liên kết chặt chẽ theo cùng một họ nền tảng.<br/>- <strong>Loại C:</strong> Việc tạo theo từng bước cấu hình là đặc tính của Builder.<br/>- <strong>Loại D:</strong> Trái ngược với lợi ích cốt lõi của Abstract Factory."
     },
     {
@@ -2969,7 +2969,7 @@
         "D. Việc tạo đơn vị quân sẽ yêu cầu một quy trình xây dựng phức tạp để thiết lập các thuộc tính. Nhóm mẫu cấu trúc"
       ],
       "correctAnswer": "B",
-      "explanation": "Việc tạo các đơn vị quân mới sẽ nhanh hơn và tiết kiệm tài nguyên hơn so với việc khởi tạo từ đầu.",
+      "explanation": "Trong game, việc khởi tạo model lính từ đầu tốn rất nhiều tài nguyên bộ nhớ/CPU. Clone từ một prototype giúp quá trình spawn diễn ra cực nhanh và tối ưu.",
       "detailed_explanation": "<strong>Giải thích:</strong> Trong game, việc khởi tạo model lính từ đầu tốn rất nhiều tài nguyên bộ nhớ/CPU. Clone từ một prototype giúp quá trình spawn diễn ra cực nhanh và tối ưu.<br/>- <strong>Loại A:</strong> Các đơn vị clone giữ nguyên thuộc tính ban đầu chứ không ngẫu nhiên.<br/>- <strong>Loại C:</strong> Việc đẹp hơn, chuyên nghiệp hơn là do thiết kế đồ họa, không phải do mẫu thiết kế.<br/>- <strong>Loại D:</strong> Thiết lập thuộc tính phức tạp cần quy trình là đặc điểm của Builder."
     },
     {
@@ -2984,7 +2984,7 @@
         "D. Decorator"
       ],
       "correctAnswer": "C",
-      "explanation": "Chain of Responsibility - Truyền các sự kiện (GUI event bubbling",
+      "explanation": "Adapter (Bộ chuyển đổi) đóng vai trò trung gian, chuyển đổi giao diện của một lớp/thư viện thành giao diện mà client đang mong đợi.",
       "detailed_explanation": "<strong>Giải thích:</strong> Adapter (Bộ chuyển đổi) đóng vai trò trung gian, chuyển đổi giao diện của một lớp/thư viện thành giao diện mà client đang mong đợi.<br/>- <strong>Loại A (Bridge):</strong> Tách biệt Abstraction và Implementation để cả hai độc lập phát triển.<br/>- <strong>Loại B (Composite):</strong> Tổ chức các đối tượng theo cấu trúc cây (part-whole).<br/>- <strong>Loại D (Decorator):</strong> Thêm tính năng mở rộng cho đối tượng một cách linh hoạt lúc runtime."
     },
     {
@@ -2998,8 +2998,8 @@
         "C. Adapter",
         "D. Decorator"
       ],
-      "correctAnswer": "B",
-      "explanation": "Interpreter - Cung cấp bộ thông dịch và định nghĩa ngữ pháp cho ngôn ngữ đơn giản.",
+      "correctAnswer": "A",
+      "explanation": "Bridge tách phần trừu tượng (Logic nền tảng) ra khỏi phần thực thi (Mã thực hiện trên từng OS), giúp có thể thêm nền tảng mới độc lập mà không phải sửa logic cốt lõi.",
       "detailed_explanation": "<strong>Giải thích:</strong> Bridge tách phần trừu tượng (Logic nền tảng) ra khỏi phần thực thi (Mã thực hiện trên từng OS), giúp có thể thêm nền tảng mới độc lập mà không phải sửa logic cốt lõi.<br/>- <strong>Loại B (Composite):</strong> Liên quan đến cấu trúc cây nhóm đối tượng.<br/>- <strong>Loại C (Adapter):</strong> Chuyển đổi giao diện không khớp, không phải để độc lập nền tảng.<br/>- <strong>Loại D (Decorator):</strong> Thêm trách nhiệm động cho đối tượng."
     },
     {
@@ -3013,8 +3013,8 @@
         "C. Proxy",
         "D. Adapter"
       ],
-      "correctAnswer": "D",
-      "explanation": "State - Cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi.",
+      "correctAnswer": "C",
+      "explanation": "Proxy tạo ra một đối tượng đại diện để kiểm soát quyền truy cập hoặc áp dụng Lazy Initialization (trì hoãn khởi tạo đối tượng nặng cho tới khi cần).",
       "detailed_explanation": "<strong>Giải thích:</strong> Proxy tạo ra một đối tượng đại diện để kiểm soát quyền truy cập hoặc áp dụng Lazy Initialization (trì hoãn khởi tạo đối tượng nặng cho tới khi cần).<br/>- <strong>Loại A (Facade):</strong> Cung cấp một giao diện đơn giản cho một hệ thống phức tạp.<br/>- <strong>Loại B (Flyweight):</strong> Chia sẻ trạng thái chung để tiết kiệm bộ nhớ khi có hàng triệu đối tượng.<br/>- <strong>Loại D (Adapter):</strong> Chuyển đổi giao diện."
     },
     {
@@ -3029,7 +3029,7 @@
         "D. Nó giúp quản lý các đối tượng theo dạng cây phân cấp."
       ],
       "correctAnswer": "B",
-      "explanation": "Template Method - Định nghĩa một khung (skeleton",
+      "explanation": "Thư viện ngoài thường có chuẩn giao diện riêng (ví dụ XML), trong khi app dùng chuẩn khác (ví dụ JSON). Adapter biến đổi lời gọi để chúng tương thích.",
       "detailed_explanation": "<strong>Giải thích:</strong> Thư viện ngoài thường có chuẩn giao diện riêng (ví dụ XML), trong khi app dùng chuẩn khác (ví dụ JSON). Adapter biến đổi lời gọi để chúng tương thích.<br/>- <strong>Loại A:</strong> Không tạo ra đối tượng có \"cùng\" giao diện, mà chuyển đổi từ giao diện này sang giao diện khác.<br/>- <strong>Loại C:</strong> Việc tạo đối tượng duy nhất là Singleton.<br/>- <strong>Loại D:</strong> Quản lý theo cấu trúc phân cấp là Composite."
     },
     {
@@ -3043,8 +3043,8 @@
         "C. Proxy",
         "D. Adapter"
       ],
-      "correctAnswer": "B",
-      "explanation": "Memento - Lưu lại trạng thái của đối tượng để khôi phục (undo",
+      "correctAnswer": "A",
+      "explanation": "Facade đóng vai trò như \"mặt tiền\", cung cấp một phương thức gọi duy nhất, dễ dàng thay vì bắt client phải tương tác với hàng chục lớp con phức tạp.",
       "detailed_explanation": "<strong>Giải thích:</strong> Facade đóng vai trò như \"mặt tiền\", cung cấp một phương thức gọi duy nhất, dễ dàng thay vì bắt client phải tương tác với hàng chục lớp con phức tạp.<br/>- <strong>Loại B (Flyweight):</strong> Nhằm mục đích tiết kiệm RAM, không phải đơn giản hóa giao diện.<br/>- <strong>Loại C (Proxy):</strong> Kiểm soát truy cập hoặc lazy load, không phải che giấu hệ thống lớn.<br/>- <strong>Loại D (Adapter):</strong> Chuyển đổi interface để tương thích, không mang tính \"gom chung\" che giấu nhiều lớp."
     },
     {
@@ -3059,7 +3059,7 @@
         "D. Cho phép hệ thống của bạn làm việc với dữ liệu từ nguồn bên ngoài có thể cần thay đổi cấu trúc hiện tại của hệ thống."
       ],
       "correctAnswer": "B",
-      "explanation": "Yêu cầu được chuyển qua một chuỗi đối tượng, đối tượng phù hợp sẽ xử lý.",
+      "explanation": "Hệ thống cốt lõi vẫn giữ nguyên logic và chuẩn dữ liệu của mình. Mọi việc chuyển đổi từ dữ liệu nguồn bên ngoài sẽ do Adapter hứng chịu và biến đổi.",
       "detailed_explanation": "<strong>Giải thích:</strong> Hệ thống cốt lõi vẫn giữ nguyên logic và chuẩn dữ liệu của mình. Mọi việc chuyển đổi từ dữ liệu nguồn bên ngoài sẽ do Adapter hứng chịu và biến đổi.<br/>- <strong>Loại A:</strong> Không cần tạo giao diện mới hoàn toàn cho hệ thống.<br/>- <strong>Loại C:</strong> Đang nói về nguồn bên ngoài (External), không phải nguồn bên trong.<br/>- <strong>Loại D:</strong> Yêu cầu thay đổi cấu trúc hiện tại là sai, Adapter giúp tránh việc phải thay đổi mã cũ."
     },
     {
@@ -3074,7 +3074,7 @@
         "D. Ứng dụng sẽ có hiệu suất tối ưu trên một nền tảng cụ thể."
       ],
       "correctAnswer": "B",
-      "explanation": "Hành vi thay đổi theo trạng thái.",
+      "explanation": "Nhờ tách Abstraction và Implementation, phần logic ứng dụng có thể mở rộng thoải mái mà không bị dính chặt (coupled) vào mã render của từng hệ điều hành.",
       "detailed_explanation": "<strong>Giải thích:</strong> Nhờ tách Abstraction và Implementation, phần logic ứng dụng có thể mở rộng thoải mái mà không bị dính chặt (coupled) vào mã render của từng hệ điều hành.<br/>- <strong>Loại A:</strong> Giao diện giống hệt nhau là do công cụ UI, không phải lợi ích cốt lõi của Bridge.<br/>- <strong>Loại C:</strong> Nếu thay đổi liên quan mật thiết thì mã nguồn đã bị kết dính chặt (tight coupling), trái với Bridge.<br/>- <strong>Loại D:</strong> Bridge thiên về tính bảo trì và linh hoạt kiến trúc, không sinh ra tối ưu hóa hiệu suất nền tảng."
     },
     {
@@ -3089,7 +3089,7 @@
         "D. Bạn có giao diện của luồng dữ liệu trở nên đơn giản hơn. Nhóm mẫu hành vi"
       ],
       "correctAnswer": "B",
-      "explanation": "Thay đổi trạng thái một thành phần, các thành phần liên quan được thông báo.",
+      "explanation": "Decorator bọc (wrap) đối tượng ban đầu, cho phép bật/tắt (thêm/loại bỏ) các tính năng (như mã hóa, nén) lúc chạy (runtime) thay vì biên dịch bằng Subclass.",
       "detailed_explanation": "<strong>Giải thích:</strong> Decorator bọc (wrap) đối tượng ban đầu, cho phép bật/tắt (thêm/loại bỏ) các tính năng (như mã hóa, nén) lúc chạy (runtime) thay vì biên dịch bằng Subclass.<br/>- <strong>Loại A:</strong> Decorator cho phép gỡ bỏ linh hoạt (loại bỏ lớp bọc), không bị giới hạn.<br/>- <strong>Loại C:</strong> Thêm lớp Decorator thường làm giảm đôi chút hiệu suất do gọi hàm bọc nhiều lớp.<br/>- <strong>Loại D:</strong> Decorator giữ nguyên giao diện chứ không làm đơn giản hơn (việc làm đơn giản hơn là của Facade)."
     },
     {
@@ -3104,7 +3104,7 @@
         "D. Iterator"
       ],
       "correctAnswer": "C",
-      "explanation": "Chain of Responsibility - Truyền các sự kiện (GUI event bubbling",
+      "explanation": "Mẫu Chain of Responsibility truyền yêu cầu dọc theo chuỗi các đối tượng (ví dụ: Button -> Panel -> Window) cho đến khi có đối tượng bắt lấy và xử lý sự kiện (event bubbling).",
       "detailed_explanation": "<strong>Giải thích:</strong> Mẫu Chain of Responsibility truyền yêu cầu dọc theo chuỗi các đối tượng (ví dụ: Button -> Panel -> Window) cho đến khi có đối tượng bắt lấy và xử lý sự kiện (event bubbling).<br/>- <strong>Loại A (Command):</strong> Đóng gói một yêu cầu thành đối tượng, dùng cho undo/redo, không ưu tiên luân chuyển tìm người xử lý.<br/>- <strong>Loại B (Interpreter):</strong> Thiết kế ngôn ngữ hoặc bộ thông dịch.<br/>- <strong>Loại D (Iterator):</strong> Duyệt tuần tự qua một tập hợp."
     },
     {
@@ -3119,7 +3119,7 @@
         "D. Iterator"
       ],
       "correctAnswer": "B",
-      "explanation": "Interpreter - Cung cấp bộ thông dịch và định nghĩa ngữ pháp cho ngôn ngữ đơn giản.",
+      "explanation": "Interpreter thiết kế đại diện (ngữ pháp) và các luật diễn dịch cho một ngôn ngữ chuyên biệt (DSL - Domain Specific Language).",
       "detailed_explanation": "<strong>Giải thích:</strong> Interpreter thiết kế đại diện (ngữ pháp) và các luật diễn dịch cho một ngôn ngữ chuyên biệt (DSL - Domain Specific Language).<br/>- <strong>Loại A (Command):</strong> Đóng gói lời gọi hàm, không dịch ngôn ngữ.<br/>- <strong>Loại C (Chain of Responsibility):</strong> Luân chuyển xử lý sự kiện.<br/>- <strong>Loại D (Iterator):</strong> Duyệt qua cây/cấu trúc dữ liệu."
     },
     {
@@ -3134,7 +3134,7 @@
         "D. State"
       ],
       "correctAnswer": "D",
-      "explanation": "State - Cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi.",
+      "explanation": "Mẫu State cho phép đối tượng thay đổi hành vi khi trạng thái nội tại thay đổi (chuyển đổi qua lại giữa các State object bên trong mà không dùng if/else rối rắm).",
       "detailed_explanation": "<strong>Giải thích:</strong> Mẫu State cho phép đối tượng thay đổi hành vi khi trạng thái nội tại thay đổi (chuyển đổi qua lại giữa các State object bên trong mà không dùng if/else rối rắm).<br/>- <strong>Loại A (Mediator):</strong> Điều phối giao tiếp giữa nhiều đối tượng để giảm phụ thuộc chéo.<br/>- <strong>Loại B (Memento):</strong> Lưu trữ để hoàn tác trạng thái, không trực tiếp đổi hành vi dựa trên nó.<br/>- <strong>Loại C (Observer):</strong> Thông báo sự kiện cho nhiều đối tượng quan sát viên."
     },
     {
@@ -3149,7 +3149,7 @@
         "D. Command"
       ],
       "correctAnswer": "B",
-      "explanation": "Template Method - Định nghĩa một khung (skeleton",
+      "explanation": "Template Method định nghĩa cấu trúc (bộ khung các bước) của thuật toán trong một phương thức, và nhường cho các lớp con định nghĩa chi tiết từng bước cụ thể.",
       "detailed_explanation": "<strong>Giải thích:</strong> Template Method định nghĩa cấu trúc (bộ khung các bước) của thuật toán trong một phương thức, và nhường cho các lớp con định nghĩa chi tiết từng bước cụ thể.<br/>- <strong>Loại A (Strategy):</strong> Đóng gói thuật toán độc lập và thay thế toàn bộ thuật toán.<br/>- <strong>Loại C (Visitor):</strong> Tách rời thuật toán khỏi cấu trúc đối tượng nó thao tác.<br/>- <strong>Loại D (Command):</strong> Đóng gói một hành động."
     },
     {
@@ -3164,7 +3164,7 @@
         "D. State"
       ],
       "correctAnswer": "B",
-      "explanation": "Memento - Lưu lại trạng thái của đối tượng để khôi phục (undo",
+      "explanation": "Memento giúp lưu lại (snapshot) trạng thái hiện tại của một đối tượng để sau đó có thể khôi phục lại (undo) mà không phá vỡ tính đóng gói.",
       "detailed_explanation": "<strong>Giải thích:</strong> Memento giúp lưu lại (snapshot) trạng thái hiện tại của một đối tượng để sau đó có thể khôi phục lại (undo) mà không phá vỡ tính đóng gói.<br/>- <strong>Loại A (Mediator):</strong> Trạm trung gian điều phối.<br/>- <strong>Loại C (Observer):</strong> Cơ chế thông báo sự kiện (Pub-Sub).<br/>- <strong>Loại D (State):</strong> Chuyển trạng thái để đổi hành vi, không lưu vết để quay lui."
     },
     {
@@ -3179,7 +3179,7 @@
         "D. Yêu cầu bị bỏ qua nếu không có đối tượng xử lý."
       ],
       "correctAnswer": "B",
-      "explanation": "Yêu cầu được chuyển qua một chuỗi đối tượng, đối tượng phù hợp sẽ xử lý.",
+      "explanation": "Các yêu cầu đi qua từng mắt xích trong dây chuyền. Nếu mắt xích đó giải quyết được thì dừng, không thì chuyển tiếp cho mắt xích sau.",
       "detailed_explanation": "<strong>Giải thích:</strong> Các yêu cầu đi qua từng mắt xích trong dây chuyền. Nếu mắt xích đó giải quyết được thì dừng, không thì chuyển tiếp cho mắt xích sau.<br/>- <strong>Loại A:</strong> Không phải \"mỗi loại có bộ riêng ngay từ đầu\", mà là ném vào chuỗi để tự phân loại.<br/>- <strong>Loại C:</strong> Mọi yêu cầu do \"chuỗi\" xử lý thay vì \"một đối tượng xử lý\".<br/>- <strong>Loại D:</strong> Có thể được bắt ở cuối chuỗi, không nhất thiết bị bỏ qua."
     },
     {
@@ -3194,7 +3194,7 @@
         "D. Trạng thái lưu trữ bên ngoài."
       ],
       "correctAnswer": "B",
-      "explanation": "Hành vi thay đổi theo trạng thái.",
+      "explanation": "Thay vì dùng hàng đống lệnh if/else trong một lớp nhân vật, mỗi trạng thái (Move, Attack) được tách thành một lớp riêng. Hành vi của nhân vật lập tức thay đổi khi tham chiếu State bị đổi.",
       "detailed_explanation": "<strong>Giải thích:</strong> Thay vì dùng hàng đống lệnh if/else trong một lớp nhân vật, mỗi trạng thái (Move, Attack) được tách thành một lớp riêng. Hành vi của nhân vật lập tức thay đổi khi tham chiếu State bị đổi.<br/>- <strong>Loại A:</strong> State không khuyến khích việc giữ cứng (cố định) hành vi.<br/>- <strong>Loại C:</strong> Tính năng thông báo là của Observer.<br/>- <strong>Loại D:</strong> Lưu trữ ra ngoài là tính năng của Memento."
     },
     {
@@ -3209,7 +3209,7 @@
         "D. Thành phần chỉ nhận thông báo khi yêu cầu."
       ],
       "correctAnswer": "B",
-      "explanation": "Thay đổi trạng thái một thành phần, các thành phần liên quan được thông báo.",
+      "explanation": "Khi một Chủ thể (Subject) thay đổi trạng thái, tất cả các Đối tượng quan sát (Observers) đã đăng ký theo dõi nó sẽ tự động nhận được thông báo để cập nhật.",
       "detailed_explanation": "<strong>Giải thích:</strong> Khi một Chủ thể (Subject) thay đổi trạng thái, tất cả các Đối tượng quan sát (Observers) đã đăng ký theo dõi nó sẽ tự động nhận được thông báo để cập nhật.<br/>- <strong>Loại A:</strong> Giao tiếp gián tiếp qua cơ chế đăng ký (Sub), không phải trực tiếp (Tight coupling).<br/>- <strong>Loại C:</strong> Thay đổi trạng thái thành phần cốt lõi chứ không phải trung gian (Trung gian là Mediator).<br/>- <strong>Loại D:</strong> Thành phần nhận thông báo tự động bị động (Push) chứ không phải chủ động yêu cầu (Pull) liên tục."
     }
   ],

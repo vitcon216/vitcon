@@ -11,7 +11,7 @@
       "D. Builder"
     ],
     "correctAnswer": "C",
-    "explanation": "Chain of Responsibility - Truyền các sự kiện (GUI event bubbling"
+    "explanation": "Mẫu Singleton được sử dụng để đảm bảo rằng một lớp chỉ có duy nhất một thể hiện (instance) và cung cấp một điểm truy cập toàn cục tới thể hiện đó."
   },
   {
     "id": "q_195",
@@ -25,7 +25,7 @@
       "D. Builder"
     ],
     "correctAnswer": "B",
-    "explanation": "Interpreter - Cung cấp bộ thông dịch và định nghĩa ngữ pháp cho ngôn ngữ đơn giản."
+    "explanation": "Factory Method cung cấp một interface để tạo đối tượng, nhưng để các lớp con quyết định lớp nào sẽ được khởi tạo (PDF, Excel, Word)."
   },
   {
     "id": "q_196",
@@ -38,8 +38,8 @@
       "C. Abstract Factory",
       "D. Builder"
     ],
-    "correctAnswer": "D",
-    "explanation": "State - Cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi."
+    "correctAnswer": "C",
+    "explanation": "Abstract Factory cung cấp interface để tạo ra các \"họ\" (families) đối tượng liên quan (như nút bấm, thanh cuộn...) cho từng nền tảng mà không chỉ định lớp cụ thể."
   },
   {
     "id": "q_197",
@@ -52,8 +52,8 @@
       "C. Singleton",
       "D. Builder"
     ],
-    "correctAnswer": "B",
-    "explanation": "Template Method - Định nghĩa một khung (skeleton"
+    "correctAnswer": "D",
+    "explanation": "Mẫu Builder tách rời quá trình xây dựng một đối tượng phức tạp khỏi biểu diễn của nó, cho phép cùng một quy trình xây dựng có thể tạo ra các biểu diễn khác nhau (ví dụ xe thể thao, xe SUV)."
   },
   {
     "id": "q_198",
@@ -66,8 +66,8 @@
       "C. Singleton",
       "D. Builder"
     ],
-    "correctAnswer": "B",
-    "explanation": "Memento - Lưu lại trạng thái của đối tượng để khôi phục (undo"
+    "correctAnswer": "A",
+    "explanation": "Mẫu Prototype cho phép tạo đối tượng mới bằng cách sao chép (clone) một nguyên mẫu đã tồn tại, giúp tiết kiệm chi phí khởi tạo."
   },
   {
     "id": "q_199",
@@ -81,7 +81,7 @@
       "D. Khi cần tạo ra các đối tượng có cấu trúc phức tạp."
     ],
     "correctAnswer": "B",
-    "explanation": "Yêu cầu được chuyển qua một chuỗi đối tượng, đối tượng phù hợp sẽ xử lý."
+    "explanation": "Factory Method cung cấp sự linh hoạt khi hệ thống cần tạo đối tượng dựa trên giao diện hoặc lớp trừu tượng, và để lớp con quyết định lớp cụ thể nào được triển khai, thay vì gọi `new` làm mã bị kết dính."
   },
   {
     "id": "q_200",
@@ -94,8 +94,8 @@
       "C. Nó cho phép quản lý sự phụ thuộc một-nhiều giữa các đối tượng.",
       "D. Nó cho phép tạo ra các đối tượng theo yêu cầu của người dùng."
     ],
-    "correctAnswer": "B",
-    "explanation": "Hành vi thay đổi theo trạng thái."
+    "correctAnswer": "A",
+    "explanation": "Builder giúp tách biệt quá trình lắp ráp (construction step-by-step) khỏi các bộ phận tạo nên nó, mang lại sự linh hoạt tối đa khi ráp các cấu hình khác nhau."
   },
   {
     "id": "q_201",
@@ -109,7 +109,7 @@
       "D. Việc thay đổi cấu hình sẽ tạo ra một đối tượng cấu hình mới và sẽ có rất nhiều cấu hình tồn tại trong suốt vòng đời của ứng dụng, đảm bảo tính nhất quán của ứng dụng."
     ],
     "correctAnswer": "B",
-    "explanation": "Thay đổi trạng thái một thành phần, các thành phần liên quan được thông báo."
+    "explanation": "Singleton đảm bảo suốt vòng đời ứng dụng chỉ có duy nhất một đối tượng Configuration được khởi tạo và sử dụng toàn cục, đảm bảo tính nhất quán của dữ liệu."
   },
   {
     "id": "q_202",
@@ -123,7 +123,7 @@
       "D. Bạn không thể tạo ra các họ thành phần giao diện (ví dụ: bộ nút và thanh cuộn) phù hợp với từng nền tảng một cách nhất quán.."
     ],
     "correctAnswer": "B",
-    "explanation": "Bạn có thể tạo ra các họ thành phần giao diện phù hợp với từng nền tảng một cách nhất quán."
+    "explanation": "Abstract Factory đảm bảo rằng ứng dụng luôn tạo ra \"cùng một bộ/họ\" thành phần (như Windows Button đi với Windows Scrollbar), tránh râu ông nọ cắm cằm bà kia."
   },
   {
     "id": "q_203",
@@ -137,7 +137,7 @@
       "D. Việc tạo đơn vị quân sẽ yêu cầu một quy trình xây dựng phức tạp để thiết lập các thuộc tính. Nhóm mẫu cấu trúc"
     ],
     "correctAnswer": "B",
-    "explanation": "Việc tạo các đơn vị quân mới sẽ nhanh hơn và tiết kiệm tài nguyên hơn so với việc khởi tạo từ đầu."
+    "explanation": "Trong game, việc khởi tạo model lính từ đầu tốn rất nhiều tài nguyên bộ nhớ/CPU. Clone từ một prototype giúp quá trình spawn diễn ra cực nhanh và tối ưu."
   },
   {
     "id": "q_204",
@@ -151,7 +151,7 @@
       "D. Decorator"
     ],
     "correctAnswer": "C",
-    "explanation": "Chain of Responsibility - Truyền các sự kiện (GUI event bubbling"
+    "explanation": "Adapter (Bộ chuyển đổi) đóng vai trò trung gian, chuyển đổi giao diện của một lớp/thư viện thành giao diện mà client đang mong đợi."
   },
   {
     "id": "q_205",
@@ -164,8 +164,8 @@
       "C. Adapter",
       "D. Decorator"
     ],
-    "correctAnswer": "B",
-    "explanation": "Interpreter - Cung cấp bộ thông dịch và định nghĩa ngữ pháp cho ngôn ngữ đơn giản."
+    "correctAnswer": "A",
+    "explanation": "Bridge tách phần trừu tượng (Logic nền tảng) ra khỏi phần thực thi (Mã thực hiện trên từng OS), giúp có thể thêm nền tảng mới độc lập mà không phải sửa logic cốt lõi."
   },
   {
     "id": "q_206",
@@ -178,8 +178,8 @@
       "C. Proxy",
       "D. Adapter"
     ],
-    "correctAnswer": "D",
-    "explanation": "State - Cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi."
+    "correctAnswer": "C",
+    "explanation": "Proxy tạo ra một đối tượng đại diện để kiểm soát quyền truy cập hoặc áp dụng Lazy Initialization (trì hoãn khởi tạo đối tượng nặng cho tới khi cần)."
   },
   {
     "id": "q_207",
@@ -193,7 +193,7 @@
       "D. Nó giúp quản lý các đối tượng theo dạng cây phân cấp."
     ],
     "correctAnswer": "B",
-    "explanation": "Template Method - Định nghĩa một khung (skeleton"
+    "explanation": "Thư viện ngoài thường có chuẩn giao diện riêng (ví dụ XML), trong khi app dùng chuẩn khác (ví dụ JSON). Adapter biến đổi lời gọi để chúng tương thích."
   },
   {
     "id": "q_208",
@@ -206,8 +206,8 @@
       "C. Proxy",
       "D. Adapter"
     ],
-    "correctAnswer": "B",
-    "explanation": "Memento - Lưu lại trạng thái của đối tượng để khôi phục (undo"
+    "correctAnswer": "A",
+    "explanation": "Facade đóng vai trò như \"mặt tiền\", cung cấp một phương thức gọi duy nhất, dễ dàng thay vì bắt client phải tương tác với hàng chục lớp con phức tạp."
   },
   {
     "id": "q_209",
@@ -221,7 +221,7 @@
       "D. Cho phép hệ thống của bạn làm việc với dữ liệu từ nguồn bên ngoài có thể cần thay đổi cấu trúc hiện tại của hệ thống."
     ],
     "correctAnswer": "B",
-    "explanation": "Yêu cầu được chuyển qua một chuỗi đối tượng, đối tượng phù hợp sẽ xử lý."
+    "explanation": "Hệ thống cốt lõi vẫn giữ nguyên logic và chuẩn dữ liệu của mình. Mọi việc chuyển đổi từ dữ liệu nguồn bên ngoài sẽ do Adapter hứng chịu và biến đổi."
   },
   {
     "id": "q_210",
@@ -235,7 +235,7 @@
       "D. Ứng dụng sẽ có hiệu suất tối ưu trên một nền tảng cụ thể."
     ],
     "correctAnswer": "B",
-    "explanation": "Hành vi thay đổi theo trạng thái."
+    "explanation": "Nhờ tách Abstraction và Implementation, phần logic ứng dụng có thể mở rộng thoải mái mà không bị dính chặt (coupled) vào mã render của từng hệ điều hành."
   },
   {
     "id": "q_211",
@@ -249,7 +249,7 @@
       "D. Bạn có giao diện của luồng dữ liệu trở nên đơn giản hơn. Nhóm mẫu hành vi"
     ],
     "correctAnswer": "B",
-    "explanation": "Thay đổi trạng thái một thành phần, các thành phần liên quan được thông báo."
+    "explanation": "Decorator bọc (wrap) đối tượng ban đầu, cho phép bật/tắt (thêm/loại bỏ) các tính năng (như mã hóa, nén) lúc chạy (runtime) thay vì biên dịch bằng Subclass."
   },
   {
     "id": "q_212",
@@ -263,7 +263,7 @@
       "D. Iterator"
     ],
     "correctAnswer": "C",
-    "explanation": "Chain of Responsibility - Truyền các sự kiện (GUI event bubbling"
+    "explanation": "Mẫu Chain of Responsibility truyền yêu cầu dọc theo chuỗi các đối tượng (ví dụ: Button -> Panel -> Window) cho đến khi có đối tượng bắt lấy và xử lý sự kiện (event bubbling)."
   },
   {
     "id": "q_213",
@@ -277,7 +277,7 @@
       "D. Iterator"
     ],
     "correctAnswer": "B",
-    "explanation": "Interpreter - Cung cấp bộ thông dịch và định nghĩa ngữ pháp cho ngôn ngữ đơn giản."
+    "explanation": "Interpreter thiết kế đại diện (ngữ pháp) và các luật diễn dịch cho một ngôn ngữ chuyên biệt (DSL - Domain Specific Language)."
   },
   {
     "id": "q_214",
@@ -291,7 +291,7 @@
       "D. State"
     ],
     "correctAnswer": "D",
-    "explanation": "State - Cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi."
+    "explanation": "Mẫu State cho phép đối tượng thay đổi hành vi khi trạng thái nội tại thay đổi (chuyển đổi qua lại giữa các State object bên trong mà không dùng if/else rối rắm)."
   },
   {
     "id": "q_215",
@@ -305,7 +305,7 @@
       "D. Command"
     ],
     "correctAnswer": "B",
-    "explanation": "Template Method - Định nghĩa một khung (skeleton"
+    "explanation": "Template Method định nghĩa cấu trúc (bộ khung các bước) của thuật toán trong một phương thức, và nhường cho các lớp con định nghĩa chi tiết từng bước cụ thể."
   },
   {
     "id": "q_216",
@@ -319,7 +319,7 @@
       "D. State"
     ],
     "correctAnswer": "B",
-    "explanation": "Memento - Lưu lại trạng thái của đối tượng để khôi phục (undo"
+    "explanation": "Memento giúp lưu lại (snapshot) trạng thái hiện tại của một đối tượng để sau đó có thể khôi phục lại (undo) mà không phá vỡ tính đóng gói."
   },
   {
     "id": "q_217",
@@ -333,7 +333,7 @@
       "D. Yêu cầu bị bỏ qua nếu không có đối tượng xử lý."
     ],
     "correctAnswer": "B",
-    "explanation": "Yêu cầu được chuyển qua một chuỗi đối tượng, đối tượng phù hợp sẽ xử lý."
+    "explanation": "Các yêu cầu đi qua từng mắt xích trong dây chuyền. Nếu mắt xích đó giải quyết được thì dừng, không thì chuyển tiếp cho mắt xích sau."
   },
   {
     "id": "q_218",
@@ -347,7 +347,7 @@
       "D. Trạng thái lưu trữ bên ngoài."
     ],
     "correctAnswer": "B",
-    "explanation": "Hành vi thay đổi theo trạng thái."
+    "explanation": "Thay vì dùng hàng đống lệnh if/else trong một lớp nhân vật, mỗi trạng thái (Move, Attack) được tách thành một lớp riêng. Hành vi của nhân vật lập tức thay đổi khi tham chiếu State bị đổi."
   },
   {
     "id": "q_219",
@@ -361,6 +361,6 @@
       "D. Thành phần chỉ nhận thông báo khi yêu cầu."
     ],
     "correctAnswer": "B",
-    "explanation": "Thay đổi trạng thái một thành phần, các thành phần liên quan được thông báo."
+    "explanation": "Khi một Chủ thể (Subject) thay đổi trạng thái, tất cả các Đối tượng quan sát (Observers) đã đăng ký theo dõi nó sẽ tự động nhận được thông báo để cập nhật."
   }
 ]
